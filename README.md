@@ -2,6 +2,8 @@ Project Flattened
 ======
 This is the official repository and issue-tracker for Project Flattened Minecraft 1.20.1 questing modpack.
 
+![Project Flattened background](./packmenu/resources/assets/packmenu/textures/gui/background.png)
+
 Dive into the world of technoligy and alchemy with mods such as:
 
 * Create
