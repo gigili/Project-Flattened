@@ -1,0 +1,99 @@
+{
+	autofocus_id: "6F5608DD8C68C505"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "security"
+	group: "510C0169E524C1AB"
+	icon: "securitycraft:camera_monitor"
+	id: "461CBDD36E700824"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6F5608DD8C68C505"
+			tasks: [{
+				id: "29EDF80960E2DA7B"
+				item: "securitycraft:camera_monitor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F5608DD8C68C505"]
+			id: "1E7CD72A3EBB61AA"
+			tasks: [{
+				id: "22361B0EBAD44EF3"
+				item: "securitycraft:security_camera"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E7CD72A3EBB61AA"]
+			id: "262A7CF2406CCCE3"
+			tasks: [{
+				id: "0FC588D29F0F81AD"
+				item: "securitycraft:keypad_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["262A7CF2406CCCE3"]
+			id: "7697BE57487913F5"
+			tasks: [{
+				id: "730EFFEE54ACD7DD"
+				item: "securitycraft:keypad_door_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7697BE57487913F5"]
+			id: "614517D782ED511A"
+			rewards: [{
+				id: "15EBB571682B92B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "606F562B58751D52"
+				item: "securitycraft:sentry"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "6DB8B98D99541C5F"
+			tasks: [{
+				id: "31D891B57750306C"
+				item: {
+					Count: 1
+					id: "securitycraft:universal_block_reinforcer_lvl1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "365A9E1AD6C3153B"
+			tasks: [{
+				id: "4C00555454FE60DB"
+				item: "securitycraft:universal_block_modifier"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+	]
+	title: "Security"
+}

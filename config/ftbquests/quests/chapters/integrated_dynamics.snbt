@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "44ABD0AE4A1EB8E0"
+	icon: "integratedterminals:terminal_storage_portable"
+	id: "538A5493502BACCB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ingtegrated Dynamics offer a lot of things to players and can sometimes be scray to play with it. "
+				""
+				"But don't worry, we'll try to guide you in how to use this mod to setup your self a good little storage system."
+				""
+				"It will have basic crafting but also auto crafting funcionality as well."
+			]
+			id: "3249B859BF471342"
+			rewards: [
+				{
+					id: "67851D1A538626F9"
+					item: "integrateddynamics:wrench"
+					type: "item"
+				}
+				{
+					id: "1774D2DE1A31CB9E"
+					item: "integrateddynamics:labeller"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "799766536A6D4A87"
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+				{
+					id: "3A4B4543D79E6E63"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 2.5d
+			tasks: [{
+				id: "2EC3536117A82244"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3249B859BF471342"]
+			id: "42E40CB2B1B2D3C4"
+			rewards: [
+				{
+					id: "457D5CC956EDD2D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "19BA475BF922E227"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "577819A89287D841"
+					item: { Count: 8, id: "integrateddynamics:menril_log" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6C4E3920F8DE60AC"
+					item: { Count: 4, id: "integrateddynamics:menril_planks" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["074821848F7C33A2"]
+			id: "5B5BC7AD0F817C74"
+			rewards: [{
+				id: "5E7FA3CD610EEE74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FB14847A7E4E1CD"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B5BC7AD0F817C74"]
+			id: "0899ACBCCAB33779"
+			rewards: [{
+				id: "5A6007EF7B0D8D1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EE881A03832DFA4"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B5BC7AD0F817C74"]
+			id: "5FBA4E88AAC7C651"
+			rewards: [{
+				id: "595BC67135331332"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "123F74C33F8D9805"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0899ACBCCAB33779"]
+			id: "51E4824FC66A9EE8"
+			rewards: [{
+				id: "71F9A441B8CBA48D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50EC574F9590832D"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0899ACBCCAB33779"]
+			id: "3A6320E8825149AF"
+			rewards: [{
+				id: "5D9EAED68ADC8527"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "7DAA8F9DD1ABADDE"
+				item: { Count: 16, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 6.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42E40CB2B1B2D3C4"]
+			id: "074821848F7C33A2"
+			rewards: [{
+				id: "4D6B3444C88BF469"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 32L
+				id: "5D6EC33BC3EE8B2F"
+				item: { Count: 32, id: "integrateddynamics:crystalized_menril_chunk" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07556A113260E2AA"]
+			id: "440B4D5A1D3A666E"
+			rewards: [{
+				id: "23F6B7C7F8C4E4B8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44275C890D2E2C02"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["440B4D5A1D3A666E"]
+			id: "4F51813A8E27ED45"
+			rewards: [{
+				id: "5CC092CD5CFFCC7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5691722EAFAC7244"
+				item: "integratedterminals:part_terminal_crafting_job"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["20F9675AFC028A5F"]
+			id: "436DA4F7B950412B"
+			rewards: [{
+				id: "6C92AD8A5657544F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FA72BD6A2E9DCFD"
+				item: "integratedterminals:terminal_storage_portable"
+				type: "item"
+			}]
+			x: 10.8d
+			y: 7.5d
+		}
+		{
+			dependencies: ["18CB0A25209D1EE6"]
+			id: "20F9675AFC028A5F"
+			rewards: [{
+				id: "3EFD74241D5057F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68A636AF255C8919"
+				item: "integrateddynamics:part_connector_omni_directional"
+				type: "item"
+			}]
+			x: 10.8d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A6320E8825149AF"]
+			id: "07556A113260E2AA"
+			rewards: [{
+				id: "645A8B2373484EC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0007859D09F2F2F3"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["440B4D5A1D3A666E"]
+			id: "4658C607200657B7"
+			rewards: [{
+				id: "7C225FD4EEC26FFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E99593FBBA5C4A6"
+				item: "integratedcrafting:part_interface_crafting"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4658C607200657B7"]
+			id: "0801A0065B3D99E4"
+			rewards: [{
+				id: "20D4767DDD1B2CCE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "357FB454A13B42EC"
+					item: "integrateddynamics:logic_programmer"
+					type: "item"
+				}
+				{
+					id: "6AAE8C3843354DF4"
+					item: "integrateddynamics:variablestore"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0801A0065B3D99E4"]
+			id: "63D9D0CE6331E7B4"
+			rewards: [{
+				id: "359C501F37AAFD92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A0C24202520844D"
+				item: "integrateddynamics:portable_logic_programmer"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0801A0065B3D99E4"]
+			id: "2DC2C961C5746830"
+			rewards: [{
+				id: "103F324A8FA89EA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61294AF23E1442E5"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["440B4D5A1D3A666E"]
+			id: "77F2E0054D9C0E0E"
+			rewards: [{
+				id: "6A56934E2B3477A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "363720A583958B21"
+				item: "integrateddynamics:crystalized_chorus_chunk"
+				type: "item"
+			}]
+			x: 10.799999999999999d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77F2E0054D9C0E0E"]
+			id: "18CB0A25209D1EE6"
+			rewards: [{
+				id: "59B3DFCD0FF7CBA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E1E2BD9AEB19667"
+				item: "integrateddynamics:logic_director"
+				type: "item"
+			}]
+			x: 10.8d
+			y: 3.5d
+		}
+	]
+	title: "Integrated Dynamics"
+}

@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gateways"
+	group: "162F89E02DC7B00D"
+	id: "5419923CF5880079"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5603D4FB69E846F3"]
+			hide: true
+			id: "5BA8EC1F0ED6C404"
+			rewards: [
+				{
+					count: 5
+					id: "5ED50BDAA680FC4C"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "2A6C4F3019383EAA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0E3E44D33E6187D7"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BA8EC1F0ED6C404"]
+			id: "3C43C49194340051"
+			rewards: [{
+				id: "4D9FB8D606FB0FC6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6AE66E09410B6F91"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/enderman"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Yes we made a small boo boo with our Quantum Technology Thingy (tm pending) but our small gateway technology still works and should allow you to get some resources more easily."
+				""
+				"That is if you're ready to fight the inhabitants of that dimension first ... "
+				""
+				"Good luck to you. "
+			]
+			id: "5603D4FB69E846F3"
+			rewards: [{
+				id: "14741EA6A5173674"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "We didn't break everything"
+			tasks: [{
+				id: "174BA8DACF0ACE29"
+				title: "Gateways"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+	]
+	title: "Gateways"
+}

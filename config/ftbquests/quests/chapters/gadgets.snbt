@@ -1,0 +1,255 @@
+{
+	autofocus_id: "1A03B2D117CB3E85"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gadgets"
+	group: "510C0169E524C1AB"
+	id: "08923DA7CB45040A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			hide_text_until_complete: false
+			id: "1A03B2D117CB3E85"
+			optional: true
+			rewards: [{
+				id: "66166CF39FC9FCB9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "64EEA43A233A7EAD"
+				title: "QoL"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "4ECA539499597BC4"
+			optional: true
+			rewards: [{
+				id: "797CB16549E3B2FB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "All the gadgets"
+			tasks: [
+				{
+					id: "5E1814E4AB6B592E"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+				{
+					id: "3DDBE5E03D4C7F42"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+				}
+				{
+					id: "19110D459C454E71"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4DF5371D579899BE"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "116D96D078D610A1"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "402C9FDF0B31F0BD"
+			optional: true
+			rewards: [{
+				id: "389DCA9193598AE1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Free like a bird"
+			tasks: [{
+				id: "529197D439F0D138"
+				item: {
+					Count: 1
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "53B38A7583E24EC5"
+			optional: true
+			rewards: [{
+				id: "7550881A8C421865"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68B4310CD00A13F8"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "52ABE13ABB5FC4D7"
+			optional: true
+			rewards: [{
+				id: "29152B9BCB637BCF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Faster smelting"
+			tasks: [{
+				id: "4B792E9008198822"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "0B72B072BC3E4B36"
+			optional: true
+			rewards: [{
+				id: "2AD758A60BE32938"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Bookmarks but for the world"
+			tasks: [{
+				id: "0AE7D86DA04D70B8"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "24B432FA7DCDDCA8"
+			optional: true
+			rewards: [{
+				id: "28670319F118EF6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D8805C73AAEB341"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			description: ["No more DireWire"]
+			disable_toast: true
+			id: "1E563D0B9337228C"
+			optional: true
+			rewards: [{
+				id: "7609934924518F95"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Everything is better with lasers"
+			tasks: [
+				{
+					id: "5419E33A5F4690E6"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "03F126030A2ADB33"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					id: "58B68416D37B71B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+				{
+					id: "6239F5DF5BDE0D19"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A03B2D117CB3E85"]
+			disable_toast: true
+			id: "6A32729ED1E65AF3"
+			optional: true
+			rewards: [{
+				id: "22AAFEBB3AD7A111"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78DF9670D3F7B17D"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "Gadgets"
+}

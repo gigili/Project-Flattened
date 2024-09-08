@@ -1,0 +1,89 @@
+{
+	autofocus_id: "53F45CFF8F29FDD7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "emc"
+	group: "471350D4E8C923E3"
+	id: "7AAE526BD8DA2B8F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "53F45CFF8F29FDD7"
+			rewards: [
+				{
+					id: "5601AED065C7B918"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "146DF564CD0E2108"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "700618DB232D34A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "47E069C0BF647FD1"
+			rewards: [
+				{
+					id: "56829CD54269EC54"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB3BD3278566067"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "45622A69BB022FE8"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "0C0108BF6047A6AD"
+			rewards: [
+				{
+					id: "51EB7B35E84EF13F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F7CB56954D93EDA"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "62E325B9BAAEF4B0"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	title: "EMC"
+}

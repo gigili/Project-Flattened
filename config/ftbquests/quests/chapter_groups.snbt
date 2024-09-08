@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "510C0169E524C1AB", title: "QoL" }
+		{ id: "162F89E02DC7B00D", title: "Geting started" }
+		{ id: "471350D4E8C923E3", title: "ProjectE" }
+		{ id: "44ABD0AE4A1EB8E0", title: "Storage" }
+		{ id: "416DAF767A084FBB", title: "Create" }
+		{ id: "56376ED72E30BD44", title: "Back to reality" }
+	]
+}

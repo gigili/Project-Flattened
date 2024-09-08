@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "item": "#gac:remove_emc",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:slime_block",
+      "emc": 9
+    },
+    {
+      "item": "powah:uraninite_raw",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:raw_copper",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:raw_iron",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "emc": 512
+    },
+    {
+      "item": "create:raw_zinc",
+      "emc": 750
+    },
+    {
+      "item": "minecraft:bread",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:bucket",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:warped_wart_block",
+      "emc": 16
+    },
+    {
+      "item": "supplementaries:ash",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "emc": 8
+    },
+    {
+      "item": "projectexpansion:basic_emc_link",
+      "emc": 500000
+    },
+    {
+      "item": "projecte:medium_covalence_dust",
+      "emc": 128
+    },
+    {
+      "item": "createsifter:dust",
+      "emc": 4
+    }
+  ]
+}

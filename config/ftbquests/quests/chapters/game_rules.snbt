@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "game_rules"
+	group: "510C0169E524C1AB"
+	id: "0ED96E81DD18A883"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["If you wish to play in an always sunny world without any nights use this option to enable it. "]
+			disable_toast: true
+			icon: "minecraft:sunflower"
+			id: "319477898DD8F640"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule doDaylightCycle false"
+					exclude_from_claim_all: true
+					id: "22F19460B978B724"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/time set noon"
+					exclude_from_claim_all: true
+					id: "3F653266C4BD7CCE"
+					silent: true
+					type: "command"
+				}
+			]
+			subtitle: "It's always sunny somewhere"
+			tasks: [{
+				disable_toast: true
+				id: "4D8EE0E82A669641"
+				title: "Always Day?"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["If you wish to restore the day/night cycle use this quest"]
+			icon: "minecraft:white_bed"
+			id: "73558F6BC05EDEBD"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule doDaylightCycle true"
+				exclude_from_claim_all: true
+				id: "4738A6FE11B76453"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "77E9526B55C514C3"
+				title: "Let me sleep"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: ["If you wish to disable weather cycle in game to stop the rain from ruining your gameplay you can enable this rule."]
+			icon: "minecraft:sand"
+			id: "7899B92D643863F8"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamerule doWeatherCycle false"
+					exclude_from_claim_all: true
+					id: "7A8FF16AD3B2CE58"
+					silent: true
+					type: "command"
+				}
+				{
+					command: "/weather clear"
+					exclude_from_claim_all: true
+					id: "0DAF89A9271E2D6A"
+					silent: true
+					type: "command"
+				}
+			]
+			subtitle: "No more annoying rain"
+			tasks: [{
+				disable_toast: true
+				id: "201EF28A7C2A53A7"
+				title: "Rain go away"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:water_bucket"
+			id: "54F86F5510D9672B"
+			rewards: [{
+				command: "/gamerule doWeatherCycle true"
+				exclude_from_claim_all: true
+				id: "647D5111015F7B1B"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "2146EA238D257267"
+				title: "Rainy days"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: "Game rules"
+}

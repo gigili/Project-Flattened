@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_farm"
+	group: "162F89E02DC7B00D"
+	icon: "mob_grinding_utils:golden_egg"
+	id: "05A3AA0CE326DA27"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3D8748FF8B40F519"
+			tasks: [{
+				id: "376B0B6E38F115F6"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D8748FF8B40F519"]
+			id: "73DB403DDC0C7A4B"
+			tasks: [{
+				id: "68F9E9AFAF0C545B"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DB403DDC0C7A4B"]
+			id: "670C6CB131784772"
+			tasks: [{
+				count: 4L
+				id: "4865CEDDB109141A"
+				item: { Count: 4, id: "mob_grinding_utils:fluid_xp_bucket" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["670C6CB131784772"]
+			id: "7A977C1D5802A1A0"
+			tasks: [{
+				id: "1DC6EAB3B15B6E7E"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A977C1D5802A1A0"]
+			description: ["Feed a chicken with the GM chicken feed Cursed to get a Rotten Egg."]
+			id: "33D0AE9D8758A780"
+			tasks: [{
+				id: "351336C37EC273FE"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["670C6CB131784772"]
+			id: "32A92E7F21EF7D4F"
+			tasks: [{
+				id: "49377D0BF9C75FB6"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32A92E7F21EF7D4F"]
+			description: ["Feed a chicken with a Nutritius Chicken Feed to get a Golden Egg."]
+			id: "31394DADCC71B3F4"
+			tasks: [{
+				id: "446C5B91356B786D"
+				item: "mob_grinding_utils:golden_egg"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23C1ECE5B2379889"
+				"3A0D9AF117CB4B37"
+			]
+			id: "5D4322000F909355"
+			tasks: [{
+				count: 3L
+				id: "42443F4544B1BD89"
+				item: { Count: 3, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "7081493F6C3F3C0E"
+			tasks: [{
+				id: "6D48F8C0A1F09373"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["33D0AE9D8758A780"]
+			description: [
+				"Spawns hostile mobs and requires darknes to work. "
+				""
+				"If exposed to sunlight it will burn and destroy the cursed earth. "
+				""
+				"It can be picked up with a silk touch."
+			]
+			id: "23C1ECE5B2379889"
+			tasks: [{
+				icon: "mob_grinding_utils:dreadful_dirt"
+				id: "3E8EDB509536F1DF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mob_grinding_utils:dreadful_dirt"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31394DADCC71B3F4"]
+			description: [
+				"Spawns passiv mobs and need constant light in order to work, otherwise it gets covered in snow."
+				""
+				"It can be picked up with a silk touch."
+			]
+			id: "3A0D9AF117CB4B37"
+			tasks: [{
+				icon: "mob_grinding_utils:delightful_dirt"
+				id: "0B26C99542502F10"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mob_grinding_utils:delightful_dirt"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			id: "7635BA3C219FF755"
+			tasks: [{
+				id: "58CFF71A407C684A"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "32412C5015707898"
+			tasks: [{
+				id: "4B1EE6324D2542E9"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "4AC809B7BFDED5B5"
+			tasks: [{
+				id: "4F04D2EB6B725217"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "6DBF4C384CB463C7"
+			tasks: [{
+				id: "293E7A33F441650F"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "0BE2BD08D010670B"
+			tasks: [{
+				id: "17B2025DC5B9FADA"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "222C8C0C7E6C5573"
+			tasks: [{
+				id: "1970CB6B056CEAD8"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "28C76A43789F8C3F"
+			tasks: [{
+				id: "509A4FADC01648A9"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "35914A4FC633F196"
+			tasks: [{
+				id: "653B35AB2C81BF04"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "01781E5C3856ACA3"
+			tasks: [{
+				id: "1C6298D7FBF393CA"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "753F6A11E055BBAC"
+			tasks: [{
+				id: "06B0A157DFE96BE1"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"If you want to create spawn eggs to custimze the spawners, you can use a swab on a mob. "
+				""
+				"Than combine if with some liquied XP and a seed, to get a Chick Feed."
+				""
+				"Feed it to a chicken and it should generate a spawn egg of the swabed mob."
+			]
+			id: "08E9A71BCACB3975"
+			subtitle: "Custom Spawn Eggs"
+			tasks: [{
+				id: "5B29D44D4B4BCD22"
+				item: "mob_grinding_utils:mob_swab"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			description: ["Good for storing large amounts of XP."]
+			id: "140D03BDD88156EC"
+			subtitle: "Large tank"
+			tasks: [{
+				id: "0157EEE6B728EADF"
+				item: "mob_grinding_utils:jumbo_tank"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			description: [
+				"This will allow you to store almost limitless supply of experience from your mob farm."
+				""
+				"But it need to be either piped in from the top or using an XP tap to pour your experience on it."
+			]
+			id: "728B421285D58CF9"
+			subtitle: "Limitless tank?"
+			tasks: [{
+				id: "4648A297664B7B7E"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+	]
+	title: "Mob Farm"
+}

@@ -1,0 +1,577 @@
+{
+	autofocus_id: "4863A8507F6A6144"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basisc"
+	group: "162F89E02DC7B00D"
+	id: "505739E542388F33"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4863A8507F6A6144"
+			rewards: [
+				{
+					id: "0745F494774D28D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0009F2B8C503C5FA"
+					table_id: 1884345259846501490L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "174CECD545D95CC6"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4E7E0732C2C36D31"
+				item: { Count: 4, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4863A8507F6A6144"]
+			description: [
+				"The most basic resource in this game is cobblestone alongside dirt and wood. "
+				""
+				"But in a super flat world resources are hard to come by as the world is composed of only 3 layers."
+				""
+				"1st and 2nd layer are dirt"
+				""
+				"3rd layer is grass. "
+				""
+				"So using some \"magic\" we've made it so that the good old cobble stone generator produces more than just cobbelstone."
+				""
+				"Hint: Checkout usages for a diamond block in JEI to see more."
+			]
+			id: "034320E904F4DB43"
+			rewards: [
+				{
+					count: 10
+					id: "0C6B184F53DEBA76"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71CEDD1C45223ECD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5685DE649AA12F6B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["034320E904F4DB43"]
+			id: "7A337155C25CA855"
+			rewards: [
+				{
+					id: "03EC6B76E603908E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DC3778031F99484"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21607C800FC4504F"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A337155C25CA855"]
+			id: "5501764E5CA9A762"
+			rewards: [
+				{
+					count: 5
+					id: "217FBABA0AC89019"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "53D8B7BF47E1D971"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DB343378293FDB5"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6F77E6B83C0F4F0C"
+				item: { Count: 8, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5501764E5CA9A762"]
+			id: "6D1547E4902EB9EF"
+			rewards: [
+				{
+					count: 5
+					id: "43B170F0A148A19A"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "44AFB45E523D7D71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7802DE0E85B1CD4C"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1CB7A1E8F9EFB309"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D1547E4902EB9EF"]
+			id: "080C1054809D3E11"
+			rewards: [
+				{
+					id: "0ACDDF846A8DC85D"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "170C3BD042076A38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFF4FCB64E5D75F"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1DF7433913C21398"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5501764E5CA9A762"]
+			id: "7A5975BFBA56B5B3"
+			rewards: [
+				{
+					id: "1463094223870FC0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DF85E2EAE7B3204"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1344B9D5473B0710"
+				item: { Count: 16, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "39504796BEBD1BB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EC83775392031A9"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "600BA75BBB49B259"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "7D4528CC5B000A1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DFBB819EF690C32"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1CDED6987E1D26E8"
+				item: "createsifter:dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "721F35E5FFFE6D6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12D742A2DAC93BF6"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6219AB951B92D13C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "43EA31B5C2491786"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2509F06B19E33809"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FD476EBF08F2EF1"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "19FCE5794F33123B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "045252F88F9F5DF2"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FD509129EA68460"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			id: "3CE18E9A48B24E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "270A654FF79D534F"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3BCB48DD324EE27B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			id: "09D73392A599BBD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315711CDF0310015"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3777D4512ECB0936"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			id: "7EB7AAA0B0DE6B47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F9608D3997CD919"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6889EC5B2F870847"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7EB7AAA0B0DE6B47"]
+			id: "296E9C739B7EA13E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "389118ABF0473D56"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "499B5361D012B457"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7EB7AAA0B0DE6B47"]
+			id: "326FCF7ABA9E136A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30E91ABA6E2A6EE0"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "540FE1BE0A45F3B6"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3CE18E9A48B24E61"]
+			id: "61702AA1C49AEB29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "684CC71BC081FFBE"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32E121F2B5DBF7DA"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09D73392A599BBD4"]
+			id: "5DB6E030CB6C4829"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FBD3CF87B83188B"
+				table_id: 6510593964462044032L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52C0F7E27699F8C6"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "74525EA0BBBF668D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79757C5384D75282"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "1774FF058F3BF22E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "27CEA1E3C055349B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "4101E02AC76D292D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A1FC661297E67E7"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "0D21F52647163E89"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4C794757DC4EC618"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "16C88D91582FBDD1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6008D0CB308B44A0"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "4D00E525315F32AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5EB71F61FC48AB00"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "32AC006460C6BED6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DC92A6D056DC2D1"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "2CF7D733B2DB7BB0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "01D11265F6A390B3"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "1C848D069E6AFC22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01F524B7E3892865"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "5EB4AD8E6AA2737F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5CF6D09391C10676"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "1B535214842DAE6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FEA8E3B9C340BA9"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					id: "536E2C4A3CFCA53A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "313408DD399CED79"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+	title: "Basisc"
+}

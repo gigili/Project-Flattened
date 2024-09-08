@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_creative"
+	group: "56376ED72E30BD44"
+	id: "0987B847EBE47793"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "14C963E21291E016"
+			tasks: [{
+				id: "0155FFEF5BD1D5B1"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "45B8B048BE6DFA3D"
+			rewards: [{
+				id: "31471610BBB7BB0A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "4267F202185F9148"
+					item: {
+						Count: 1
+						id: "ironjetpacks:jetpack"
+						tag: {
+							Id: "ironjetpacks:creative"
+							Throttle: 1.0d
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ABE76E04CF15861"
+					item: {
+						Count: 1
+						id: "ironjetpacks:cell"
+						tag: {
+							Id: "ironjetpacks:creative"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C97687A2E124C22"
+					item: {
+						Count: 1
+						id: "ironjetpacks:thruster"
+						tag: {
+							Id: "ironjetpacks:creative"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "516B49574495A2CD"
+					item: {
+						Count: 1
+						id: "ironjetpacks:capacitor"
+						tag: {
+							Id: "ironjetpacks:creative"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "530DBAEC5F3E0BE1"
+			tasks: [{
+				id: "4B94014852BC97FD"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "6C12CC0CFEBB4F00"
+			subtitle: "WIP"
+			tasks: [{
+				id: "5FF382E206D0BC11"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "1C3765064A82EBCF"
+			tasks: [{
+				id: "20DFD9C04236A28D"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "0C740C68CE6277C6"
+			subtitle: "WIP"
+			tasks: [{
+				id: "424861E8E633D12E"
+				item: "ae2:creative_fluid_cell"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Using this tool you can bring  back mountins and create more amasing scenary instead of just looking at a flat world."]
+			id: "7E9107E54A96F8F6"
+			subtitle: "Shape The World"
+			tasks: [{
+				id: "5B0125212B16814C"
+				item: "create:handheld_worldshaper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	title: "Getting creative"
+}

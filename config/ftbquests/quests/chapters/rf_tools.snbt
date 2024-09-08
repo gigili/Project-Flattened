@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rf_tools"
+	group: "44ABD0AE4A1EB8E0"
+	icon: {
+		Count: 1
+		id: "rftoolsutility:screen_link"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7A64A1DC00053E1C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "627919AB6E6C2EF6"
+			rewards: [
+				{
+					id: "6817DFD6EA963D4F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B8DE0C480FE2E1"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				id: "35835312F1A929C0"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["627919AB6E6C2EF6"]
+			id: "1349BC492703CAFF"
+			rewards: [
+				{
+					id: "45CEE6A82A805703"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25802A0FCCEF9BA5"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C116EAB325184B5"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1349BC492703CAFF"]
+			id: "09F8D0468FBEEE00"
+			rewards: [
+				{
+					id: "74EBE7B34ABBCF92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00362710774E8A75"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B4162D97F431F59"
+				item: {
+					Count: 1
+					id: "rftoolsutility:screen_link"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["739F93394806BC39"]
+			id: "10606F7979DF4841"
+			rewards: [
+				{
+					id: "0B6EFC38B1E028CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B4663A8FDABDDCE"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A4A57E49A69F011"
+				item: "rftoolsstorage:storage_module0"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10606F7979DF4841"]
+			id: "65FCEFA6F7DEAC9D"
+			rewards: [
+				{
+					id: "3F5A8AB86BFE2394"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CAEA2C2BB8ECC75"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "651B2DFE0D46C630"
+				item: "rftoolsstorage:storage_module1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65FCEFA6F7DEAC9D"]
+			id: "0F32867C52C87212"
+			rewards: [
+				{
+					id: "310137DD02501C2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D3494B6B6F891E3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "225B5643832BE30F"
+				item: "rftoolsstorage:storage_module2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F32867C52C87212"]
+			id: "3F8C1143FEF49A6F"
+			rewards: [
+				{
+					id: "60CB04CCD289B20B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CA302D1AC4281F2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "14C48609778C66E5"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09F8D0468FBEEE00"]
+			id: "1B591A5588B9B7B5"
+			rewards: [
+				{
+					id: "18D4781B40ACF46F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "283F395A94B5A8E7"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64AAAACDB2895AC4"
+				item: "rftoolsbase:tablet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "739F93394806BC39"
+			rewards: [
+				{
+					id: "370A28C11B7AD894"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0958D19DA3CF5C27"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EDE7273E1E88F54"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+	]
+	title: "RF Tools"
+}

@@ -1,0 +1,634 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "applied_energistics_2"
+	group: "44ABD0AE4A1EB8E0"
+	icon: "ae2:controller"
+	id: "07210DDF872160BA"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To get started with AE2 you will need to obtain some basic resources from the mod itself. "
+				""
+				"Usually in normal worlds there would be a meteor to look for, but since this is flat world those meteors don't spawn (I think??)."
+				""
+				"So you will need to get to sifting a bit in order to obtain it."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "2893F483C10293E6"
+			rewards: [
+				{
+					count: 8
+					id: "3B8F9C922DCD426E"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "04731B877AA067A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "43FD619EF9A41E76"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "7B9519E1AF53A9A3"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "The other quartz"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [""]
+			id: "68B0B3DAF1145191"
+			rewards: [
+				{
+					id: "230CB9AC06A29B7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "591FADFC7C1FB863"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "1F40760C2108BA36"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			description: [""]
+			icon: "ae2:calculation_processor_press"
+			id: "51236544BFEF487B"
+			rewards: [
+				{
+					count: 4
+					id: "1745CCFAC5C46D28"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "53D03CFF7586058B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "ae2:main/presses"
+				criterion: ""
+				id: "4D25BF3C4F05025D"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51236544BFEF487B"]
+			description: [""]
+			id: "15564C11744D6AA0"
+			rewards: [
+				{
+					id: "6F428D141799FF83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6626B5513E049FF9"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "54C120660252682A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15564C11744D6AA0"]
+			description: [""]
+			icon: "ae2:fluix_crystal"
+			id: "4BF0BB763BFFACF0"
+			rewards: [
+				{
+					count: 4
+					id: "724ADD8BA4137929"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "34AA471D42A56F02"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0FC1380E32E02533"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "4498692EC5F9E09B"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: [""]
+			id: "4E8A05C3BFA80540"
+			rewards: [
+				{
+					id: "5D0CC7AC4BD78134"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC25F53930CEF33"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			icon: "ae2:interface"
+			id: "74FC0DDDB91DB172"
+			rewards: [
+				{
+					id: "341F5229D281635E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB1D108AEFF38EB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7241918F270CA402"
+				item: "ae2:interface"
+				title: "ME Interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			icon: "ae2:pattern_provider"
+			id: "51DE3157DE3E57B8"
+			rewards: [
+				{
+					id: "12405240582D9D1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7260396185DBB2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "338A6DA0D711B7DC"
+					item: "ae2:pattern_provider"
+					title: "ME Pattern Provider"
+					type: "item"
+				}
+				{
+					id: "299121F0AFF40604"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BF0BB763BFFACF0"]
+			description: [""]
+			id: "2F16B6A173525277"
+			rewards: [
+				{
+					id: "345C7C78BABD07F6"
+					type: "random"
+				}
+				{
+					id: "6593BF772EE96538"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [""]
+			id: "2FB231069D2E4E77"
+			rewards: [
+				{
+					id: "7878EA4ADE367154"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "418F6BED3A86F660"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			description: [""]
+			id: "3B42CCC19D23EC6D"
+			rewards: [
+				{
+					id: "4D1AC818C4203ADC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "642B54EEBF9A9547"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			description: [""]
+			id: "219932CB19258C16"
+			rewards: [
+				{
+					id: "42CEB9C64CCDCFEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED3437D2B16F05C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			description: [""]
+			id: "523853C1C4E688BA"
+			rewards: [
+				{
+					id: "16FC3AB2ACBFF4B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04A1D7620F510BA9"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			description: [""]
+			id: "5F56892CD904C40F"
+			rewards: [
+				{
+					id: "4DE1354173902859"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D45D1F474DCC79"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2C4616CD2EBB58C6"
+				"5F56892CD904C40F"
+			]
+			description: [""]
+			id: "460A8F17F3ED6CAF"
+			rewards: [
+				{
+					id: "3C8B767128199FB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FDAA63042254C43"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B0D9D45263076D8"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "19BF2D67291056DE"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FB231069D2E4E77"]
+			description: [""]
+			id: "361CCBD353D6FF34"
+			rewards: [
+				{
+					id: "318D3CF0DD1E3A58"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "06150B632CA535D8"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "52521FCD58B2FEF0"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				title: "ME Item Storage Cell"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "5E7E35CCAF1C88EE"
+			rewards: [
+				{
+					id: "462A0C71B591C11F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D93D19940638DE3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "060BD30C77262BDA"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "083D458032F0325C"
+			rewards: [
+				{
+					id: "311337C7850C46F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EC26816E2A96D76"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D6E070CB7998FA1"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "7EFBAF3E281D2EBE"
+			rewards: [
+				{
+					id: "74C059194CC4F45D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB733BE1911DF14"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "294FA6663BE38B7C"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [""]
+			icon: "ae2:blank_pattern"
+			id: "2C04B3BA507D5673"
+			rewards: [
+				{
+					count: 8
+					id: "7E23E751506B04D0"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "20EB24D02799A27D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "58BF9A4EAD7C88E6"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "08D08A1400F7348F"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C04B3BA507D5673"]
+			description: [""]
+			id: "4597D3B3BDC2BED5"
+			rewards: [{
+				id: "59D9A5E482B1D2A6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

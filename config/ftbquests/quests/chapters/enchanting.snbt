@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting"
+	group: "416DAF767A084FBB"
+	icon: "create_enchantment_industry:hyper_experience_bottle"
+	id: "0A1E92FFC8F18D8B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D97FDF9E50EC3B5"
+			rewards: [
+				{
+					id: "43AF63E82C2E06D0"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "550C6C4800519C5D"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "01B4A768C4F96B63"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "4BCBEE1E58465059"
+			rewards: [
+				{
+					id: "6CC5D7672515B5F3"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B15246AE66E9FFB"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "391D71D40731ED0E"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "36F1112F3443C0DE"
+			rewards: [
+				{
+					id: "34F5E969FD898871"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "060899504775DD02"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4F9EC1ECB2D15866"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "6EE05BF12DC2CEBA"
+			rewards: [
+				{
+					id: "171933210DA50981"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E6CA6AA70787A6D"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7C455A7D978189DF"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+	]
+	title: "Enchanting"
+}

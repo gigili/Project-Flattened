@@ -1,0 +1,635 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "off_to_the_space"
+	group: "56376ED72E30BD44"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "62BC8A6DEA3131BF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "292702D06B9E14C5"
+			rewards: [
+				{
+					id: "6E67BE57AD4BBCFF"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "0D7B6C0134FB0260"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "3E06F420A42EA01D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1D1FC8688FE58BE7"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D2ECA80D261F1E9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "4FDFF040191E6167"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "4989C6B21699ED5D"
+			rewards: [
+				{
+					id: "2E95B88C21AEC404"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74931528331524C8"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2DDF169959B58B73"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "0ADCC6B7F46610D8"
+			rewards: [
+				{
+					id: "589E64FE48FCC095"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743920EE4FD1885F"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21EA65970CCAA4B0"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "59CA0C1CC461554A"
+			rewards: [
+				{
+					id: "422E621D4DA34A40"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A16AFAF55717AB8"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B8BF63134DE372B"
+				item: {
+					Count: 1
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "717AC091878735FC"
+			rewards: [
+				{
+					id: "2D9324ADD0437D2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E590E1C2B551ADE"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6F14ECC351B8D330"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "56ABD5F88B39AD41"
+			rewards: [
+				{
+					id: "2F0F79CB6D8FBBC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15FFBD01C242D624"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "20C757CCD36022AF"
+				item: {
+					Count: 1
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "582CDF638D8482EB"
+			rewards: [
+				{
+					id: "27E32408344FC146"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E32D3CB80342AD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "62E6A409F8744B0E"
+				item: {
+					Count: 1
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "265D5C5C80AFD782"
+			rewards: [
+				{
+					id: "64D489AFFB7CF4DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1889DFDAFE822EC8"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2B6D7735C12EB02E"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "39793DBCED14377F"
+			rewards: [
+				{
+					id: "299CB75788012693"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7139C9CB55FA61CD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0D85FA4A2399E4DA"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "0841B184592D6251"
+			rewards: [
+				{
+					id: "7CBEB5D45390AA32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4287683C7095FD65"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21A0982A92A08B3C"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "2EE8E2A498A49540"
+			rewards: [
+				{
+					id: "76A525776E29DE4E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79553E6FE0C3E81B"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "753FA67EEAAC5514"
+				item: {
+					Count: 1
+					id: "ad_astra:netherite_space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "7E3DC846B3150833"
+			rewards: [
+				{
+					id: "4350D2889141DC33"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "044A796A23046690"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "037898E926338D17"
+				item: {
+					Count: 1
+					id: "ad_astra:oxygen_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "4A0A57A3A31C83C7"
+			rewards: [
+				{
+					id: "1B80B21BF2CE19E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DB1207C53DE5E32"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0DDAF0BDE87CC25A"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "55BD394C13B179D3"
+			rewards: [
+				{
+					id: "78C398D9B20A464F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A842550D7206C7"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3BD24956C104CCA9"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "12A2646A0E81D27E"
+			rewards: [
+				{
+					id: "681FC86F61F2FB76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E92D707D53C5840"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2ABFDDBA6B051099"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "3E7DC43B57158FEE"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "4967CA26BDCFD362"
+			rewards: [
+				{
+					id: "7C908BC02D1428E6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C1E81F5AF2FCD6"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5172622009F357BE"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "31656424ABB52468"
+			rewards: [
+				{
+					id: "727805C94BFAB7E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "212CB01DBF076785"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "21DE9AA74B23E681"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "0077872F538FEBC0"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "716B20CA9E9FD11D"
+			rewards: [
+				{
+					id: "62773766AF72B995"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EEE1CACB6438E0A"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6F16BE6E7528B568"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "7C2BCAEFE1C82AE7"
+			rewards: [
+				{
+					id: "35B6A0355921CFB3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "668844E48BF35554"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "54194C10F1FC6E5C"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "1091B1A2BDFB8259"
+					item: "ad_astra:calorite_plate"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			id: "7B2885FB6461BC8E"
+			rewards: [
+				{
+					id: "5ADDD3AC63584D08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "464D04AB7FA95046"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "46928E9B1BFFBA56"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			id: "7F9E27D592F3BA91"
+			rewards: [
+				{
+					id: "26583E63C3744E22"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6370070F7464FFD6"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "432A708F3D4353C5"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "1549FC3C6AC81EC4"
+			rewards: [
+				{
+					id: "1E66DE17BFD817FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CB38EDA004077AB"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "18CEE7E16E2CA157"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: "Off to the space"
+}

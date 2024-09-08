@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "back_to_the_future"
+	group: "56376ED72E30BD44"
+	icon: "projectexpansion:final_star"
+	id: "3E7D3330D06BD00A"
+	images: [{
+		height: 4.0d
+		image: "prf:textures/quest/final_star_shard_setup.png"
+		rotation: 0.0d
+		width: 7.551622418879056d
+		x: 2.5d
+		y: -9.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FC00D5830EC54DC"
+				"0502CA8C044C2199"
+				"1032329B6CEDBEC9"
+			]
+			id: "6A2E584FD2D9678E"
+			size: 2.0d
+			tasks: [{
+				id: "367A8193C042DEC8"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2FC00D5830EC54DC"
+			size: 2.0d
+			tasks: [{
+				id: "29B2461DC285BE41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "1032329B6CEDBEC9"
+			size: 2.0d
+			tasks: [
+				{
+					count: 9L
+					id: "3820D8664EABD2D8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0F693D00D78BA12E"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EE05BF12DC2CEBA"]
+			id: "0502CA8C044C2199"
+			size: 2.0d
+			tasks: [{
+				id: "0AF8787497C8D102"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2E584FD2D9678E"]
+			hide: true
+			id: "36E684D43184837B"
+			size: 5.0d
+			tasks: [{
+				id: "10B7B921FD39264B"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+	]
+	title: "Back to the future"
+}

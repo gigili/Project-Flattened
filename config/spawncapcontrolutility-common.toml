@@ -1,0 +1,3 @@
+#spawn Categories(MONSTER, CREATURE, ... defaults..., custom pools from other mods
+spawnCategories = ["MONSTER,150", "CREATURE,10", "AMBIENT,10", "AXOLOTLS,3", "UNDERGROUND_WATER_CREATURE,2", "WATER_CREATURE,2", "WATER_AMBIENT,10", "HUNTER,15", "BEASTS,40"]
+
