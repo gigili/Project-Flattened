@@ -4,7 +4,7 @@ This is the official repository and issue-tracker for Project Flattened Minecraf
 
 ![Project Flattened background](./packmenu/resources/assets/packmenu/textures/gui/background.png)
 
-Dive into the world of technoligy and alchemy with mods such as:
+Dive into the world of technology and alchemy with mods such as:
 
 * Create
 * Applied Energistics 2
@@ -17,7 +17,7 @@ and many more, where you will be challenged to try and complete this modpack whi
 
 Need Help?
 ======
-When reporting an issue put the version number before the issue title! Such as [v1.2] My game is broken! Also include any added mods you may have put in, into the description of the issue.
+When reporting an issue put the version number before the issue title! For example, [v1.2] My game is broken! Also include any added mods you may have put in, into the description of the issue.
 
 Have suggestions?
 ======
