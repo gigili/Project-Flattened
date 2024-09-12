@@ -68,10 +68,10 @@
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "438921602690B805"
-					table_id: 6510593964462044032L
-					type: "random"
+					count: 16
+					id: "5E1CD5D184D539E7"
+					item: "create:shaft"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -165,10 +165,10 @@
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0BFC86B57DB1B1FA"
-					table_id: 6510593964462044032L
-					type: "random"
+					count: 4
+					id: "22083DB6BD9D1E57"
+					item: "create:cogwheel"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -190,10 +190,10 @@
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "70FF690EEC6EE81C"
-					table_id: 6510593964462044032L
-					type: "random"
+					count: 4
+					id: "5C15713151CDD7AB"
+					item: "create:large_cogwheel"
+					type: "item"
 				}
 			]
 			tasks: [{

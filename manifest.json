@@ -10,8 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Project Flattened",
-  "author": "GacBL",
+  "name": "Project Flattened - Dev",
+  "version": "Project_flattened_v_0.0.2",
+  "author": "",
   "files": [
     {
       "projectID": 896746,
@@ -120,7 +121,7 @@
     },
     {
       "projectID": 347706,
-      "fileID": 5699679,
+      "fileID": 5707448,
       "required": true
     },
     {
@@ -250,7 +251,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 5691218,
+      "fileID": 5716408,
       "required": true
     },
     {
@@ -560,7 +561,7 @@
     },
     {
       "projectID": 400514,
-      "fileID": 5682577,
+      "fileID": 5705998,
       "required": true
     },
     {
@@ -685,7 +686,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 5693010,
+      "fileID": 5706232,
       "required": true
     },
     {
@@ -720,7 +721,7 @@
     },
     {
       "projectID": 272335,
-      "fileID": 5587888,
+      "fileID": 5714571,
       "required": true
     },
     {

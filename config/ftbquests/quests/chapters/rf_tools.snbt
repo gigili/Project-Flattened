@@ -40,6 +40,7 @@
 		}
 		{
 			dependencies: ["627919AB6E6C2EF6"]
+			description: ["Allows you to connect inventories in a certain range around the scanner."]
 			id: "1349BC492703CAFF"
 			rewards: [
 				{
@@ -213,6 +214,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["Acts like a shulker box, where you can store your item in it and move it around with you wihtout spilling anything when broken. "]
 			id: "739F93394806BC39"
 			rewards: [
 				{

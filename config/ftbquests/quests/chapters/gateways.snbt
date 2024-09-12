@@ -41,11 +41,19 @@
 		{
 			dependencies: ["5BA8EC1F0ED6C404"]
 			id: "3C43C49194340051"
-			rewards: [{
-				id: "4D9FB8D606FB0FC6"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "4D9FB8D606FB0FC6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19A7F8E183C1F4F4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6AE66E09410B6F91"
 				item: {
@@ -69,11 +77,19 @@
 				"Good luck to you. "
 			]
 			id: "5603D4FB69E846F3"
-			rewards: [{
-				id: "14741EA6A5173674"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "14741EA6A5173674"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "386E4C66A5AF8D13"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "We didn't break everything"

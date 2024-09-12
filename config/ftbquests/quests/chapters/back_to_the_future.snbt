@@ -5,14 +5,6 @@
 	group: "56376ED72E30BD44"
 	icon: "projectexpansion:final_star"
 	id: "3E7D3330D06BD00A"
-	images: [{
-		height: 4.0d
-		image: "prf:textures/quest/final_star_shard_setup.png"
-		rotation: 0.0d
-		width: 7.551622418879056d
-		x: 2.5d
-		y: -9.0d
-	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -82,7 +74,6 @@
 		}
 		{
 			dependencies: ["6A2E584FD2D9678E"]
-			hide: true
 			id: "36E684D43184837B"
 			size: 5.0d
 			tasks: [{

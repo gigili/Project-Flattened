@@ -5,10 +5,23 @@
 	group: "416DAF767A084FBB"
 	icon: "create_enchantment_industry:hyper_experience_bottle"
 	id: "0A1E92FFC8F18D8B"
+	images: [{
+		height: 8.475d
+		image: "prf:textures/quest/hyper_experience_enchanting.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 11.0d
+		y: 1.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"You can send nuggets of experience or any enchanted item into the disenchanter to pull the xp into the tank."
+				""
+				"Or you can stand on it and let it drain your xp."
+			]
 			id: "0D97FDF9E50EC3B5"
 			rewards: [
 				{
@@ -32,6 +45,15 @@
 			y: -2.5d
 		}
 		{
+			description: [
+				"Printer can be used to duplicated enchanted books."
+				""
+				"Regular enchants require liquid experience."
+				""
+				"Higher level enchants require hyper experince."
+				""
+				"Regular books require ink."
+			]
 			id: "4BCBEE1E58465059"
 			rewards: [
 				{
@@ -55,6 +77,13 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Right click in the air to open its GUI."
+				""
+				"Place an enchanted book to select which enchantment you want to apply."
+				""
+				"Right click the blaze burner with it and provide it with appropriate liquid or hyper experience based on the level."
+			]
 			id: "36F1112F3443C0DE"
 			rewards: [
 				{

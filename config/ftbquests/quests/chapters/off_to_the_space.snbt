@@ -55,6 +55,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["292702D06B9E14C5"]
 			id: "4989C6B21699ED5D"
 			rewards: [
 				{
@@ -78,6 +79,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["4989C6B21699ED5D"]
 			id: "0ADCC6B7F46610D8"
 			rewards: [
 				{
@@ -101,6 +103,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "59CA0C1CC461554A"
 			rewards: [
 				{
@@ -130,6 +133,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "717AC091878735FC"
 			rewards: [
 				{
@@ -159,6 +163,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "56ABD5F88B39AD41"
 			rewards: [
 				{
@@ -188,6 +193,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "582CDF638D8482EB"
 			rewards: [
 				{
@@ -217,6 +223,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["59CA0C1CC461554A"]
 			id: "265D5C5C80AFD782"
 			rewards: [
 				{
@@ -246,6 +253,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["717AC091878735FC"]
 			id: "39793DBCED14377F"
 			rewards: [
 				{
@@ -275,6 +283,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["56ABD5F88B39AD41"]
 			id: "0841B184592D6251"
 			rewards: [
 				{
@@ -304,6 +313,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["582CDF638D8482EB"]
 			id: "2EE8E2A498A49540"
 			rewards: [
 				{
@@ -333,6 +343,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "7E3DC846B3150833"
 			rewards: [
 				{
@@ -360,6 +371,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0ADCC6B7F46610D8"]
 			id: "4A0A57A3A31C83C7"
 			rewards: [
 				{
@@ -383,6 +395,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4A0A57A3A31C83C7"]
 			id: "55BD394C13B179D3"
 			rewards: [
 				{
@@ -410,6 +423,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["55BD394C13B179D3"]
 			id: "12A2646A0E81D27E"
 			rewards: [
 				{
@@ -440,6 +454,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["12A2646A0E81D27E"]
 			id: "4967CA26BDCFD362"
 			rewards: [
 				{
@@ -467,6 +482,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["4967CA26BDCFD362"]
 			id: "31656424ABB52468"
 			rewards: [
 				{
@@ -497,6 +513,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["31656424ABB52468"]
 			id: "716B20CA9E9FD11D"
 			rewards: [
 				{
@@ -524,6 +541,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["716B20CA9E9FD11D"]
 			id: "7C2BCAEFE1C82AE7"
 			rewards: [
 				{
@@ -554,6 +572,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["7C2BCAEFE1C82AE7"]
 			id: "7B2885FB6461BC8E"
 			rewards: [
 				{
@@ -581,6 +600,7 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["4A0A57A3A31C83C7"]
 			id: "7F9E27D592F3BA91"
 			rewards: [
 				{
@@ -608,6 +628,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["4A0A57A3A31C83C7"]
 			id: "1549FC3C6AC81EC4"
 			rewards: [
 				{

@@ -274,13 +274,15 @@
 			id: "2F16B6A173525277"
 			rewards: [
 				{
-					id: "345C7C78BABD07F6"
-					type: "random"
-				}
-				{
 					id: "6593BF772EE96538"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "248C249CA8A3EFF8"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -449,12 +451,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6FDAA63042254C43"
-					table_id: 6510593964462044032L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1B0D9D45263076D8"
 					table_id: 6510593964462044032L
 					type: "random"
 				}

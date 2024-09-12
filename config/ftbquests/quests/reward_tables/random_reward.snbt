@@ -20,9 +20,9 @@
 		{ count: 64, item: "minecraft:kelp" }
 		{ count: 16, item: "minecraft:iron_ingot" }
 		{ count: 8, item: "minecraft:lapis_lazuli" }
-		{ count: 8, item: "minecraft:quartz" }
-		{ count: 8, item: "minecraft:blaze_rod" }
-		{ count: 8, item: "minecraft:ghast_tear" }
+		{ count: 8, item: "minecraft:quartz", weight: 0.6f }
+		{ count: 8, item: "minecraft:blaze_rod", weight: 0.6f }
+		{ count: 8, item: "minecraft:ghast_tear", weight: 0.09f }
 		{ count: 8, item: "minecraft:glistering_melon_slice" }
 		{ count: 10, item: "minecraft:glowstone_dust" }
 		{ count: 8, item: "minecraft:magma_cream" }
@@ -44,10 +44,9 @@
 			weight: 0.01f
 		}
 		{ count: 20, item: "minecraft:snowball" }
-		{ count: 4, item: "minecraft:totem_of_undying", weight: 0.05f }
+		{ item: "minecraft:totem_of_undying", weight: 0.05f }
 		{ count: 10, item: "minecraft:firework_rocket" }
 		{
-			count: 3
 			item: {
 				Count: 1
 				id: "minecraft:trident"
@@ -57,7 +56,7 @@
 			}
 			weight: 0.03f
 		}
-		{ count: 5, item: "minecraft:shulker_shell" }
+		{ count: 5, item: "minecraft:shulker_shell", weight: 0.05f }
 		{ count: 32, item: "minecraft:bread" }
 		{ item: "minecraft:dragon_egg", weight: 0.01f }
 		{ count: 16, item: "minecraft:coal" }
@@ -67,7 +66,7 @@
 		{ count: 8, item: "minecraft:experience_bottle" }
 		{ count: 20, item: "minecraft:arrow" }
 		{ item: "minecraft:enchanted_golden_apple", weight: 0.02f }
-		{ count: 3, item: "minecraft:beacon", weight: 0.01f }
+		{ item: "minecraft:beacon", weight: 0.01f }
 		{ count: 6, item: "minecraft:music_disc_13", weight: 0.04f }
 		{ count: 6, item: "minecraft:music_disc_cat", weight: 0.04f }
 		{ count: 2, item: "minecraft:music_disc_pigstep", weight: 0.02f }
@@ -77,12 +76,11 @@
 		{ item: "minecraft:heart_of_the_sea", weight: 0.03f }
 		{ count: 6, item: "minecraft:nautilus_shell", weight: 0.05f }
 		{ count: 3, item: "minecraft:netherite_ingot", weight: 0.02f }
-		{ count: 6, item: "minecraft:phantom_membrane" }
+		{ count: 6, item: "minecraft:phantom_membrane", weight: 0.22f }
 		{ count: 4, item: "minecraft:chorus_fruit" }
-		{ count: 12, item: "minecraft:obsidian" }
-		{ count: 4, item: "minecraft:shulker_box", weight: 0.05f }
+		{ count: 12, item: "minecraft:obsidian", weight: 0.06f }
+		{ count: 4, item: "minecraft:shulker_box", weight: 0.02f }
 		{
-			count: 5
 			item: {
 				Count: 1
 				id: "minecraft:turtle_helmet"
@@ -97,7 +95,6 @@
 		{ count: 3, item: "minecraft:respawn_anchor", weight: 0.02f }
 		{ item: "minecraft:end_crystal", weight: 0.03f }
 		{
-			count: 8
 			item: {
 				Count: 1
 				id: "minecraft:warped_fungus_on_a_stick"
