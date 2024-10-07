@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Ingtegrated Dynamics offer a lot of things to players and can sometimes be scray to play with it. "
+				"Integrated Dynamics offers a lot to players and can sometimes be scary to play with."
 				""
-				"But don't worry, we'll try to guide you in how to use this mod to setup your self a good little storage system."
+				"But don't worry, we'll guide you on how to use this mod to set up a good little storage system."
 				""
-				"It will have basic crafting but also auto crafting funcionality as well."
+				"It will have basic crafting, as well as auto-crafting functionality."
 			]
 			id: "3249B859BF471342"
 			rewards: [

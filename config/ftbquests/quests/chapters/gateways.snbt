@@ -70,11 +70,11 @@
 		}
 		{
 			description: [
-				"Yes we made a small boo boo with our Quantum Technology Thingy (tm pending) but our small gateway technology still works and should allow you to get some resources more easily."
+				"Yes, we made a small boo-boo with our Quantum Technology Thingy (tm pending), but our small gateway technology still works and should allow you to get some resources more easily."
 				""
-				"That is if you're ready to fight the inhabitants of that dimension first ... "
+				"That is, if you're ready to fight the inhabitants of that dimension first..."
 				""
-				"Good luck to you. "
+				"Good luck to you."
 			]
 			id: "5603D4FB69E846F3"
 			rewards: [

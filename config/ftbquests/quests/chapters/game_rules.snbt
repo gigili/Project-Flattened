@@ -9,7 +9,7 @@
 	quests: [
 		{
 			can_repeat: true
-			description: ["If you wish to play in an always sunny world without any nights use this option to enable it. "]
+			description: ["If you wish to play in an always sunny world without any nights, use this option to enable it."]
 			disable_toast: true
 			icon: "minecraft:sunflower"
 			id: "319477898DD8F640"
@@ -44,7 +44,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["If you wish to restore the day/night cycle use this quest"]
+			description: ["If you wish to restore the day/night cycle, use this quest."]
 			icon: "minecraft:white_bed"
 			id: "73558F6BC05EDEBD"
 			rewards: [{
@@ -66,7 +66,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["If you wish to disable weather cycle in game to stop the rain from ruining your gameplay you can enable this rule."]
+			description: ["If you wish to disable the weather cycle in the game and stop the rain from interrupting your gameplay, you can enable this rule."]
 			icon: "minecraft:sand"
 			id: "7899B92D643863F8"
 			rewards: [

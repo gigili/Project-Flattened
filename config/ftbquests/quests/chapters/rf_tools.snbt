@@ -214,7 +214,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Acts like a shulker box, where you can store your item in it and move it around with you wihtout spilling anything when broken. "]
+			description: ["Acts like a shulker box, allowing you to store your items in it and move it around without spilling anything when broken."]
 			id: "739F93394806BC39"
 			rewards: [
 				{

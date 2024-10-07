@@ -381,9 +381,9 @@
 		}
 		{
 			description: [
-				"For this modpack I've decided to not include mods such as Functional Storage or Storage drawers as there is Sophisticated Storage already in the pack. "
+				"For this modpack, I've decided not to include mods like Functional Storage or Storage Drawers, as Sophisticated Storage is already part of the pack."
 				""
-				"It can achieve almost everything the other mods can and then some more. "
+				"It can do almost everything the other mods can, and even more."
 			]
 			id: "31FD801346AD0475"
 			rewards: [

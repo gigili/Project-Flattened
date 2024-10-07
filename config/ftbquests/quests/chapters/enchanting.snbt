@@ -18,9 +18,9 @@
 	quests: [
 		{
 			description: [
-				"You can send nuggets of experience or any enchanted item into the disenchanter to pull the xp into the tank."
+				"You can send nuggets of experience or any enchanted item into the disenchanter to pull the XP into the tank."
 				""
-				"Or you can stand on it and let it drain your xp."
+				"Or, you can stand on it and let it drain your XP."
 			]
 			id: "0D97FDF9E50EC3B5"
 			rewards: [
@@ -46,11 +46,11 @@
 		}
 		{
 			description: [
-				"Printer can be used to duplicated enchanted books."
+				"Printer can be used to duplicate enchanted books."
 				""
 				"Regular enchants require liquid experience."
 				""
-				"Higher level enchants require hyper experince."
+				"Higher level enchants require hyper experience."
 				""
 				"Regular books require ink."
 			]
@@ -78,11 +78,11 @@
 		}
 		{
 			description: [
-				"Right click in the air to open its GUI."
+				"Right-click in the air to open its GUI."
 				""
 				"Place an enchanted book to select which enchantment you want to apply."
 				""
-				"Right click the blaze burner with it and provide it with appropriate liquid or hyper experience based on the level."
+				"Right-click the blaze burner with it and provide the appropriate liquid or hyper experience based on the enchantment level."
 			]
 			id: "36F1112F3443C0DE"
 			rewards: [

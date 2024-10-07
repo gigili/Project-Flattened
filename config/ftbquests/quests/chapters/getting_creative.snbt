@@ -123,7 +123,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["Using this tool you can bring  back mountins and create more amasing scenary instead of just looking at a flat world."]
+			description: ["Using this tool, you can bring back mountains and create more amazing scenery instead of just looking at a flat world."]
 			id: "7E9107E54A96F8F6"
 			subtitle: "Shape The World"
 			tasks: [{

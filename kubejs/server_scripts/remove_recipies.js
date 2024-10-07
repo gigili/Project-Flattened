@@ -1,8 +1,14 @@
 ServerEvents.recipes(event => {
     const recipiesToRemoveByMod = [];
+
     const recipiesToRemoveByOutput = [
         'powah:uraninite',
+        'cobblefordays:tier_2',
+        'cobblefordays:tier_3', 
+        'cobblefordays:tier_4', 
+        'cobblefordays:tier_5',
     ];
+
     const recipiesToRemoveById = [
         'createsifter:sifting/gravel_andesite_mesh',
         'createsifter:sifting/gravel_zinc_mesh',

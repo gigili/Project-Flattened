@@ -35,4 +35,19 @@ ServerEvents.recipes(event => {
 
     event.smelting('1x powah:uraninite', 'powah:uraninite_raw').xp(0.7).id("gac:kjs/powah/uraninite");
     event.shapeless(Item.of('minecraft:firework_star'), ['minecraft:gunpowder', '#forge:dyes', 'minecraft:gold_nugget']).id("gac:kjs/minecraft/firwork_star");
+
+    event.shaped(
+        Item.of('cobblefordays:tier_2', 1),
+        [
+            'CCC',
+            'WGL',
+            'CCC'
+        ],
+        {
+            C: 'minecraft:cobblestone',
+            W: 'minecraft:water_bucket',
+            L: 'minecraft:lava_bucket',
+            G: 'cobblefordays:tier_1'
+        }
+    ).id('gac:kjs/cobblefordays/tier_2');
 });

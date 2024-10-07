@@ -11,11 +11,11 @@
 	quests: [
 		{
 			description: [
-				"To get started with AE2 you will need to obtain some basic resources from the mod itself. "
+				"To get started with AE2, you'll need to gather some basic resources from the mod itself."
 				""
-				"Usually in normal worlds there would be a meteor to look for, but since this is flat world those meteors don't spawn (I think??)."
+				"In normal worlds, you would typically search for meteors, but since this is a flat world, meteors don't spawn (I think?)."
 				""
-				"So you will need to get to sifting a bit in order to obtain it."
+				"So, you'll need to start sifting a bit to obtain the necessary resources."
 			]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"

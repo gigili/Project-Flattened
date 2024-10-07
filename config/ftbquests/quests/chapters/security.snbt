@@ -85,6 +85,7 @@
 			y: -4.5d
 		}
 		{
+			description: ["You will need this wrench to pickup sentries and other blocks from this mod."]
 			id: "365A9E1AD6C3153B"
 			tasks: [{
 				id: "4C00555454FE60DB"

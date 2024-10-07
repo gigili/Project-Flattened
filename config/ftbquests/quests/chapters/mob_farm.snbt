@@ -116,11 +116,11 @@
 		{
 			dependencies: ["33D0AE9D8758A780"]
 			description: [
-				"Spawns hostile mobs and requires darknes to work. "
+				"Spawns hostile mobs and requires darkness to work."
 				""
-				"If exposed to sunlight it will burn and destroy the cursed earth. "
+				"If exposed to sunlight, it will burn and destroy the cursed earth."
 				""
-				"It can be picked up with a silk touch."
+				"It can be picked up with silk touch."
 			]
 			id: "23C1ECE5B2379889"
 			tasks: [{
@@ -137,9 +137,11 @@
 		{
 			dependencies: ["31394DADCC71B3F4"]
 			description: [
-				"Spawns passiv mobs and need constant light in order to work, otherwise it gets covered in snow."
+				"Spawns passive mobs and needs constant light to work; otherwise, it gets covered in snow."
 				""
-				"It can be picked up with a silk touch."
+				"It can be picked up with silk touch."
+				""
+				"It will periodically spawn grass over it, so you'll need to remove it before it resumes mob spawning."
 			]
 			id: "3A0D9AF117CB4B37"
 			tasks: [{
@@ -265,11 +267,11 @@
 		}
 		{
 			description: [
-				"If you want to create spawn eggs to custimze the spawners, you can use a swab on a mob. "
+				"If you want to create spawn eggs to customize the spawners, you can use a swab on a mob. "
 				""
-				"Than combine if with some liquied XP and a seed, to get a Chick Feed."
+				"Then combine it with some liquid XP and a seed to get a Chick Feed."
 				""
-				"Feed it to a chicken and it should generate a spawn egg of the swabed mob."
+				"Feed it to a chicken, and it should generate a spawn egg of the swabbed mob."
 			]
 			id: "08E9A71BCACB3975"
 			subtitle: "Custom Spawn Eggs"
@@ -297,9 +299,9 @@
 		{
 			dependencies: ["7081493F6C3F3C0E"]
 			description: [
-				"This will allow you to store almost limitless supply of experience from your mob farm."
+				"This will allow you to store an almost limitless supply of experience from your mob farm."
 				""
-				"But it need to be either piped in from the top or using an XP tap to pour your experience on it."
+				"But it needs to be either piped in from the top or use an XP tap to pour your experience into it."
 			]
 			id: "728B421285D58CF9"
 			subtitle: "Limitless tank?"

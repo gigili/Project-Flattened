@@ -62,4 +62,6 @@ zeroEmcFluidsAreFree = true
 enableCollectorOptimizations = false
 #The bonus (multiplicative) the compact sun block should give. Set to 0 to disable.
 compactSunBonus = 10
+#Enable determining the sun bonus mutiplier via the difference in emc price between the final power flower and the compact sun block, rounded up to the next 10. In normal gameplay this is ~33x, so a 40x multiplier. If either block has no emc value or the multiplier is lower than compactSunBonus, that value will be used instead.
+sunMultiplierPriceCompensation = true
 

@@ -41,17 +41,17 @@
 		{
 			dependencies: ["4863A8507F6A6144"]
 			description: [
-				"The most basic resource in this game is cobblestone alongside dirt and wood. "
+				"The most basic resources in this game are cobblestone, dirt, and wood. "
 				""
-				"But in a super flat world resources are hard to come by as the world is composed of only 3 layers."
+				"But in a super flat world, resources are hard to come by since the world is made up of only 3 layers."
 				""
-				"1st and 2nd layer are dirt"
+				"The 1st and 2nd layers are dirt"
 				""
-				"3rd layer is grass. "
+				"The 3rd layer is grass."
 				""
-				"So using some \"magic\" we've made it so that the good old cobble stone generator produces more than just cobbelstone."
+				"So, using some 'magic,' we've made it so the classic cobblestone generator produces more than just cobblestone."
 				""
-				"Hint: Checkout usages for a diamond block in JEI to see more."
+				"Hint: Check out the usages for a diamond block in JEI to see more."
 			]
 			id: "034320E904F4DB43"
 			rewards: [
@@ -200,7 +200,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5501764E5CA9A762"]
+			dependencies: ["16859CEB4147AFDD"]
 			id: "7A5975BFBA56B5B3"
 			rewards: [
 				{
@@ -222,10 +222,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
+			description: ["Sand can be obtained by using a Create mill or Crushing Wheels to crush gravel into sand."]
 			id: "39504796BEBD1BB7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -239,10 +240,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
+			description: ["Dust can be obtained by using a Create mill or Crushing Wheels to crush sand into dust."]
 			id: "7D4528CC5B000A1E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -256,7 +258,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
@@ -273,7 +275,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
@@ -290,7 +292,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
@@ -307,7 +309,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7D4528CC5B000A1E"]
@@ -324,7 +326,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7D4528CC5B000A1E"]
@@ -341,7 +343,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7D4528CC5B000A1E"]
@@ -358,7 +360,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7EB7AAA0B0DE6B47"]
@@ -375,7 +377,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7EB7AAA0B0DE6B47"]
@@ -392,7 +394,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3CE18E9A48B24E61"]
@@ -409,7 +411,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["09D73392A599BBD4"]
@@ -426,7 +428,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -450,7 +452,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -474,7 +476,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -498,7 +500,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -522,7 +524,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -546,7 +548,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
@@ -570,7 +572,106 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5501764E5CA9A762"]
+			description: [
+				"The way to obtain most resources in this pack is by using the sifter and a mesh."
+				""
+				"Each mesh has different outputs and requirements."
+				""
+				"It is recommended to check out each mesh by pressing U while hovering over it in JEI."
+				""
+				"Advanced meshes require a brass sifter to work."
+				""
+				"For some items, it is also required that the sifter be waterlogged."
+			]
+			icon: "createsifter:sifter"
+			id: "16859CEB4147AFDD"
+			rewards: [
+				{
+					count: 64
+					id: "26A3902A2210785A"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "009AAA8DE27A0639"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "35C7F2ED59D5E9B7"
+				title: "Sifting"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["034320E904F4DB43"]
+			description: [
+				"Nobody wants to mine cobble forever, so it's best to automate it. "
+				""
+				"You might want to consider duplicating your lava first before setting this up, as you won't get it back."
+			]
+			id: "7CDAB385BDE7E3B2"
+			rewards: [
+				{
+					id: "6F2F45C1E6AC95C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4887D8AF46A9106B"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:limited_barrel_1"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3683BECBCCD930C4"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CDAB385BDE7E3B2"]
+			description: [
+				"As this modpack focuses on EMC, I can't make it too easy and let you keep upgrading this further."
+				""
+				"Tier 2 is as far as it goes, but it should help you get up and running quickly until you can automate EMC and get EMC links."
+			]
+			id: "10B8CAD33C7D1658"
+			rewards: [
+				{
+					id: "53CC933A5FABD382"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6679F77C438FF125"
+					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C5FDBB665EA197C"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
 		}
 	]
 	title: "Basisc"

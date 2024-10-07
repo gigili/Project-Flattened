@@ -5,6 +5,184 @@
 	filename: "emc"
 	group: "471350D4E8C923E3"
 	id: "7AAE526BD8DA2B8F"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "rftoolspower:block/endergenic/floatingpearl"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.0d
+			y: 0.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
