@@ -92,7 +92,6 @@
 		}
 		{
 			id: "6C12CC0CFEBB4F00"
-			subtitle: "WIP"
 			tasks: [{
 				id: "5FF382E206D0BC11"
 				item: "ae2:creative_item_cell"

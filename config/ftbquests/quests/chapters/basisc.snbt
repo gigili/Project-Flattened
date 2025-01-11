@@ -5,6 +5,15 @@
 	filename: "basisc"
 	group: "162F89E02DC7B00D"
 	id: "505739E542388F33"
+	images: [{
+		height: 5.4638403990024935d
+		hover: ["Basic sifter automation"]
+		image: "prf:textures/quest/basic_sift_automation.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 10.0d
+		y: 5.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -586,6 +595,11 @@
 				"Advanced meshes require a brass sifter to work."
 				""
 				"For some items, it is also required that the sifter be waterlogged."
+				"{@pagebreak}"
+				"To use a sifter you can either drop items on top of it so it can pick them up, or you can use a hopper to insert them into it (pipes and chutes work as well)."
+				""
+				"When pulling items out of the sifter, you can right click on it to get the items inside or use a hopper (can be slow at extracting) or "
+				"something like a chute or item pipe. "
 			]
 			icon: "createsifter:sifter"
 			id: "16859CEB4147AFDD"

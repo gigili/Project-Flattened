@@ -5,6 +5,15 @@
 	group: "416DAF767A084FBB"
 	icon: "create:wrench"
 	id: "2CF9385D09DDEBE2"
+	images: [{
+		height: 5.4638403990024935d
+		hover: ["Basic sifter automation"]
+		image: "prf:textures/quest/basic_sift_automation.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 9.5d
+		y: 10.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

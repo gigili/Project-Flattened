@@ -77,6 +77,14 @@
     "ench": true,
     "spawner": true
   },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

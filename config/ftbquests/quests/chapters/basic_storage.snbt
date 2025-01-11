@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["327EE38D0BC5535D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1E51E4C57A2C6DC5"
 			rewards: [{
 				id: "31EAC966122F525B"
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["36E35992A4227496"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2AC2893B64BFEB2C"
 			invisible: true
 			tasks: [{
