@@ -1,0 +1,751 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advance_ae"
+	group: "782DA214CA056142"
+	id: "734FF8880FD759C2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10A665E894BFD99C"
+			rewards: [
+				{
+					id: "03E87CA794852F1F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679E83A1267E88ED"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7583E1B384B66FC7"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10A665E894BFD99C"]
+			id: "48874CCE0E17C5AD"
+			rewards: [
+				{
+					id: "35ED8C6AB4BF5A06"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56CE0A7A2AAF9443"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "11F9FEADF900CBDB"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48874CCE0E17C5AD"]
+			id: "08E6A27039F974FB"
+			rewards: [
+				{
+					id: "12004B23CC36EEE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC37BB78E3E4D83"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5A2F4A01C0D4365B"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E6A27039F974FB"]
+			id: "03399BD7084E9CF1"
+			rewards: [
+				{
+					id: "72FACCDBD6421FDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7579A286B5B9C873"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "345392D4C9DE9D8D"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03399BD7084E9CF1"]
+			id: "6DEFA47791910A32"
+			rewards: [
+				{
+					id: "4AD1BF8804ECA33D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FD0C49478A3D6BE"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7A0B8A9D90D876DA"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30A49E07456ED86A"
+				"6D1C3736C3722B93"
+			]
+			id: "1DDB1DEF3FFEB200"
+			rewards: [
+				{
+					id: "72CDC2E3D12DEA6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "716C41D74BBC1B94"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321F2AE20981B018"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "199213958C4111A7"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30A49E07456ED86A"
+				"6D1C3736C3722B93"
+			]
+			id: "44C3AE6C01E48695"
+			rewards: [
+				{
+					id: "17DF3B34401E2D6E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7DF4F8A5DF6BD69D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D9BA0BF01584CDE"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "25FC61716748C6AB"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30A49E07456ED86A"
+				"6D1C3736C3722B93"
+			]
+			id: "004AC3CC4DEBD7A6"
+			rewards: [
+				{
+					id: "1C3A0D1B55CB117F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2FF46139A5DDEF42"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "714124FCEC419872"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3E767C2C12130A3D"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30A49E07456ED86A"
+				"6D1C3736C3722B93"
+			]
+			id: "6CEDE6870424F9DC"
+			rewards: [
+				{
+					id: "485AA2A0BB2DE801"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "30D64BC828EED5B2"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7209CAA11930DEE3"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "54194C9FCBB97CC2"
+				item: {
+					Count: 1
+					id: "advanced_ae:quantum_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DEFA47791910A32"]
+			id: "6D1C3736C3722B93"
+			rewards: [
+				{
+					id: "0DAD263FDDEC8A59"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B7E245B1EAF7185"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "43D0C980F7D61D02"
+				item: "advanced_ae:quantum_storage_component"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "37CC034CFCB541DE"
+			rewards: [{
+				id: "4832F9B281D30EB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7736D60D1417D71E"
+				item: "advanced_ae:water_breathing_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "60FC92517292B146"
+			rewards: [{
+				id: "2DEA8D76959B675C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1335A2625533017F"
+				item: "advanced_ae:auto_feeding_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "33C255C16A719676"
+			rewards: [{
+				id: "106E7B17DF125D4D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0902312DBFFCAFB6"
+				item: "advanced_ae:auto_stock_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "4F5745509DBBE257"
+			rewards: [{
+				id: "64B7C4A13A3B3ACC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "552E0B931BA1B8A6"
+				item: "advanced_ae:magnet_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "49C9F9197BC774D4"
+			rewards: [{
+				id: "4A99AA4D8F56C3E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "325E7ACA96EC24DD"
+				item: "advanced_ae:luck_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "61D902F895CECB6E"
+			rewards: [{
+				id: "46346C52C93F204C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A1D431A58C33BE5"
+				item: "advanced_ae:night_vision_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "6130BA98AECD142D"
+			rewards: [{
+				id: "0634B727F3B6604B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21EDAC0ACA6D08FC"
+				item: "advanced_ae:recharging_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "640A54A7DA9B3A44"
+			rewards: [{
+				id: "3E795E16F5698A7A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55895BE6F68E4826"
+				item: "advanced_ae:recharging_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["004AC3CC4DEBD7A6"]
+			id: "6B4DF0E7D2995A82"
+			rewards: [{
+				id: "164FE6E6D1E1AF01"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C86319D28E9F22B"
+				item: "advanced_ae:recharging_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6CEDE6870424F9DC"]
+			id: "37F8DD025376EB12"
+			rewards: [{
+				id: "71796E18AEE87A5D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47A7ED2B97F6CCA7"
+				item: "advanced_ae:recharging_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DDB1DEF3FFEB200"]
+			id: "3FC1A98898245F7A"
+			rewards: [{
+				id: "5054C5106B98FFEA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C1A1D1F516148DB"
+				item: "advanced_ae:portable_workbench_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "6397571155291E28"
+			rewards: [{
+				id: "6A779F1CA08EE5C9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4043F11857B2CA94"
+				item: "advanced_ae:lava_immunity_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "0F4498D7BAF16631"
+			rewards: [{
+				id: "47DBBB1F558BB9E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FE794B420CABF4F"
+				item: "advanced_ae:flight_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "2B2C05038E0BA47B"
+			rewards: [{
+				id: "66F746EC946A6327"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08695955F5CB267E"
+				item: "advanced_ae:hp_buffer_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "1B6F67AEBA7125E2"
+			rewards: [{
+				id: "30CB4AB4EDAF62EE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E73BA55139EEC32"
+				item: "advanced_ae:regeneration_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "0E2A6D97B29C1CD8"
+			rewards: [{
+				id: "15F705353D456779"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0964CCA795B7B071"
+				item: "advanced_ae:strength_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "54CAA717612B8586"
+			rewards: [{
+				id: "08C9D185FE568301"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "412E884219519325"
+				item: "advanced_ae:attack_speed_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["44C3AE6C01E48695"]
+			id: "53B275A8B9FF041E"
+			rewards: [{
+				id: "0CE910AD7516270F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E2D0BF45119D344"
+				item: "advanced_ae:pick_craft_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["004AC3CC4DEBD7A6"]
+			id: "5A03858FDAD3E7FA"
+			rewards: [{
+				id: "10755D99544B90F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BF4157EFFE6CF3D"
+				item: "advanced_ae:walk_speed_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["004AC3CC4DEBD7A6"]
+			id: "66137252ACC58F6A"
+			rewards: [{
+				id: "28199485447F5846"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C8094A08E9935B9"
+				item: "advanced_ae:sprint_speed_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["004AC3CC4DEBD7A6"]
+			id: "580061B9D78502F3"
+			rewards: [{
+				id: "64BA8BF49DC87CC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B3E15AE63ECF27D"
+				item: "advanced_ae:reach_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["004AC3CC4DEBD7A6"]
+			id: "175D093A404F5379"
+			rewards: [{
+				id: "17A0A056C0C02D51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "441EA7B4FD7D373D"
+				item: "advanced_ae:swim_speed_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6CEDE6870424F9DC"]
+			id: "1983DA57AC737DA1"
+			rewards: [{
+				id: "7D991FDF31C1C6A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "081264C6866FD772"
+				item: "advanced_ae:step_assist_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CEDE6870424F9DC"]
+			id: "1085198044569599"
+			rewards: [{
+				id: "52CFE4B70EF5CF51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F1F368C38D96D09"
+				item: "advanced_ae:jump_height_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6CEDE6870424F9DC"]
+			id: "4CDCEB4697514E93"
+			rewards: [{
+				id: "0666B1C5A771A91A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42902D2C0D8F6D7B"
+				item: "advanced_ae:evasion_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CEDE6870424F9DC"]
+			id: "158805C97A0BE0EF"
+			rewards: [{
+				id: "5181B098A29D6E56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "077E3987FCF8B565"
+				item: "advanced_ae:flight_drift_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6DEFA47791910A32"]
+			id: "30A49E07456ED86A"
+			rewards: [
+				{
+					id: "60567A90A2781F72"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67A8C5FB055CB4B1"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7D13BA956BF93184"
+				item: "advanced_ae:quantum_alloy_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Advance AE"
+}

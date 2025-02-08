@@ -1,0 +1,59 @@
+{
+	id: "3402A7B713F3782E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ae"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "ae2:blank_pattern" }
+		{ count: 64, item: "ae2:white_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:orange_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:magenta_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:light_blue_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:yellow_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:lime_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:pink_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:gray_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:light_gray_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:cyan_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:purple_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:blue_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:brown_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:green_paint_ball", weight: 0.1f }
+		{ count: 64, item: "ae2:red_paint_ball", weight: 0.1f }
+		{ count: 12, item: "ae2:charged_certus_quartz_crystal", weight: 1.2f }
+		{ count: 10, item: "ae2:certus_quartz_crystal", weight: 1.2f }
+		{ count: 16, item: "ae2:certus_quartz_dust", weight: 1.3f }
+		{ count: 20, item: "ae2:fluix_crystal" }
+		{ count: 12, item: "ae2:fluix_dust" }
+		{ count: 5, item: "ae2:energy_card" }
+		{ count: 3, item: "ae2:crafting_card" }
+		{ item: "ae2:cell_component_256k", weight: 0.5f }
+		{ item: "ae2:cell_component_64k", weight: 0.5f }
+		{ count: 2, item: "ae2:cell_component_16k" }
+		{ count: 3, item: "ae2:cell_component_4k" }
+		{ count: 3, item: "ae2:cell_component_1k" }
+		{ count: 5, item: "ae2:speed_card" }
+		{ count: 4, item: "ae2:quartz_block" }
+		{ count: 4, item: "ae2:crafting_accelerator", weight: 0.7f }
+		{ count: 2, item: "ae2:molecular_assembler", weight: 0.8f }
+		{ item: "ae2:pattern_provider" }
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_256k"
+				tag: { }
+			}
+		}
+		{ count: 64, item: "ae2:sky_stone_block" }
+		{ item: "ae2:singularity", weight: 0.1f }
+	]
+	title: "AE"
+}

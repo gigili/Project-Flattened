@@ -359,10 +359,10 @@
 				}
 			]
 			tasks: [{
-				id: "037898E926338D17"
+				id: "52A96D4129F105EA"
 				item: {
 					Count: 1
-					id: "ad_astra:oxygen_tank"
+					id: "ad_astra:gas_tank"
 					tag: { }
 				}
 				type: "item"

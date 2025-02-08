@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_ae"
+	group: "782DA214CA056142"
+	id: "39B706A21449B8FB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A68D0FDB9E0A20B"
+			rewards: [
+				{
+					id: "51FD85BA4EAA5D14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1447A8618FF4AFB4"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "45481D9D97228699"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "2E84F53A64680926"
+			rewards: [
+				{
+					id: "0EDD752EABB494F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1188A1B35ED30FE2"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "641CE7596858E165"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "2406ACDE386FA65D"
+			rewards: [
+				{
+					id: "6A7643D1D4558AB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37D66ED36CFB3EAA"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "59D67A3C6301C830"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "74DBF9A5E7DF8B58"
+			rewards: [
+				{
+					id: "5BDFA2E70903EC77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C0F9D99E4A5B215"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "483A9593456AA16A"
+				item: "expatternprovider:ex_pattern_provider_part"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "1E1DBFD76D492608"
+			rewards: [
+				{
+					id: "5FB3B0BDF5D24CD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "379B91444B84E78F"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "01C1B85B94DD4917"
+				item: "expatternprovider:ex_interface_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"No more endless cable runs—wirelessly link your ME Networks!"
+				""
+				"The ME Wireless Connector allows you to connect networks over short distances within the same dimension. "
+				""
+				"Use the ME Wireless Setup Kit to pair two connectors and establish a link."
+				""
+				"Keep in mind:"
+				""
+				"- Longer distances consume more energy, increasing exponentially."
+				""
+				"- Only same-colored connectors link together—use a Color Applicator to organize connections."
+				""
+				"- Energy Cards can help reduce power costs."
+			]
+			id: "60762D8019DE9913"
+			rewards: [
+				{
+					id: "621169E6777E67DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71BC8B15156C61BB"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2EED9C5DB192292C"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6073952A14A60688"
+					item: { Count: 2, id: "expatternprovider:wireless_connect" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"The Extended Molecular Assembler is a faster, more powerful alternative to the standard Molecular Assembler, running 8 crafting jobs at the same time and operating at twice the speed!"
+				""
+				"To take full advantage of its capabilities, make sure your ME Network has enough Crafting Accelerators. "
+				""
+				"However, unlike the regular assembler, this version only accepts crafting jobs from a Pattern Provider—you cannot place patterns directly inside it."
+			]
+			id: "357ECB5927BEE1E7"
+			rewards: [
+				{
+					id: "002398A71BF547DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50142B869A0796FA"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7B4536D15816896D"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "70FA70A95C28D258"
+			rewards: [
+				{
+					id: "4E5CAC680A360D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ABFE6511033712E"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "41F0D086AAF75461"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The Extended Inscriber takes automation to the next level, allowing up to four inscribing jobs to run simultaneously! "
+				""
+				"No more bottlenecks when crafting processors or pressing materials for your ME System."
+				""
+				"Just like the standard Inscriber, it features a button to adjust the max stack size in its inventory. "
+				""
+				"However, when using it with a Pattern Provider, it's recommended to set the stack size to 1 to prevent potential issues."
+				""
+				"Streamline your processor production and supercharge your Applied Energistics 2 automation with the Extended Inscriber!"
+			]
+			id: "236FA70DF7D31A61"
+			rewards: [
+				{
+					id: "3E37C2E809D0BE9C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C5092DB239C1035"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			subtitle: "No more bottlenecks"
+			tasks: [{
+				id: "6D5DE0450493E819"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"No more sprawling walls or messy chandeliers of Molecular Assemblers and Pattern Providers!"
+				""
+				"With the Assembler Matrix, all your autocrafting needs are handled within a single, powerful multiblock structure, capable of reaching a maximum size of 7×7×7. "
+				""
+				"The Assembler Matrix is fully modular, allowing you to configure it to suit your needs. "
+				""
+				"It requires a mix of Pattern Cores and Craft Cores to function, ensuring seamless automation of even the most complex recipes."
+				""
+				"To maximize its speed, you can install up to 5 Speed Cores. However, adding more than 5 Speed Cores provides no additional benefit."
+				""
+				"If you're tired of cluttered setups and inefficient crafting, the Assembler Matrix is the ultimate solution for a streamlined Applied Energistics 2 autocrafting system!"
+			]
+			id: "4CA8CEEF9A38B562"
+			rewards: [
+				{
+					id: "24119F62EB0F51ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E2783D3540C4782"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			subtitle: "No more pattern towers "
+			tasks: [
+				{
+					id: "37BA48338488BB12"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "2E921F217FCD772F"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "1FE730AC4D77388E"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "2BD0ACFF6FE2593D"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "77A969EAB887412D"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "198B8B2244863C3D"
+			rewards: [
+				{
+					id: "23A69FFCF38B77A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50775FD006119BF6"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "06977E33E35AE393"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54584D14CAE4E729"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "Extended AE"
+}
