@@ -255,12 +255,19 @@
 			dependencies: ["39504796BEBD1BB7"]
 			description: ["Dust can be obtained by using a Create mill or Crushing Wheels to crush sand into dust."]
 			id: "7D4528CC5B000A1E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1DFBB819EF690C32"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "3FB26E58BFE8622D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "521741056B68892C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1CDED6987E1D26E8"
 				item: "createsifter:dust"
@@ -323,12 +330,19 @@
 		{
 			dependencies: ["7D4528CC5B000A1E"]
 			id: "3CE18E9A48B24E61"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "270A654FF79D534F"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6BCFB14F069D8939"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75A7C0213A4DEAF4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3BCB48DD324EE27B"
 				item: "minecraft:blaze_powder"
@@ -340,12 +354,19 @@
 		{
 			dependencies: ["7D4528CC5B000A1E"]
 			id: "09D73392A599BBD4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "315711CDF0310015"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "25E89FD1EA25998E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F379FC6169D269A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3777D4512ECB0936"
 				item: "ae2:sky_dust"
@@ -357,12 +378,19 @@
 		{
 			dependencies: ["7D4528CC5B000A1E"]
 			id: "7EB7AAA0B0DE6B47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3F9608D3997CD919"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "34345AF6778B3C29"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4642325B343BC366"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6889EC5B2F870847"
 				item: "ae2:certus_quartz_dust"
@@ -374,12 +402,19 @@
 		{
 			dependencies: ["7EB7AAA0B0DE6B47"]
 			id: "296E9C739B7EA13E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "389118ABF0473D56"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6105763788BA603A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED288CEA4EC59EE"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "499B5361D012B457"
 				item: "ae2:certus_quartz_crystal"
@@ -391,12 +426,19 @@
 		{
 			dependencies: ["7EB7AAA0B0DE6B47"]
 			id: "326FCF7ABA9E136A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "30E91ABA6E2A6EE0"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "6963C3C9D7D392B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D5ED87AA6E1EAC6"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "540FE1BE0A45F3B6"
 				item: "ae2:silicon"
@@ -408,12 +450,19 @@
 		{
 			dependencies: ["3CE18E9A48B24E61"]
 			id: "61702AA1C49AEB29"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "684CC71BC081FFBE"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "24FD3F7970B62406"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F1AA19D26570962"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "32E121F2B5DBF7DA"
 				item: "minecraft:blaze_rod"
@@ -425,12 +474,19 @@
 		{
 			dependencies: ["09D73392A599BBD4"]
 			id: "5DB6E030CB6C4829"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6FBD3CF87B83188B"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "792D86255A94FF84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "558AA261A6DBE5FA"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "52C0F7E27699F8C6"
 				item: "ae2:sky_stone_block"
@@ -650,6 +706,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "20A0DFA4EED60CA3"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3683BECBCCD930C4"
@@ -686,6 +747,372 @@
 			}]
 			x: -3.0d
 			y: -6.0d
+		}
+		{
+			id: "1E11E580A2B90A3F"
+			rewards: [
+				{
+					id: "71B253290752F265"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF78D99FB1ED889"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "691243C3A8F2DE87"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			id: "77B243C5F3F8B8B5"
+			rewards: [
+				{
+					id: "73E013316548161D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3190E824357913B9"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EFA81AE99A95D49"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77B243C5F3F8B8B5"]
+			id: "667FF02492FC25A8"
+			rewards: [
+				{
+					id: "2E6EE60FC90E2701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51ED9406BE4D5F67"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25FFA8AD11E31D17"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["667FF02492FC25A8"]
+			id: "7989A320AACA6913"
+			rewards: [
+				{
+					id: "1BA1B6BDE6DA1BA9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29EB9CE807D2E88C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4991F57DBD55A0C2"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7989A320AACA6913"]
+			id: "15BF50D990FE7195"
+			rewards: [
+				{
+					id: "1B65274AEE241E5A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C20A939D72EC758"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6013526AF8FFE357"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15BF50D990FE7195"]
+			id: "025B6B588F386228"
+			rewards: [
+				{
+					id: "24C2BAD1105927A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "796DB69C5B8FB7CC"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CB4A80D4C7983C3"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["025B6B588F386228"]
+			id: "1E40A3FE6984A599"
+			rewards: [
+				{
+					id: "772AD41C3AE06B62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC6EA0DAA88F3A4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "518B603328DCC62F"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			description: [
+				"Tired of waiting on single item or a stack to finish smelting before being able to inster a new one?"
+				""
+				"With this upgrade you will be able to smelt multiple stacks at onces, or split a single stack into multiple items to be smelted at the same time. "
+				""
+				"This upgrade will remove the need for using coal and other burnable materials as a fuel source, but in turn, you will need to provide it power."
+			]
+			id: "62E963819BBCA454"
+			rewards: [{
+				id: "4290A775F5A97A12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43C1C29471C1A04D"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			description: [
+				"Ever feel like waiting for items to smelt is a drag ?"
+				""
+				"With speed upgrades, that can be offset. "
+				""
+				"Higher level of the furnace means the effect is better, but also costs more."
+			]
+			id: "53FC5BA28509BD91"
+			rewards: [{
+				id: "62DA3F9560489C75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A13F6AC3BB4F980"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			description: ["With this upgrade, your furnace will no longer be able to smelt items, but in turn will turn any burnable item (such as coal, wood etc) into power."]
+			id: "6B34962F36A2DDB4"
+			rewards: [{
+				id: "7526C540D60AB5AF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Turn coal into power?"
+			tasks: [{
+				id: "55CA9DA85CCDE4B4"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			id: "1CDDB70729E652FB"
+			rewards: [{
+				id: "79588CC7FA0DB5A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E8829CBD584C380"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			description: [
+				"Provide transmitter block with power (energy) and than use the receiving item to connect them."
+				""
+				"Once connected you can put the receiver into the furnace instead of coal. "
+			]
+			id: "0BDA6494AE3257E8"
+			rewards: [{
+				id: "248A47E0BFF88BFB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "652BA3B4B0301320"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "08595DA49E580C0D"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			id: "4B920EBAAD898915"
+			rewards: [{
+				id: "60BF831E5ECFD6D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53B7615EDC1B106D"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			id: "7D777A37BF4522B6"
+			rewards: [{
+				id: "545EC3FBD51BB8F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A41F2B3C8FC0D4D"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			id: "106D0CE538862832"
+			rewards: [{
+				id: "29B5D8BBB8DD48A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0189BE3257FDA35C"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.5d
+		}
+		{
+			id: "06E8D1899A910783"
+			rewards: [{
+				id: "767A5450B4E559DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B483FB4DDE964E8"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			id: "6B6B678B1D6AE692"
+			rewards: [{
+				id: "02A9DAD7B4081BE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E1A8816A0809D9C"
+				item: "ironfurnaces:upgrade_obsidian"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			id: "6BAE9C871822C8C1"
+			rewards: [{
+				id: "06E18573D5B05936"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22F304D2E2FFC2CC"
+				item: "ironfurnaces:upgrade_netherite"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.5d
 		}
 	]
 	title: "Basisc"

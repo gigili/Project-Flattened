@@ -5,15 +5,57 @@
 	group: "416DAF767A084FBB"
 	icon: "create:wrench"
 	id: "2CF9385D09DDEBE2"
-	images: [{
-		height: 5.4638403990024935d
-		hover: ["Basic sifter automation"]
-		image: "prf:textures/quest/basic_sift_automation.png"
-		rotation: 0.0d
-		width: 7.0d
-		x: 9.5d
-		y: 10.5d
-	}]
+	images: [
+		{
+			height: 5.4638403990024935d
+			hover: ["Basic sifter automation"]
+			image: "prf:textures/quest/basic_sift_automation.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			height: 7.0d
+			image: "prf:textures/quest/create_crafters.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "prf:textures/quest/create_crusher.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "prf:textures/quest/create_crusher.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: -90.0d
+			width: 1.0d
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: 13.0d
+			y: 2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -610,6 +652,295 @@
 			}]
 			x: 1.0d
 			y: 16.0d
+		}
+		{
+			id: "0D718C71ED4FE4A6"
+			rewards: [
+				{
+					id: "34A2B0708F8CB789"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5850CE4E6BF2EFF2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "197E9398DA94BC43"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "65A170DCD7869FCE"
+			rewards: [
+				{
+					id: "53E53DD195436C30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E129F87D567DDF2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "24CB8B43635D01DC"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "0FAAD4F94D6EDC00"
+			rewards: [
+				{
+					id: "76F6F789179C9CCC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50206A78279F3042"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B1E71A0309B26CD"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65A170DCD7869FCE"
+				"0D718C71ED4FE4A6"
+			]
+			id: "67107C1FBD5FF6BC"
+			rewards: [
+				{
+					id: "7A8AE9C0ECFC02A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71382E1A73EE6E7D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A7AC97B5045E91C"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"67107C1FBD5FF6BC"
+				"0FAAD4F94D6EDC00"
+			]
+			id: "24908B96532102BC"
+			rewards: [
+				{
+					id: "42959BA310B873FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5D6ABC93DF2266"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60D794EB745B71E9"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24908B96532102BC"
+				"24902860DC48901B"
+			]
+			id: "536E08BCC829FDD8"
+			rewards: [
+				{
+					id: "3E1D5085B5006BFF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67D9F416CEB1A503"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 21L
+				id: "5D10E3A359A2978C"
+				item: { Count: 21, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["536E08BCC829FDD8"]
+			id: "5849125955D470E1"
+			rewards: [
+				{
+					id: "7B584AD200FE6D8F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58C4129B3218BF02"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0276F85DBC641CB9"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["350308B2EDAF4C1A"]
+			id: "39A84EF8F0D6E72E"
+			rewards: [{
+				id: "3BEC23B058B4B169"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "530359F8275D47DE"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["10777B3F9F21FF18"]
+			disable_toast: true
+			id: "001E93B0353BBE75"
+			optional: true
+			tasks: [{
+				id: "64D76877F30CC33C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["001E93B0353BBE75"]
+			disable_toast: true
+			id: "1D9A82A759CDF7F0"
+			optional: true
+			tasks: [{
+				id: "3AFD7438BF686571"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F569C7F745491BD"]
+			disable_toast: true
+			id: "77DA06135BA0B900"
+			optional: true
+			tasks: [{
+				id: "3E9752F207FA725B"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["77DA06135BA0B900"]
+			disable_toast: true
+			id: "76B556C4D1713938"
+			optional: true
+			tasks: [{
+				id: "1AD8500882CE1243"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E09014B2518B792"]
+			disable_toast: true
+			id: "10777B3F9F21FF18"
+			optional: true
+			tasks: [{
+				id: "0A13C28C0598275D"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "4E09014B2518B792"
+			optional: true
+			tasks: [{
+				id: "4792A7F3940A5DFB"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1D9A82A759CDF7F0"]
+			disable_toast: true
+			id: "3F569C7F745491BD"
+			optional: true
+			tasks: [{
+				id: "1A0F2CF053536312"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
 		}
 	]
 	title: "Getting More Resources"
