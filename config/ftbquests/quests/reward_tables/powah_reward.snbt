@@ -1,0 +1,91 @@
+{
+	id: "2F44984C88E262A6"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 16, item: "powah:dielectric_paste" }
+		{ count: 16, item: "powah:dielectric_rod" }
+		{ count: 16, item: "powah:dielectric_rod_horizontal" }
+		{ count: 3, item: "powah:dielectric_casing" }
+		{ count: 10, item: "powah:uraninite" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "powah:battery_starter"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_basic"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_hardened"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_blazing"
+				tag: { }
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_niotic"
+				tag: { }
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_spirited"
+				tag: { }
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1
+				id: "powah:battery_nitro"
+				tag: { }
+			}
+			weight: 0.1f
+		}
+		{ count: 2, item: "powah:ender_core" }
+		{ count: 16, item: "powah:charged_snowball" }
+		{ count: 4, item: "powah:crystal_blazing" }
+		{ count: 4, item: "powah:steel_energized" }
+		{ count: 4, item: "powah:crystal_niotic", weight: 0.4f }
+		{ count: 4, item: "powah:crystal_spirited", weight: 0.4f }
+		{ count: 4, item: "powah:crystal_nitro", weight: 0.1f }
+		{ count: 5, item: "powah:ender_gate_hardened" }
+		{ count: 5, item: "powah:ender_gate_niotic", weight: 0.4f }
+		{ count: 3, item: "powah:ender_gate_nitro", weight: 0.3f }
+		{ count: 4, item: "powah:energizing_rod_starter" }
+		{ count: 4, item: "powah:energizing_rod_hardened", weight: 0.8f }
+		{ item: "powah:energizing_rod_nitro", weight: 0.6f }
+		{ item: "powah:energizing_rod_niotic", weight: 0.3f }
+		{ count: 6, item: "powah:thermoelectric_plate" }
+		{ count: 6, item: "powah:photoelectric_pane" }
+		{ count: 10, item: "powah:capacitor_basic" }
+		{ count: 5, item: "powah:capacitor_basic_tiny" }
+		{ count: 5, item: "powah:capacitor_basic_large" }
+		{ count: 10, item: "powah:dry_ice" }
+		{ item: "powah:player_transmitter_blazing", weight: 0.5f }
+		{ count: 10, item: "powah:energy_cable_blazing", weight: 0.8f }
+		{ count: 10, item: "powah:energy_cable_nitro", weight: 0.6f }
+		{ count: 64, item: "powah:dielectric_paste", weight: 1.2f }
+	]
+	title: "Powah Reward"
+}
