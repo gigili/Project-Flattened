@@ -18,17 +18,17 @@
 				{
 					auto: "enabled"
 					command: "/gamerule doDaylightCycle false"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "22F19460B978B724"
-					silent: true
 					type: "command"
 				}
 				{
 					auto: "enabled"
 					command: "/time set noon"
+					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "3F653266C4BD7CCE"
-					silent: true
 					type: "command"
 				}
 			]
