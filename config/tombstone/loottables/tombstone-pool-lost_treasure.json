@@ -127,6 +127,9 @@
   ],
   "conditions": [
     {
+      "condition": "tombstone:check_player"
+    },
+    {
       "condition": "minecraft:entity_properties",
       "predicate": {
         "type_specific": {

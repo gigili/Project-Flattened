@@ -4,6 +4,15 @@
 	filename: "extended_ae"
 	group: "782DA214CA056142"
 	id: "39B706A21449B8FB"
+	images: [{
+		height: 8.0d
+		hover: ["Assembler Matrix"]
+		image: "prf:textures/quest/assembler_matrix.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 6.5d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -77,29 +86,6 @@
 			y: 0.5d
 		}
 		{
-			id: "74DBF9A5E7DF8B58"
-			rewards: [
-				{
-					id: "5BDFA2E70903EC77"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3C0F9D99E4A5B215"
-					table_id: 3747742244681250862L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "483A9593456AA16A"
-				item: "expatternprovider:ex_pattern_provider_part"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.5d
-		}
-		{
 			id: "1E1DBFD76D492608"
 			rewards: [
 				{
@@ -119,8 +105,8 @@
 				item: "expatternprovider:ex_interface_part"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -195,7 +181,7 @@
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -219,7 +205,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -312,8 +298,9 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 2.5d
+			title: "Assembler Matrix"
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			id: "198B8B2244863C3D"

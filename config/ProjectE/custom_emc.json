@@ -13,26 +13,6 @@
       "emc": 9
     },
     {
-      "item": "powah:uraninite_raw",
-      "emc": 64
-    },
-    {
-      "item": "minecraft:raw_copper",
-      "emc": 128
-    },
-    {
-      "item": "minecraft:raw_iron",
-      "emc": 256
-    },
-    {
-      "item": "minecraft:raw_gold",
-      "emc": 512
-    },
-    {
-      "item": "create:raw_zinc",
-      "emc": 750
-    },
-    {
       "item": "minecraft:bread",
       "emc": 16
     },
@@ -57,16 +37,8 @@
       "emc": 8
     },
     {
-      "item": "projectexpansion:basic_emc_link",
-      "emc": 500000
-    },
-    {
       "item": "projecte:medium_covalence_dust",
       "emc": 128
-    },
-    {
-      "item": "createsifter:dust",
-      "emc": 4
     }
   ]
 }

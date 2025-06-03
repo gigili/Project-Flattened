@@ -45,7 +45,7 @@
 			rotation: -90.0d
 			width: 1.0d
 			x: 18.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -942,6 +942,82 @@
 			x: 18.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["3B4990C986F4583F"]
+			id: "38ECF5F4DE6DFDFD"
+			rewards: [{
+				id: "3E1EBBA72799736D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "373EE05153B0840C"
+				item: "jamd:portal_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B4990C986F4583F"]
+			id: "210E80452E2622F0"
+			rewards: [{
+				id: "1FE2A61E46172882"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5F4A6C3B375A6F36"
+				item: "jamd:nether_portal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B4990C986F4583F"]
+			id: "508EEFBB3E3EC442"
+			rewards: [{
+				id: "12CC8AF97F946086"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "313BC42168476D5E"
+				item: "jamd:end_portal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			description: ["If you feel like the sifters aren't enough, or you just like to have a minnig contraption alongside the sifter, these dimension can help you out "]
+			id: "3B4990C986F4583F"
+			subtitle: "For those that like to mine"
+			tasks: [{
+				id: "4DA1A1C921C731FA"
+				title: "When sifters aren't enough"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			description: ["These can also be enchanted so you don't lose on your fortune if used for automation."]
+			id: "1E4056A5E8087DDA"
+			rewards: [{
+				id: "3DA4B38E730CF1AF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "414BBA0E468DBAEC"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
 	]
-	title: "Getting More Resources"
+	title: "Getting Resources"
 }

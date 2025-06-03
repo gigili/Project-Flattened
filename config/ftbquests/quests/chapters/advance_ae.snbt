@@ -4,6 +4,15 @@
 	filename: "advance_ae"
 	group: "782DA214CA056142"
 	id: "734FF8880FD759C2"
+	images: [{
+		height: 8.0d
+		hover: ["Quantum Crafter"]
+		image: "prf:textures/quest/quantum_crafter.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -2.0d
+		y: -9.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -745,6 +754,178 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"The Quantum core is the heart of the Quantum Computer. It has 256M of crafting storage and 8 co-processor threads by"
+				"itself. It's the only block that can create a formed quantum computer by itself and provide all the benefits of a"
+				"quantum computer. However, if used to create a multiblock, a much more powerful computer can be created. When used as a"
+				"standalone computer, power must be provided through the Up or Down sides, where the connectors are."
+			]
+			id: "1E47DDB3DFDAFCFE"
+			rewards: [{
+				id: "3E410E09F4318E74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D37E0C17C684E45"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"Data Entanglers are a special block that affect all storage blocks present in the multi-block. They enable storage"
+				"blocks to store data in several dimensions, effectively multiplying their storage by 4. Only one of these can be placed"
+				"in each quantum computer multiblock."
+			]
+			id: "1FE64A6C50B5CEE7"
+			rewards: [{
+				id: "15FBBF39BD1B5C46"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "798879F30B23FC43"
+				item: "advanced_ae:data_entangler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"These blocks expand the crafting storage of the quantum core. They effectively increase the amount of concurrent tasks"
+				"the quantum computer is able to run. There are two variations, with 128M and 256M of capacity."
+			]
+			id: "708A8EE4003527AA"
+			rewards: [{
+				id: "3BB9A87813CF705D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E6D73FCF5C933F9"
+				item: "advanced_ae:quantum_storage_256"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"Similarly to the Data Entanglers, multi-threaders enable accelerators to run extra threads in separate dimensions,"
+				"multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock."
+			]
+			id: "7DE2FEBE02560702"
+			rewards: [{
+				id: "2900E6246AA6B764"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0135F21D4A92C49F"
+				item: "advanced_ae:quantum_multi_threader"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"Quantum accelerators add 8 co-processors to the Quantum Computer multiblock. It's important to note that all crafting"
+				"patterns being run by the quantum computer are able to share all co-processors, so it's probably a good idea to invest"
+				"in a great amount of these."
+			]
+			id: "4152E1E0FC91E6EE"
+			rewards: [{
+				id: "1847908CBE9D3CC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A9F34A5406846FE"
+				item: "advanced_ae:quantum_accelerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: [
+				"These blocks provide the framing of the quantum computer. They are used as a building block for the quantum computer and"
+				"connect everything together."
+			]
+			id: "41C732DD2D98EF11"
+			rewards: [{
+				id: "6F8DCA7547844458"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17A98DC27E2B670A"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206F3B740A6C472D"]
+			description: ["If you built a larger multiblock than you have resources to fill all the empty slots, these blocks can be used on the inside for no addition benefit."]
+			id: "3B75D3A10FA32C5F"
+			rewards: [{
+				id: "48B5533178A7CE53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "535CAD219FFEAF7E"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The quantum computer is a special kind of crafting computer. "
+				""
+				"It is capable of running an unlimited amount of crafting requests, as long as it has enough crafting storage."
+				""
+				"To create a multiblock quantum computer, some rules must be followed:"
+				"- The maximum size is 7x7x7 (external dimensions);"
+				"- No empty spaces can be present inside the multiblock. "
+				"     They can be filled with Quantum Unit for no additional benefits;"
+				"- Exactly one Quantum Core;"
+				"- At most one Quantum Data Entangler;"
+				"- At most one Quantum Multi-threader;"
+				"- All blocks on the outside layer must be Quantum Structure;"
+				"- No block on the inside can be Quantum Structure."
+			]
+			id: "206F3B740A6C472D"
+			min_width: 500
+			rewards: [{
+				id: "4D616D518B0258FC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "58D5200A39F53B58"
+				title: "Quantum Crafting"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 	title: "Advance AE"

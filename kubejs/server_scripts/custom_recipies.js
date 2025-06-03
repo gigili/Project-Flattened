@@ -19,19 +19,19 @@ ServerEvents.recipes(event => {
         }
     ).id('gac:kjs/minecraft/sticks');
     
-    event.shaped(
-        Item.of('projectexpansion:transmutation_interface', 1),
-        [
-            'DOD',
-            'OMO',
-            'DOD'
-        ],
-        {
-            D: 'projecte:dark_matter',
-            O: 'projecte:dark_matter_block',
-            M: 'projecte:condenser_mk1'
-        }
-    ).id("gac:kjs/projectexpansion/transmutation_interface");
+    // event.shaped(
+    //     Item.of('projectexpansion:transmutation_interface', 1),
+    //     [
+    //         'DOD',
+    //         'OMO',
+    //         'DOD'
+    //     ],
+    //     {
+    //         D: 'projecte:dark_matter',
+    //         O: 'projecte:dark_matter_block',
+    //         M: 'projecte:condenser_mk1'
+    //     }
+    // ).id("gac:kjs/projectexpansion/transmutation_interface");
 
     event.smelting('1x powah:uraninite', 'powah:uraninite_raw').xp(0.7).id("gac:kjs/powah/uraninite");
     event.shapeless(Item.of('minecraft:firework_star'), ['minecraft:gunpowder', '#forge:dyes', 'minecraft:gold_nugget']).id("gac:kjs/minecraft/firwork_star");
@@ -50,4 +50,23 @@ ServerEvents.recipes(event => {
             G: 'cobblefordays:tier_1'
         }
     ).id('gac:kjs/cobblefordays/tier_2');
+
+    event.shaped(
+        Item.of('projectexpansion:transmutation_interface'),
+        [
+            'PHV',
+            'BIC',
+            'LHY'
+        ],
+        {
+            P: "projectexpansion:purple_matter",
+            H: "create_enchantment_industry:hyper_experience_bottle",
+            V: "projectexpansion:violet_matter",
+            B: "projectexpansion:blue_matter",
+            C: "projectexpansion:cyan_matter",
+            L: "projectexpansion:lime_matter",
+            Y: "projectexpansion:yellow_matter",
+            I: "ae2:interface",
+        }
+    ).id("gac:kjs/transmutation_interface");
 });

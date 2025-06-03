@@ -106,7 +106,6 @@
 		{ count: 15, item: "minecraft:honeycomb" }
 		{ count: 6, item: "minecraft:lodestone", weight: 0.03f }
 		{ count: 36, item: "powah:reactor_blazing", weight: 0.08f }
-		{ count: 36, item: "powah:reactor_nitro", weight: 0.01f }
 	]
 	title: "Random Reward"
 }

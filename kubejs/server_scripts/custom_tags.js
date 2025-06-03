@@ -43,6 +43,17 @@ ServerEvents.tags('item', event => {
         '#forge:tools',
         '@ironfurnaces',
         '@ironjetpacks',
+        '#forge:raw_materials',
+        'minecraft:netherite_scrap',
+        '#forge:dusts',
+        'minecraft:diamond',
+        'minecraft:emerald',
+        'mob_grinding_utils:dragon_muffler',
+        'mob_grinding_utils:mob_swab',
+        '#c:glass_blocks',
+        '#forge:nether_stars',
+        '#forge:gems/lapis',
+        'minecraft:quartz',
     ];
 
    

@@ -68,7 +68,6 @@
         {
           "function": "tombstone:enchanted_equipment",
           "type": 0,
-          "onlyVanilla": false,
           "enchantedChance": 50,
           "randomEnchantibility": 60
         }
@@ -82,7 +81,6 @@
         {
           "function": "tombstone:enchanted_equipment",
           "type": 2,
-          "onlyVanilla": false,
           "enchantedChance": 50,
           "randomEnchantibility": 60
         }
@@ -96,7 +94,6 @@
         {
           "function": "tombstone:enchanted_equipment",
           "type": 1,
-          "onlyVanilla": false,
           "enchantedChance": 50,
           "randomEnchantibility": 60
         }

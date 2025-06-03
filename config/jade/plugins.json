@@ -126,6 +126,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "projecte": {
     "emc_provider": true
   },
