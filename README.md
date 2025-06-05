@@ -22,3 +22,5 @@ When reporting an issue put the version number before the issue title! For examp
 Have suggestions?
 ======
 If you have any suggestions that you think can improve the modpack, open an issue for it and lets have a disucssion about it. 
+
+Or join the discord server: https://discord.gg/7maXVvt2c4
