@@ -523,7 +523,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["4F1883FA9251CB9E"]
+			dependencies: [
+				"4F1883FA9251CB9E"
+				"350308B2EDAF4C1A"
+			]
 			id: "3F8CF1A24C224555"
 			rewards: [
 				{
@@ -557,7 +560,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["4F1883FA9251CB9E"]
+			dependencies: [
+				"4F1883FA9251CB9E"
+				"350308B2EDAF4C1A"
+			]
 			id: "0A5A6C4FBD12C5FF"
 			rewards: [
 				{
@@ -589,17 +595,12 @@
 		{
 			dependencies: [
 				"7A5975BFBA56B5B3"
-				"4F1883FA9251CB9E"
+				"0E004D0F1F5B6791"
 			]
 			id: "0BCCEECDCABB3BE9"
 			rewards: [
 				{
 					id: "514C5F84FAB12943"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "137BC600EC9F01E2"
 					type: "xp"
 					xp: 100
 				}
@@ -639,7 +640,7 @@
 				}
 			]
 			x: 1.0d
-			y: 11.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["37FB9846B1FCF46C"]
@@ -669,10 +670,10 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
-			dependencies: ["0BCCEECDCABB3BE9"]
+			dependencies: ["4F1883FA9251CB9E"]
 			id: "7C7AE98D3F5B86C4"
 			rewards: [
 				{
@@ -699,7 +700,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -732,7 +733,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7C7AE98D3F5B86C4"]
@@ -762,10 +763,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["7C7AE98D3F5B86C4"]
+			dependencies: [
+				"7C7AE98D3F5B86C4"
+				"350308B2EDAF4C1A"
+			]
 			id: "0E004D0F1F5B6791"
 			rewards: [
 				{
@@ -792,7 +796,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			id: "0D718C71ED4FE4A6"
@@ -1041,7 +1045,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["10777B3F9F21FF18"]
@@ -1229,7 +1233,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 16.0d
+			y: 15.5d
 		}
 	]
 	title: "Getting Resources"

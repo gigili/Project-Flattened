@@ -8,21 +8,22 @@
 	id: "505739E542388F33"
 	images: [
 		{
-			height: 5.4638403990024935d
-			hover: ["Basic sifter automation"]
-			image: "prf:textures/quest/basic_sift_automation.png"
-			rotation: 0.0d
-			width: 7.0d
-			x: 11.5d
-			y: 7.5d
-		}
-		{
 			height: 4.0d
+			hover: ["Basic Mechanical Drill Automation"]
 			image: "prf:textures/quest/drill_automation.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 7.5d
-			y: 1.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			hover: ["Basic Lava Automation"]
+			image: "prf:textures/quest/lava-gen.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 4.0d
 		}
 	]
 	order_index: 0
@@ -302,7 +303,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
@@ -319,7 +320,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
@@ -336,7 +337,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7D4528CC5B000A1E"]
@@ -1158,6 +1159,66 @@
 			}]
 			x: 4.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			description: [
+				"Lava is dangerous—but also renewable with the right setup!"
+				"Place a source block of lava on top of a solid block, then hang a pointed dripstone underneath it. Below that, place a cauldron."
+				""
+				"Over time, the lava will begin to drip through the dripstone, and the cauldron will slowly fill with lava. Once full, you can scoop it up with a bucket—effectively turning one lava source into many."
+				""
+				"It’s slow, but it’s infinite and fully automatable!"
+				""
+				"&lVisual tip:&r "
+				"Check the image on the right for how to set it up properly."
+			]
+			id: "408FD37DDB51F7EA"
+			rewards: [
+				{
+					id: "2D4C69265B815A99"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B40AD3F9D9C2DFB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7606C1467D540290"
+				item: "minecraft:pointed_dripstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["408FD37DDB51F7EA"]
+			id: "5AE8C8B8DD5633B9"
+			rewards: [
+				{
+					id: "15803D06E6F00F2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0628BAFB9466FA0B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "52A216AF6F3CC831"
+				item: { Count: 2, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
 		}
 	]
 	title: "Basics"

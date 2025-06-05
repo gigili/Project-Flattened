@@ -5,6 +5,16 @@
 	filename: "welcome"
 	group: ""
 	id: "69CAFF12F4782D6E"
+	images: [{
+		click: "https://discord.gg/7maXVvt2c4"
+		height: 2.0d
+		hover: ["Join The Discord"]
+		image: "supplementaries:textures/gui/book/icon/discord.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -2.0d
+		y: -5.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
