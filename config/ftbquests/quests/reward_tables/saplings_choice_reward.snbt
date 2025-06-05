@@ -10,6 +10,7 @@
 		{ count: 2, item: "minecraft:acacia_sapling" }
 		{ count: 4, item: "minecraft:dark_oak_sapling" }
 		{ count: 2, item: "minecraft:cherry_sapling" }
+		{ count: 2, item: "minecraft:mangrove_propagule" }
 	]
 	title: "Saplings Choice Reward"
 }

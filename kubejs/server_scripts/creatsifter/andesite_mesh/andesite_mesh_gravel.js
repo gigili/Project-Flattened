@@ -13,35 +13,35 @@ ServerEvents.recipes(event => {
     "results": [
       {
         "item": "create:copper_nugget",
-        "chance": 0.10
+        "chance": 0.20
       },
       {
         "item": "create:zinc_nugget",
-        "chance": 0.10
+        "chance": 0.20
       },
       {
         "item": "minecraft:iron_nugget",
-        "chance": 0.10
+        "chance": 0.20
       },
       {
         "item": "minecraft:gold_nugget",
-        "chance": 0.10
+        "chance": 0.20
       },
       {
         "item": "minecraft:coal",
-        "chance": 0.15
+        "chance": 0.25
       },
       {
         "item": "minecraft:flint",
-        "chance": 0.15
+        "chance": 0.10
       },
       {
         "item": "minecraft:diamond",
-        "chance": 0.01
+        "chance": 0.02
       },
       {
         "item": "minecraft:emerald",
-        "chance": 0.01
+        "chance": 0.02
       },
       {
         "item": "minecraft:pointed_dripstone",

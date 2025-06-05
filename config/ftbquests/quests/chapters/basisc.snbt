@@ -4,16 +4,27 @@
 	default_quest_shape: ""
 	filename: "basisc"
 	group: "162F89E02DC7B00D"
+	icon: "minecraft:crafting_table"
 	id: "505739E542388F33"
-	images: [{
-		height: 5.4638403990024935d
-		hover: ["Basic sifter automation"]
-		image: "prf:textures/quest/basic_sift_automation.png"
-		rotation: 0.0d
-		width: 7.0d
-		x: 10.0d
-		y: 5.0d
-	}]
+	images: [
+		{
+			height: 5.4638403990024935d
+			hover: ["Basic sifter automation"]
+			image: "prf:textures/quest/basic_sift_automation.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 4.0d
+			image: "prf:textures/quest/drill_automation.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: 1.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -1113,6 +1124,40 @@
 			}]
 			x: 21.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["16859CEB4147AFDD"]
+			description: [
+				"With mechanical drills, you can easily automate the breaking of ores from the custom cobblestone generator."
+				""
+				"This allows you to focus on other tasks while ores are mined in the background."
+				""
+				"With a bit of help from some fans and either water or lava, you can even automate the processing as well."
+				""
+				"Mechanical drills can also be enchanted to yield more resources as they mine."
+			]
+			id: "655A152E207E2549"
+			rewards: [
+				{
+					id: "4C890886F27E15A7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DAABE71DD86F6CD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			subtitle: "Automation Begins"
+			tasks: [{
+				id: "6C24847180C997E2"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	title: "Basics"

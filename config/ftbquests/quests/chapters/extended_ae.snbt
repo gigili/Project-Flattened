@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "extended_ae"
 	group: "782DA214CA056142"
+	icon: "expatternprovider:ex_pattern_provider"
 	id: "39B706A21449B8FB"
 	images: [{
 		height: 8.0d

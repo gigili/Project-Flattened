@@ -69,4 +69,19 @@ ServerEvents.recipes(event => {
             I: "ae2:interface",
         }
     ).id("gac:kjs/transmutation_interface");
+
+    event.shaped(
+        Item.of('tiab:time_in_a_bottle'),
+        [
+            'NNN',
+            'DCD',
+            'NGN'
+        ],
+        {
+            N: "minecraft:netherite_ingot",
+            D: "minecraft:diamond",
+            C: "minecraft:clock",
+            G: "minecraft:glass_bottle"
+        }
+    ).id("gac:kjs/tiab");
 });

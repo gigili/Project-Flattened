@@ -3,10 +3,10 @@
 	loot_size: 1
 	order_index: 3
 	rewards: [
-		{ count: 16, item: "powah:dielectric_paste" }
-		{ count: 16, item: "powah:dielectric_rod" }
-		{ count: 16, item: "powah:dielectric_rod_horizontal" }
-		{ count: 3, item: "powah:dielectric_casing" }
+		{ count: 16, item: "powah:dielectric_paste", weight: 1.5f }
+		{ count: 16, item: "powah:dielectric_rod", weight: 1.5f }
+		{ count: 16, item: "powah:dielectric_rod_horizontal", weight: 1.4f }
+		{ count: 3, item: "powah:dielectric_casing", weight: 0.8f }
 		{ count: 10, item: "powah:uraninite" }
 		{
 			count: 2
@@ -74,8 +74,6 @@
 		{ count: 3, item: "powah:ender_gate_nitro", weight: 0.3f }
 		{ count: 4, item: "powah:energizing_rod_starter" }
 		{ count: 4, item: "powah:energizing_rod_hardened", weight: 0.8f }
-		{ item: "powah:energizing_rod_nitro", weight: 0.6f }
-		{ item: "powah:energizing_rod_niotic", weight: 0.3f }
 		{ count: 6, item: "powah:thermoelectric_plate" }
 		{ count: 6, item: "powah:photoelectric_pane" }
 		{ count: 10, item: "powah:capacitor_basic" }

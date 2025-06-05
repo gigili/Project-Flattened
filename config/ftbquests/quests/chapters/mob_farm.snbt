@@ -5,7 +5,41 @@
 	group: "162F89E02DC7B00D"
 	icon: "mob_grinding_utils:golden_egg"
 	id: "05A3AA0CE326DA27"
-	order_index: 2
+	images: [
+		{
+			height: 5.0d
+			image: "hostilenetworks:block/simulation_chamber_north"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/deep_learner"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/blank_data_model"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/prediction_matrix"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.5d
+		}
+	]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -312,6 +346,255 @@
 			}]
 			x: -6.0d
 			y: 8.5d
+		}
+		{
+			description: [
+				"The Deep Mob Learner is the heart of Hostile Neural Networks. "
+				""
+				"It allows you to “teach” a neural network how to fight mobs by feeding it data from their defeats."
+				""
+				"To begin, you'll need to craft a Deep Mob Learner and a Data Model. "
+				""
+				"Right click with an empty Model Framework on a mob you would like to sample. "
+				""
+				"Insert the Model Framework into the learner and start collecting “mob data” by killing that specific mob while holding the learner."
+				""
+				"As you gain data, the model levels up, improving the loot you’ll receive from simulation and real combat. "
+				""
+				"Once you're ready, use the Simulation Chamber to farm resources virtually—no need to risk your life!"
+			]
+			id: "57BE45BA2CE9042C"
+			rewards: [
+				{
+					id: "6EFE44E2D34954B2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D33A6B02DDC9E79"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "606F335855135BE5"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57BE45BA2CE9042C"]
+			description: [
+				"Before your Deep Mob Learner can begin its training, it needs a Model Framework—the foundation for any learning process. "
+				""
+				"This item, is a blank slate ready to be imprinted with knowledge of a specific mob."
+				""
+				"Crafting a Model Framework is the first step toward automated mob drops and powerful resource generation. "
+				""
+				"Once crafted, right click the desired mob to tune your Model Framework to that specific mob. "
+				""
+				"Place the tuned Model Framework into the Deep Learner and start killing that mob."
+				""
+				"The more mobs of that type that you kill, the more advanced the Model Framework model become, having a higher chance to produce a prediction."
+			]
+			id: "734B62FFB0A76667"
+			rewards: [
+				{
+					id: "1F3E811E66776DB7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EC845E7483C836"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "135B6FCECC0A456B"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57BE45BA2CE9042C"]
+			description: [
+				"To simulate mobs and generate their valuable drops without ever swinging a sword, you'll need a Prediction Matrix. "
+				""
+				"This is the fuel that powers the Simulation Chamber, allowing it to run virtual encounters using your trained Model Frameworks."
+				""
+				"You’ll go through these quickly during large-scale automation, so set up a crafting or automation system to keep them flowing."
+			]
+			id: "03139B2BF7272162"
+			rewards: [
+				{
+					id: "74C07230B9A5B263"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0839B9A4E8E3DE41"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44FB54A4056900CB"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"734B62FFB0A76667"
+				"03139B2BF7272162"
+			]
+			description: [
+				"The Simulation Chamber is where the magic of Hostile Neural Networks truly begins. "
+				""
+				"By combining a trained Model Framework with Prediction Matrices, you can simulate mob encounters—no danger involved!"
+				""
+				"While working the machine can produce either a mob prediction or a generalized prediction."
+				""
+				"Mob prediction means that the simulation of a kill of that mob was a success and a generalized one means it failed.  "
+				""
+				"Higher tier of Model Frameworks have less chances to produce generilized predictions."
+			]
+			id: "1D66A713030CA6AD"
+			rewards: [
+				{
+					id: "51DCCD3B755DD963"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5782210685E5983D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EEF5CF6962F12BA"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D66A713030CA6AD"]
+			description: [
+				"The Loot Fabricator turns pristine matter into real, usable mob drops of your choosing. "
+				""
+				"No need for messy mob farms—this machine lets you pick what you want and get it instantly."
+				""
+				"As long as you provide the some power and mob predictions."
+				""
+				"It’s especially useful for rare drops or hostile mobs that are difficult to farm normally."
+			]
+			id: "7C0B1AC784BFC9F1"
+			rewards: [
+				{
+					id: "514FB4AFDAA391CF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08D447CC85E506B6"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "18827CB2EC3F0790"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "4C4EB3F1156A367B"
+			rewards: [
+				{
+					id: "542A138BFD4C087C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F8F669C78E781F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A5DFA4343D3EECE"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "30C4FFA989245DF7"
+			rewards: [
+				{
+					id: "3CC999A2E2BA511E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "218618A98DC05A7B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31D74F87DDF2788F"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "799078D5586855D8"
+			rewards: [
+				{
+					id: "0D66280EC91EBC01"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "698E0FC74FFEA8B4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F2683B214A6FB88"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
 		}
 	]
 	title: "Mob Farm"

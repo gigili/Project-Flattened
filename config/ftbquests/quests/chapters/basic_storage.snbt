@@ -6,6 +6,15 @@
 	group: "44ABD0AE4A1EB8E0"
 	icon: "sophisticatedbackpacks:backpack"
 	id: "417F4CF6D77D14F2"
+	images: [{
+		height: 6.0d
+		hover: ["Compacting barrels"]
+		image: "prf:textures/quest/compacting-barrels.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: -15.0d
+		y: -1.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -617,6 +626,67 @@
 			}]
 			x: -3.5d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5DA8EC1F2B34A23D"
+				"4F48F14A04AB20C5"
+			]
+			id: "22DA4221DF45EB80"
+			rewards: [{
+				id: "359ECB9679653575"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "131FD18F29E79D9B"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			id: "5DA8EC1F2B34A23D"
+			rewards: [{
+				id: "4CA4A9DD56569F87"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7DA46D6F4644563A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_3"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			id: "4F48F14A04AB20C5"
+			rewards: [{
+				id: "546CCE96CB4D3013"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2E78DFCEE91A74A4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_2"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
 		}
 	]
 	title: "Basic storage"

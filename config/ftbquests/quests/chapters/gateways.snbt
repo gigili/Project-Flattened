@@ -3,8 +3,15 @@
 	default_quest_shape: ""
 	filename: "gateways"
 	group: "162F89E02DC7B00D"
+	icon: {
+		Count: 1
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:overworldian_nights"
+		}
+	}
 	id: "5419923CF5880079"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

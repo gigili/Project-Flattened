@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "advance_ae"
 	group: "782DA214CA056142"
+	icon: "advanced_ae:quantum_crafter"
 	id: "734FF8880FD759C2"
 	images: [{
 		height: 8.0d

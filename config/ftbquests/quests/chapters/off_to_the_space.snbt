@@ -395,7 +395,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4A0A57A3A31C83C7"]
+			dependencies: [
+				"4A0A57A3A31C83C7"
+				"4FB57523598E6147"
+			]
 			id: "55BD394C13B179D3"
 			rewards: [
 				{
@@ -650,6 +653,60 @@
 			}]
 			x: -0.5d
 			y: 2.0d
+		}
+		{
+			description: [
+				"By combining some coal and iron, I can create a new alloy."
+				""
+				"I always thought coal burned at a low temperature — turns out I was wrong."
+				""
+				"With this machine, I can now produce steel — one step closer to finding my way back home."
+			]
+			id: "0EB483660CD172C6"
+			tasks: [{
+				id: "077A4D1B175EA357"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0EB483660CD172C6"]
+			id: "2E2FDD0AA90FBC5B"
+			tasks: [{
+				id: "72D7CD37E4A0AED9"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2E2FDD0AA90FBC5B"
+				"54EA5FFB6F99471B"
+			]
+			id: "4FB57523598E6147"
+			tasks: [{
+				id: "72574E36C2E54FF1"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E2FDD0AA90FBC5B"]
+			description: ["I can use this compressor to turn ingots into plates."]
+			id: "54EA5FFB6F99471B"
+			tasks: [{
+				id: "166FA2E7B139F8D0"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 	title: "Off to the space"

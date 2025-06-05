@@ -5,6 +5,24 @@
 	group: "782DA214CA056142"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
+	images: [
+		{
+			height: 3.5d
+			image: "prf:textures/quest/annihilation_plane_automation.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 3.5d
+			image: "prf:textures/quest/annihilation_plane_automation_modifier.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 13.0d
+			y: 7.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -728,6 +746,44 @@
 			}]
 			x: 0.0d
 			y: 7.0d
+		}
+		{
+			description: [
+				"You can also automate ore mining using an Annihilation Plane, offering a sleek and powerful alternative to mechanical drills."
+				""
+				"When placed next to a custom cobblestone generator, the Annihilation Plane will instantly break any generated blocks, automatically collecting the drops into your storage system — no moving parts required."
+				""
+				"Even better, the Annihilation Plane supports enchantments, allowing you to boost its efficiency. Add enchantments like Fortune to increase the number of resources gained per operation, or Silk Touch if you need specific block types."
+				""
+				"With the right setup, this method provides a fully automated, enchantment-enhanced mining solution that runs silently and efficiently in the background."
+			]
+			id: "2FEBD310E08EA9E8"
+			rewards: [
+				{
+					id: "5D93146D3FBAF5C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AF1FECC39F93A5E"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8BC0BD9C2B415B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79245338379AEDCB"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
 		}
 	]
 	title: "Applied Energistics 2"

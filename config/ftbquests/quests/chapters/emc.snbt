@@ -4,6 +4,14 @@
 	default_quest_shape: ""
 	filename: "emc"
 	group: "471350D4E8C923E3"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
 	id: "7AAE526BD8DA2B8F"
 	images: [
 		{
@@ -187,6 +195,15 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"A mysterious relic, brimming with power. "
+				""
+				"The Philosopher's Stone is your gateway to alchemical mastery."
+				""
+				"It can transmute basic materials, convert fuels, and is essential for crafting higher-tier alchemical devices."
+				""
+				"Experiment with it in your inventory, on a crafting table, or even in-world. You'll be surprised at how many recipes it can unlock."
+			]
 			id: "53F45CFF8F29FDD7"
 			rewards: [
 				{
@@ -217,6 +234,17 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"The Transmutation Table is the core of ProjectE’s alchemy system."
+				""
+				"It lets you store and convert items based on their EMC value — an energy-based currency of matter."
+				""
+				"Feed it items to learn their EMC, then exchange any learned item for another, as long as you have enough EMC."
+				""
+				"No more overflowing chests — your resources are now pure energy."
+				""
+				"Tip: Pair this with energy/fuel generation for unlimited item access."
+			]
 			id: "47E069C0BF647FD1"
 			rewards: [
 				{
@@ -240,6 +268,17 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"The Portable Transmutation Tablet brings the power of the Transmutation Table to your hands — anytime, anywhere."
+				""
+				"No need to run back to your base; open your tablet and transmute on the go."
+				""
+				""
+				"Perfect for adventuring, building, or managing resources while off exploring."
+				""
+				""
+				"Unlocks: Total freedom in resource management."
+			]
 			id: "0C0108BF6047A6AD"
 			rewards: [
 				{

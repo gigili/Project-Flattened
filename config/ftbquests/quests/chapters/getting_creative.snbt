@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "getting_creative"
 	group: "56376ED72E30BD44"
+	icon: "create:creative_blaze_cake"
 	id: "0987B847EBE47793"
 	order_index: 2
 	quest_links: [ ]

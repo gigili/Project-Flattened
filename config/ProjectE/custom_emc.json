@@ -39,6 +39,18 @@
     {
       "item": "projecte:medium_covalence_dust",
       "emc": 128
+    },
+    {
+      "item": "projecte:high_covalence_dust",
+      "emc": 128
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 50000
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 70000
     }
   ]
 }

@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "gadgets"
 	group: "510C0169E524C1AB"
+	icon: "buildinggadgets2:gadget_building"
 	id: "08923DA7CB45040A"
 	order_index: 0
 	quest_links: [ ]

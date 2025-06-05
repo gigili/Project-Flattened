@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "enchanting"
-	group: "416DAF767A084FBB"
+	group: "0A4DED039E5F38D7"
 	icon: "create_enchantment_industry:hyper_experience_bottle"
 	id: "0A1E92FFC8F18D8B"
 	images: [{
@@ -13,7 +13,7 @@
 		x: 11.0d
 		y: 1.0d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -107,6 +107,11 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"Hyper Experience is used for hyper or over-enchanting."
+				""
+				"In vanilla Minecraft, the highest level of the Looting enchantment is 3 — but with hyper enchanting, you can push it beyond that, reaching up to level 4."
+			]
 			id: "6EE05BF12DC2CEBA"
 			rewards: [
 				{
@@ -130,5 +135,5 @@
 			y: 5.0d
 		}
 	]
-	title: "Enchanting"
+	title: "Hyper Enchanting"
 }

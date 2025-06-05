@@ -137,6 +137,8 @@
 				""
 				"Thank you to &9robotliar&r for the house/factory schematic."
 				""
+				"Thank you to &5Nunbear&r and their community for their amazing feedback on quest and mods. "
+				""
 				"And a big thank you to all the mod authors out there because, without them, none of this would be possible."
 				""
 				"I hope you all live long and prosper <3."
@@ -166,6 +168,45 @@
 			}]
 			x: 2.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"- For multiplayer it is recommended to remove the schematics from the config/startstrucutes folder and only add a schematic to config/pf_schematics. "
+				""
+				"- There is a config file: config/projectflattenedutilities-common.toml "
+				"   Inside of  which you can whiteliste which players are allowed to use spawnHouse command"
+				""
+				"- /spawnHouse <fileName>"
+				"   Spawns a structure at the player's current location."
+				"   <fileName> is optional; defaults to default_base if not specified."
+				"   All .nbt files should be placed in: /config/pf_schematics"
+				"   This command can only be run once per player (unless reset with /clearHouse)."
+				""
+				"- /clearHouse [playerName]"
+				"  Resets a player’s ability to use /spawnHouse."
+				"  Requires permission level 2 or higher."
+				"  [playerName] is optional. If not provided, it applies to the executing player."
+				""
+				"- Checkout Project Flattened Utilities mod for more info"
+			]
+			id: "3E80EEB9AF3AB27B"
+			min_width: 470
+			rewards: [{
+				id: "1755CC8DC4B45694"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "Notes For Server Setup"
+			tasks: [{
+				id: "2A1B8F8A05FA852B"
+				title: "Security"
+				type: "checkmark"
+			}]
+			title: "Multiplayer"
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	title: "Welcome"

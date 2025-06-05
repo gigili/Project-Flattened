@@ -1,0 +1,92 @@
+{
+	id: "6E37533309F2D3F1"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 9, item: "create_connected:item_silo" }
+		{ count: 2, item: "create_connected:six_way_gearbox" }
+		{ count: 2, item: "create_connected:encased_chain_cogwheel" }
+		{ count: 6, item: "create:cogwheel", weight: 1.6f }
+		{ count: 6, item: "create:large_cogwheel", weight: 1.6f }
+		{ count: 16, item: "create:shaft", weight: 1.5f }
+		{ count: 4, item: "create:metal_bracket" }
+		{ count: 4, item: "create:chute" }
+		{ count: 2, item: "create:smart_chute", weight: 0.4f }
+		{ count: 2, item: "create:gearbox" }
+		{ count: 2, item: "create:water_wheel" }
+		{ item: "create:large_water_wheel" }
+		{ count: 6, item: "create:belt_connector" }
+		{ count: 3, item: "create:encased_chain_drive" }
+		{ item: "create:gearshift" }
+		{ item: "create:clutch" }
+		{ count: 9, item: "create:fluid_tank" }
+		{ count: 10, item: "create:piston_extension_pole" }
+		{ count: 9, item: "create:item_vault" }
+		{ count: 6, item: "create:fluid_pipe" }
+		{ count: 5, item: "create:andesite_casing" }
+		{ count: 5, item: "create:copper_casing" }
+		{ count: 3, item: "create:brass_casing", weight: 0.3f }
+		{ count: 2, item: "create:redstone_contact" }
+		{ item: "create:mechanical_mixer", weight: 0.4f }
+		{ item: "create:mechanical_press", weight: 0.4f }
+		{ count: 8, item: "create:rose_quartz" }
+		{ count: 2, item: "create:clipboard" }
+		{ count: 2, item: "create:andesite_tunnel" }
+		{ count: 4, item: "create:andesite_funnel" }
+		{ count: 2, item: "create:brass_funnel", weight: 0.3f }
+		{ count: 3, item: "create:item_hatch" }
+		{ item: "create:precision_mechanism", weight: 0.1f }
+		{
+			item: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.8f
+		}
+		{ count: 2, item: "create:brass_hand", weight: 0.3f }
+		{ count: 10, item: "create:andesite_scaffolding" }
+		{ count: 10, item: "create:metal_girder" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:orange_toolbox" }
+		{ count: 3, item: "create:industrial_iron_block" }
+		{ item: "create_connected:vertical_parallel_gearbox" }
+		{ item: "create:mechanical_drill", weight: 0.3f }
+		{ item: "create:millstone", weight: 0.4f }
+		{ count: 16, item: "create:experience_nugget", weight: 1.5f }
+		{ item: "create_connected:large_crank_wheel" }
+		{ item: "create_connected:empty_fan_catalyst" }
+		{ item: "create:blaze_burner", weight: 0.4f }
+		{ item: "create:fluid_valve" }
+		{ item: "create:mechanical_pump" }
+		{ item: "create:item_drain" }
+		{ item: "create:rotation_speed_controller", weight: 0.2f }
+		{ count: 3, item: "create:polished_rose_quartz" }
+		{ count: 16, item: "create:powdered_obsidian" }
+		{ count: 3, item: "create:analog_lever" }
+		{ count: 2, item: "create:chain_conveyor" }
+		{ item: "create:package_frogport", weight: 0.3f }
+		{ item: "create:stock_ticker", weight: 0.3f }
+		{ item: "create:stock_link", weight: 0.3f }
+		{ count: 16, item: "create:bar_of_chocolate" }
+		{ count: 16, item: "create:sweet_roll" }
+		{ count: 16, item: "create:dough" }
+		{ count: 16, item: "create:honeyed_apple" }
+		{ count: 4, item: "create:builders_tea" }
+		{ item: "create:filter", weight: 0.8f }
+		{ item: "create:portable_storage_interface" }
+		{ count: 3, item: "create:weathered_iron_block", weight: 0.9f }
+	]
+	title: "Create Reward"
+}

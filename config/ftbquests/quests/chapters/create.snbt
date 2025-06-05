@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: "416DAF767A084FBB"
+	group: "162F89E02DC7B00D"
 	icon: "create:wrench"
 	id: "2CF9385D09DDEBE2"
 	images: [
@@ -56,7 +56,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -72,6 +72,12 @@
 					exclude_from_claim_all: true
 					id: "11800FB0DABC6D5B"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B5AB919D1191F4C"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -99,6 +105,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7B1E90C5CBF7BDA1"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 8L
@@ -123,6 +135,12 @@
 					id: "5E1CD5D184D539E7"
 					item: "create:shaft"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32111FB8349754DE"
+					table_id: 7941907946566505457L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -149,6 +167,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "06DB004C6B92A49D"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "6CF5F38E2A9733C9"
@@ -171,6 +195,12 @@
 					exclude_from_claim_all: true
 					id: "63B17B01AA2435C5"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56D3212F97DC3825"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -197,6 +227,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7350AA38B6C545AE"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "7CBA8E40FBDC143E"
@@ -220,6 +256,12 @@
 					id: "22083DB6BD9D1E57"
 					item: "create:cogwheel"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F4F839C7B0D6215"
+					table_id: 7941907946566505457L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -246,6 +288,12 @@
 					item: "create:large_cogwheel"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5068D2BCC45EDC72"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 2L
@@ -269,6 +317,12 @@
 					exclude_from_claim_all: true
 					id: "57DCB38626222EC0"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322D5D738C453ACE"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -295,6 +349,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "130AF2D2472F3B6E"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "3E62164C2CDB1230"
@@ -317,6 +377,12 @@
 					exclude_from_claim_all: true
 					id: "6F4B76927F2F75F9"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76440D98CEA92FF7"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -343,6 +409,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "264FEC5355F7674F"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "6B4349C123C4FC3B"
@@ -367,6 +439,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "12587B47FAF4B95B"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "6395CE5921F2BD6C"
@@ -389,6 +467,12 @@
 					exclude_from_claim_all: true
 					id: "70803849A29B4743"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F741EAFCEC0E52F"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -419,6 +503,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3D4F8341A55C80FC"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "37A87919B1CD0038"
@@ -447,6 +537,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "65F1B489CF620DE4"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "5CF6B3A6FF29F3CB"
@@ -473,6 +569,12 @@
 					exclude_from_claim_all: true
 					id: "0F57467DD8482B1F"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54947AD9B72DBE5D"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -505,6 +607,12 @@
 					exclude_from_claim_all: true
 					id: "2DDACCE0F63CB010"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47584EDE9E1F0B5E"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -548,6 +656,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "16ACCAB98FF5EF9A"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "7E2BB414AE0C11EB"
@@ -572,6 +686,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "39F11C5C49EE34D1"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "42F811F1983F9AE8"
@@ -582,7 +702,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["7C7AE98D3F5B86C4"]
+			dependencies: [
+				"7C7AE98D3F5B86C4"
+				"1EA04D7E91AA4778"
+			]
 			id: "1DD3C0A27387D2BC"
 			rewards: [
 				{
@@ -594,6 +717,12 @@
 					exclude_from_claim_all: true
 					id: "2938293663767C35"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02459D4E924C346D"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -620,6 +749,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "02D872C5DCEED93E"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "24902860DC48901B"
@@ -642,6 +777,12 @@
 					exclude_from_claim_all: true
 					id: "18D05CABFA514599"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59BE35D165806032"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -667,6 +808,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "259D7C59C660DB0E"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "197E9398DA94BC43"
@@ -688,6 +835,12 @@
 					exclude_from_claim_all: true
 					id: "7E129F87D567DDF2"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "030335839681E817"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -712,6 +865,12 @@
 					exclude_from_claim_all: true
 					id: "50206A78279F3042"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1233AE8DAE55D68C"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -747,6 +906,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4AC1EEF91FC8E822"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "7A7AC97B5045E91C"
@@ -772,6 +937,12 @@
 					exclude_from_claim_all: true
 					id: "1C5D6ABC93DF2266"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B6EEC97BDB195A6"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -801,6 +972,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "17AB8EED2F0C1426"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 21L
@@ -826,6 +1003,12 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1983EE0FACA533B0"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 2L
@@ -839,11 +1022,19 @@
 		{
 			dependencies: ["350308B2EDAF4C1A"]
 			id: "39A84EF8F0D6E72E"
-			rewards: [{
-				id: "3BEC23B058B4B169"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3BEC23B058B4B169"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61028BEF176E06E4"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "530359F8275D47DE"
 				item: "create:brass_casing"
@@ -1003,20 +1194,42 @@
 			y: 5.5d
 		}
 		{
-			description: ["These can also be enchanted so you don't lose on your fortune if used for automation."]
-			id: "1E4056A5E8087DDA"
-			rewards: [{
-				id: "3DA4B38E730CF1AF"
-				type: "xp"
-				xp: 10
-			}]
+			description: [
+				"To fill your blaze burner you would need to go to the nether first and find a blaze there."
+				""
+				"Than you would right click on that blaze with your empty blaze burner to capture it."
+				""
+				"With this egg, you can spawn the blaze without having to go to the nether and look for one. "
+				""
+				"But sometimes exploration can be faster than automation or maybe more fun depending on your play style. "
+			]
+			id: "1EA04D7E91AA4778"
+			rewards: [
+				{
+					id: "758455590E5D50D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D5A6845D406565B"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38144A24CC8F08EB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
-				id: "414BBA0E468DBAEC"
-				item: "create:mechanical_drill"
+				id: "2C9297B392572A0F"
+				item: "minecraft:blaze_spawn_egg"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: -1.5d
+			y: 16.0d
 		}
 	]
 	title: "Getting Resources"

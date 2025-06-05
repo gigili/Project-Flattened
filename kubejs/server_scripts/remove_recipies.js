@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
         'cobblefordays:tier_2',
         'cobblefordays:tier_3', 
         'cobblefordays:tier_4', 
-        'cobblefordays:tier_5'
+        'cobblefordays:tier_5',
+        'tiab:time_in_a_bottle'
     ];
 
     const recipiesToRemoveById = [
