@@ -50,7 +50,6 @@ ServerEvents.tags('item', event => {
         'minecraft:emerald',
         'mob_grinding_utils:dragon_muffler',
         'mob_grinding_utils:mob_swab',
-        '#c:glass_blocks',
         '#forge:nether_stars',
         '#forge:gems/lapis',
         'minecraft:quartz',

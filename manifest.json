@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Project Flattened",
-  "version": "v1.0.7",
+  "version": "v1.0.9",
   "author": "",
   "files": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 6333474,
+      "fileID": 6622543,
       "required": true
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "projectID": 328085,
-      "fileID": 6323270,
+      "fileID": 6624074,
       "required": true
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       "projectID": 236307,
-      "fileID": 6602581,
+      "fileID": 6626193,
       "required": true
     },
     {
@@ -257,7 +257,12 @@
     },
     {
       "projectID": 950712,
-      "fileID": 5497444,
+      "fileID": 6624706,
+      "required": true
+    },
+    {
+      "projectID": 897858,
+      "fileID": 6527814,
       "required": true
     },
     {
@@ -268,6 +273,11 @@
     {
       "projectID": 325492,
       "fileID": 4573178,
+      "required": true
+    },
+    {
+      "projectID": 570630,
+      "fileID": 6508899,
       "required": true
     },
     {
@@ -307,7 +317,7 @@
     },
     {
       "projectID": 947914,
-      "fileID": 6600077,
+      "fileID": 6629584,
       "required": true
     },
     {
@@ -352,7 +362,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 6605410,
+      "fileID": 6629570,
       "required": true
     },
     {
@@ -443,6 +453,11 @@
     {
       "projectID": 349460,
       "fileID": 4653625,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 5057220,
       "required": true
     },
     {
@@ -586,13 +601,13 @@
       "required": true
     },
     {
-      "projectID": 250832,
-      "fileID": 6602224,
+      "projectID": 32274,
+      "fileID": 5789363,
       "required": true
     },
     {
-      "projectID": 32274,
-      "fileID": 5789363,
+      "projectID": 250832,
+      "fileID": 6602224,
       "required": true
     },
     {
@@ -681,13 +696,13 @@
       "required": true
     },
     {
-      "projectID": 431430,
-      "fileID": 4731559,
+      "projectID": 326041,
+      "fileID": 6195123,
       "required": true
     },
     {
-      "projectID": 326041,
-      "fileID": 6195123,
+      "projectID": 431430,
+      "fileID": 4731559,
       "required": true
     },
     {

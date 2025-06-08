@@ -61,10 +61,10 @@
 		{ count: 12, item: "minecraft:spectral_arrow" }
 		{ count: 20, item: "minecraft:bone" }
 		{ count: 8, item: "minecraft:saddle", weight: 0.06f }
-		{ item: "minecraft:heart_of_the_sea", weight: 0.03f }
+		{ item: "minecraft:heart_of_the_sea", weight: 0.05f }
 		{ count: 6, item: "minecraft:nautilus_shell", weight: 0.05f }
 		{ count: 6, item: "minecraft:phantom_membrane", weight: 0.22f }
-		{ count: 4, item: "minecraft:chorus_fruit" }
+		{ count: 4, item: "minecraft:chorus_fruit", weight: 0.9f }
 		{ count: 12, item: "minecraft:obsidian", weight: 0.06f }
 		{ count: 4, item: "minecraft:shulker_box", weight: 0.02f }
 		{

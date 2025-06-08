@@ -64,7 +64,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["73DB403DDC0C7A4B"]
+			dependencies: [
+				"73DB403DDC0C7A4B"
+				"08E9A71BCACB3975"
+			]
 			id: "670C6CB131784772"
 			tasks: [{
 				count: 4L
@@ -315,7 +318,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7081493F6C3F3C0E"]

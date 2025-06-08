@@ -16,6 +16,10 @@ ServerEvents.recipes(event => {
         "chance": 0.15
       },
       {
+        "item": "minecraft:bamboo",
+        "chance": 0.15
+      },
+      {
         "item": "minecraft:cactus",
         "chance": 0.15
       },

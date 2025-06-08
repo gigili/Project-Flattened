@@ -334,14 +334,14 @@
 					type: "item"
 				}
 				{
-					id: "54584D14CAE4E729"
+					id: "551849FC3F1666F4"
 					item: {
 						Count: 1
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								"#c": "ae2:i"
-								id: "minecraft:cobblestone"
+								"#c": "ae2:f"
+								id: "minecraft:lava"
 							}
 						}
 					}

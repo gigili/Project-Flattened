@@ -10,6 +10,31 @@
 	quests: [
 		{
 			id: "14C963E21291E016"
+			rewards: [
+				{
+					id: "73DBA182BBEA7F7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04DA74F6BA858832"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1298FA1907D3E3AF"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11D6E101F2E3CDF0"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0155FFEF5BD1D5B1"
 				item: "powah:energy_cell_creative"
@@ -20,11 +45,31 @@
 		}
 		{
 			id: "45B8B048BE6DFA3D"
-			rewards: [{
-				id: "31471610BBB7BB0A"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					id: "3A15EAF782BDEAF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36AF2313D781EA17"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54AEAEBE65683758"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "754D234B7EF7CFEA"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "4267F202185F9148"
@@ -83,6 +128,31 @@
 		}
 		{
 			id: "530DBAEC5F3E0BE1"
+			rewards: [
+				{
+					id: "40526E030E2C6B59"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "535BEC7798160A54"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "176A86FA4C5AC288"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10036AE32707F789"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4B94014852BC97FD"
 				item: "create:creative_blaze_cake"
@@ -93,6 +163,31 @@
 		}
 		{
 			id: "6C12CC0CFEBB4F00"
+			rewards: [
+				{
+					id: "4012599DF76CBD1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B6FDCE97C4DFD9A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FB8F9B65E616721"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E01B8188EE72333"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5FF382E206D0BC11"
 				item: "ae2:creative_item_cell"
@@ -103,6 +198,31 @@
 		}
 		{
 			id: "1C3765064A82EBCF"
+			rewards: [
+				{
+					id: "136258CCA1EDC7CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3190F12618B5A6B2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6434F17348CAE57C"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D722B43E11D6230"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "20DFD9C04236A28D"
 				item: "ae2:creative_energy_cell"
@@ -113,6 +233,31 @@
 		}
 		{
 			id: "0C740C68CE6277C6"
+			rewards: [
+				{
+					id: "7EBC053D4A45E1C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F58C90F5BA7D2EC"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19D8F242312054F3"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24EDC5A5B8FA2C0B"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			subtitle: "WIP"
 			tasks: [{
 				id: "424861E8E633D12E"
@@ -125,6 +270,31 @@
 		{
 			description: ["Using this tool, you can bring back mountains and create more amazing scenery instead of just looking at a flat world."]
 			id: "7E9107E54A96F8F6"
+			rewards: [
+				{
+					id: "4AFED31E6FAC2C7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60341F6A2822BD4E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01D75BDDBF0DE880"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD4A9D16B2CD289"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
 			subtitle: "Shape The World"
 			tasks: [{
 				id: "5B0125212B16814C"

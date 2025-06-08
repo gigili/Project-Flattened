@@ -223,7 +223,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["59CA0C1CC461554A"]
+			dependencies: [
+				"59CA0C1CC461554A"
+				"0AF509E6468C9DF8"
+			]
 			id: "265D5C5C80AFD782"
 			rewards: [
 				{
@@ -250,10 +253,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["717AC091878735FC"]
+			dependencies: [
+				"717AC091878735FC"
+				"0AF509E6468C9DF8"
+			]
 			id: "39793DBCED14377F"
 			rewards: [
 				{
@@ -280,10 +286,13 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["56ABD5F88B39AD41"]
+			dependencies: [
+				"56ABD5F88B39AD41"
+				"0AF509E6468C9DF8"
+			]
 			id: "0841B184592D6251"
 			rewards: [
 				{
@@ -310,10 +319,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["582CDF638D8482EB"]
+			dependencies: [
+				"582CDF638D8482EB"
+				"0AF509E6468C9DF8"
+			]
 			id: "2EE8E2A498A49540"
 			rewards: [
 				{
@@ -340,7 +352,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0ADCC6B7F46610D8"]
@@ -485,38 +497,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4967CA26BDCFD362"]
-			id: "31656424ABB52468"
-			rewards: [
-				{
-					id: "727805C94BFAB7E7"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "212CB01DBF076785"
-					table_id: 6510593964462044032L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "21DE9AA74B23E681"
-					item: "ad_astra:ostrum_ingot"
-					type: "item"
-				}
-				{
-					id: "0077872F538FEBC0"
-					item: "ad_astra:ostrum_plate"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["31656424ABB52468"]
+			dependencies: ["0AF509E6468C9DF8"]
 			id: "716B20CA9E9FD11D"
 			rewards: [
 				{
@@ -707,6 +688,37 @@
 			}]
 			x: -1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4967CA26BDCFD362"]
+			id: "0AF509E6468C9DF8"
+			rewards: [
+				{
+					id: "07533954041F3757"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "228FA8FAFEB9CC59"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "79917AED043116D8"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "7FAFBCCA2FC85EAC"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.0d
 		}
 	]
 	title: "Off to the space"

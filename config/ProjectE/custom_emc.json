@@ -51,6 +51,26 @@
     {
       "item": "projecte:dark_matter",
       "emc": 70000
+    },
+    {
+      "item": "minecraft:glass_pane",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:brick",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:bricks",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:stone_bricks",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:ender_eye",
+      "emc": 1024
     }
   ]
 }

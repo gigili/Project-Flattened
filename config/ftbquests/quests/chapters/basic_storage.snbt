@@ -31,7 +31,7 @@
 					Count: 1
 					id: "sophisticatedstorage:chest"
 					tag: {
-						woodType: "oak"
+						woodType: ""
 					}
 				}
 				type: "item"
@@ -298,7 +298,11 @@
 			id: "36E35992A4227496"
 			tasks: [{
 				id: "79B88D2CD0D0D544"
-				item: "sophisticatedbackpacks:backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -7.0d
@@ -306,9 +310,7 @@
 		}
 		{
 			dependencies: ["36E35992A4227496"]
-			hide_until_deps_visible: true
 			id: "2AC2893B64BFEB2C"
-			invisible: true
 			tasks: [{
 				id: "4EC81544127E0A92"
 				item: "sophisticatedbackpacks:upgrade_base"

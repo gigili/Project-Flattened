@@ -703,10 +703,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"7C7AE98D3F5B86C4"
-				"1EA04D7E91AA4778"
-			]
+			dependencies: ["7C7AE98D3F5B86C4"]
 			id: "1DD3C0A27387D2BC"
 			rewards: [
 				{
@@ -1208,6 +1205,7 @@
 				"But sometimes exploration can be faster than automation or maybe more fun depending on your play style. "
 			]
 			id: "1EA04D7E91AA4778"
+			optional: true
 			rewards: [
 				{
 					id: "758455590E5D50D9"
