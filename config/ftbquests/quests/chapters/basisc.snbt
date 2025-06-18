@@ -225,15 +225,15 @@
 			id: "7A5975BFBA56B5B3"
 			rewards: [
 				{
-					id: "1463094223870FC0"
+					id: "1AB2F51DC84C4C2B"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2DF85E2EAE7B3204"
+					id: "28BC9A56A6847E49"
 					table_id: 6510593964462044032L
-					type: "loot"
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -249,12 +249,25 @@
 			dependencies: ["7A5975BFBA56B5B3"]
 			description: ["Sand can be obtained by using a Create mill or Crushing Wheels to crush gravel into sand."]
 			id: "39504796BEBD1BB7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5EC83775392031A9"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "344339419FA5E0DF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45CBF756EA2D1F83"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "1D4847055C4332B8"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "600BA75BBB49B259"
 				item: "minecraft:sand"
@@ -269,15 +282,21 @@
 			id: "7D4528CC5B000A1E"
 			rewards: [
 				{
-					id: "3FB26E58BFE8622D"
+					id: "589137AD1CB88AA8"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "521741056B68892C"
+					id: "72798BC8FD1994DE"
 					table_id: 6510593964462044032L
 					type: "random"
+				}
+				{
+					count: 64
+					id: "36B6FE0A848075D1"
+					item: "createsifter:dust"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -291,12 +310,19 @@
 		{
 			dependencies: ["39504796BEBD1BB7"]
 			id: "721F35E5FFFE6D6C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "12D742A2DAC93BF6"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7FCEBE6257438212"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09EAC9B8B69483DF"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6219AB951B92D13C"
 				item: "minecraft:redstone"
@@ -308,12 +334,19 @@
 		{
 			dependencies: ["39504796BEBD1BB7"]
 			id: "43EA31B5C2491786"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2509F06B19E33809"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "7E16EB89A6286E26"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53A182E3935388E7"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2FD476EBF08F2EF1"
 				item: "minecraft:glowstone_dust"
@@ -325,12 +358,19 @@
 		{
 			dependencies: ["39504796BEBD1BB7"]
 			id: "19FCE5794F33123B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "045252F88F9F5DF2"
-				table_id: 6510593964462044032L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "2BD0F80EF41CF720"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "715BDC34D0C1D334"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6FD509129EA68460"
 				item: "minecraft:bone_meal"
@@ -344,13 +384,13 @@
 			id: "3CE18E9A48B24E61"
 			rewards: [
 				{
-					id: "6BCFB14F069D8939"
+					id: "10E0ED29768A63AF"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "75A7C0213A4DEAF4"
+					id: "60CADDCD58286307"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -368,13 +408,13 @@
 			id: "09D73392A599BBD4"
 			rewards: [
 				{
-					id: "25E89FD1EA25998E"
+					id: "79F4092C39EB8189"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5F379FC6169D269A"
+					id: "090F274960AC76E3"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -392,14 +432,20 @@
 			id: "7EB7AAA0B0DE6B47"
 			rewards: [
 				{
-					id: "34345AF6778B3C29"
+					id: "2AC1371F514F5D1C"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4642325B343BC366"
+					id: "5B145C032B06935A"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38853FF75CC705EF"
+					table_id: 3747742244681250862L
 					type: "random"
 				}
 			]
@@ -416,14 +462,20 @@
 			id: "296E9C739B7EA13E"
 			rewards: [
 				{
-					id: "6105763788BA603A"
+					id: "653F3FB415E35E1D"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0ED288CEA4EC59EE"
+					id: "3F12B90A5E368756"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0127FC2C5C315110"
+					table_id: 3747742244681250862L
 					type: "random"
 				}
 			]
@@ -440,14 +492,20 @@
 			id: "326FCF7ABA9E136A"
 			rewards: [
 				{
-					id: "6963C3C9D7D392B1"
+					id: "4CA8CAF0EC4D8FB8"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0D5ED87AA6E1EAC6"
+					id: "18EBDCAED1111B09"
 					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38B28D0CF3F0FD07"
+					table_id: 3747742244681250862L
 					type: "random"
 				}
 			]
@@ -464,13 +522,13 @@
 			id: "61702AA1C49AEB29"
 			rewards: [
 				{
-					id: "24FD3F7970B62406"
+					id: "3E288F5F712F5B23"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7F1AA19D26570962"
+					id: "74BE57A0EBBDB9F8"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -488,13 +546,13 @@
 			id: "5DB6E030CB6C4829"
 			rewards: [
 				{
-					id: "792D86255A94FF84"
+					id: "3F53F0E475BA976C"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "558AA261A6DBE5FA"
+					id: "5D4FE931264C913F"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -512,15 +570,15 @@
 			id: "74525EA0BBBF668D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "79757C5384D75282"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "78F7DB0BDCD09DE3"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "1774FF058F3BF22E"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "16168FCE1B685571"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -536,15 +594,15 @@
 			id: "4101E02AC76D292D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3A1FC661297E67E7"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "13E09D5DB36A2D08"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "0D21F52647163E89"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "68C22560A9DE426C"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -560,15 +618,15 @@
 			id: "16C88D91582FBDD1"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6008D0CB308B44A0"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "4A1E34B2E6D6150A"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "4D00E525315F32AC"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "11BAC0F058BA5AC5"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -584,15 +642,15 @@
 			id: "32AC006460C6BED6"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3DC92A6D056DC2D1"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "0B0ADFEB543161A0"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "2CF7D733B2DB7BB0"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "55C6AB43E5410762"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -608,15 +666,15 @@
 			id: "1C848D069E6AFC22"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "01F524B7E3892865"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "5FE2AB66B848AFDD"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "5EB4AD8E6AA2737F"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "7C476641F578779C"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -632,15 +690,15 @@
 			id: "1B535214842DAE6C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7FEA8E3B9C340BA9"
-					table_id: 6510593964462044032L
-					type: "loot"
+					id: "75E4667D06C1FD83"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "536E2C4A3CFCA53A"
-					type: "xp"
-					xp: 100
+					exclude_from_claim_all: true
+					id: "114444A43296F673"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -703,25 +761,15 @@
 			id: "7CDAB385BDE7E3B2"
 			rewards: [
 				{
-					id: "6F2F45C1E6AC95C3"
+					id: "3D6710639BAE5F49"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
-					id: "4887D8AF46A9106B"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:limited_barrel_1"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "20A0DFA4EED60CA3"
-					item: "minecraft:lava_bucket"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3B5362F15EE1990A"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -742,14 +790,15 @@
 			id: "10B8CAD33C7D1658"
 			rewards: [
 				{
-					id: "53CC933A5FABD382"
+					id: "3B3F00DC6ED1FE28"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
-					id: "6679F77C438FF125"
-					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3660C7AAE3479C76"
+					table_id: 6510593964462044032L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -811,13 +860,13 @@
 			id: "408FD37DDB51F7EA"
 			rewards: [
 				{
-					id: "2D4C69265B815A99"
+					id: "3D4EE160174635F0"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1B40AD3F9D9C2DFB"
+					id: "3A55B42B259563A3"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -835,13 +884,13 @@
 			id: "5AE8C8B8DD5633B9"
 			rewards: [
 				{
-					id: "15803D06E6F00F2D"
+					id: "218443E15688C855"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0628BAFB9466FA0B"
+					id: "2BDF31A7632CCDAA"
 					table_id: 6510593964462044032L
 					type: "random"
 				}

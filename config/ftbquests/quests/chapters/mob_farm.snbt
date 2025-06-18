@@ -38,6 +38,14 @@
 			x: 14.5d
 			y: 0.5d
 		}
+		{
+			height: 3.0d
+			image: "mob_grinding_utils:block/entity_spawner_side_on"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 3.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]

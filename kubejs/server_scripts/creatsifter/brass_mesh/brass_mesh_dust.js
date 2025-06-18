@@ -33,6 +33,10 @@ ServerEvents.recipes(event => {
         "item": "create:experience_nugget",
         "chance": 0.25
       },
+      {
+        "item": "ae2:certus_quartz_dust",
+        "chance": 0.30
+      },
     ],
     "processingTime": 200,
   }).id("gac:kjs/createsifter/brass_mesh/dust");

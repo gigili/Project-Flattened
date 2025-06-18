@@ -71,6 +71,10 @@
     {
       "item": "minecraft:ender_eye",
       "emc": 1024
+    },
+    {
+      "item": "minecraft:paper",
+      "emc": 96
     }
   ]
 }

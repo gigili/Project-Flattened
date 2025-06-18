@@ -1049,6 +1049,11 @@
 			disable_toast: true
 			id: "001E93B0353BBE75"
 			optional: true
+			rewards: [{
+				id: "58894A73E5B644FD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "64D76877F30CC33C"
 				item: "minecraft:chest"
@@ -1062,6 +1067,11 @@
 			disable_toast: true
 			id: "1D9A82A759CDF7F0"
 			optional: true
+			rewards: [{
+				id: "6F4DA5A86186FDDF"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3AFD7438BF686571"
 				item: "create:chute"
@@ -1075,6 +1085,11 @@
 			disable_toast: true
 			id: "77DA06135BA0B900"
 			optional: true
+			rewards: [{
+				id: "0AA50456C82F8704"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3E9752F207FA725B"
 				item: "create:chute"
@@ -1088,6 +1103,11 @@
 			disable_toast: true
 			id: "76B556C4D1713938"
 			optional: true
+			rewards: [{
+				id: "61F81A3BFB157356"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1AD8500882CE1243"
 				item: "minecraft:chest"
@@ -1101,6 +1121,11 @@
 			disable_toast: true
 			id: "10777B3F9F21FF18"
 			optional: true
+			rewards: [{
+				id: "6735A21409503150"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0A13C28C0598275D"
 				item: "minecraft:hopper"
@@ -1113,6 +1138,11 @@
 			disable_toast: true
 			id: "4E09014B2518B792"
 			optional: true
+			rewards: [{
+				id: "39CBCD4BDECA63A0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4792A7F3940A5DFB"
 				item: "minecraft:cobblestone"
@@ -1126,6 +1156,11 @@
 			disable_toast: true
 			id: "3F569C7F745491BD"
 			optional: true
+			rewards: [{
+				id: "466EF618DDBC6BA0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1A0F2CF053536312"
 				item: "minecraft:gravel"
@@ -1232,6 +1267,294 @@
 			}]
 			x: -1.5d
 			y: 15.5d
+		}
+		{
+			dependencies: ["0E004D0F1F5B6791"]
+			id: "1A80E4A6328DD50B"
+			rewards: [
+				{
+					id: "764E36C7185FB995"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23BCFD43242E1912"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23D3A5D260CA60E2"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1A80E4A6328DD50B"]
+			id: "77B3B0460C1D9F62"
+			rewards: [
+				{
+					id: "30ABE9BCDDD60F7A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A66C83BC953074F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04A153B709657A4F"
+				item: "createsifter:crushed_end_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "7D1E5050E7C0788D"
+			rewards: [
+				{
+					id: "7AC07CB93D2E2E59"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7BCDE86B56D242"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12E77606973F88EF"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "12499C7777921B47"
+			rewards: [
+				{
+					id: "6322100BE4AA2DE1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E3A9DF3D056C830"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0DB15419DFA1B30A"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "17D117B5DAF5D1B4"
+			rewards: [
+				{
+					id: "355341908B877E48"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70A8B7692130E1BC"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6326E9205E0694C2"
+				item: "minecraft:sculk_shrieker"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "6634DF1DD46B217C"
+			rewards: [
+				{
+					id: "2A202942A826224F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46571A047CBAD6C7"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79D692128963500F"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "550D38AA7D3909BE"
+			rewards: [
+				{
+					id: "5FB7C864E32BE980"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C4B9C29425C843F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "266AA11C59879BAB"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "250632E879C3A774"
+			rewards: [
+				{
+					id: "4B247F24312F95B5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0653D655E55470C0"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "71761F9F9FF9BD1D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "48979F0842FB152B"
+			rewards: [
+				{
+					id: "5664C87A7822EAA3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23BF52F85DB97C22"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5E2CE7276E383CFC"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "7D1543880CAB5DDD"
+			rewards: [
+				{
+					id: "19707EF5CA061842"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "469CFBA9995CFA7B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B069EB0BF3E831E"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "283C81D21037EC00"
+			rewards: [
+				{
+					id: "668313A8769042D7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "455982EE17D771CB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "494BCED1A240440B"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["77B3B0460C1D9F62"]
+			id: "1FD488FAF1EB246A"
+			rewards: [
+				{
+					id: "4180609EF53BB2CA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42B215EDE2BAD9E0"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3727AE436947F351"
+				item: "minecraft:chorus_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.5d
 		}
 	]
 	title: "Getting Resources"

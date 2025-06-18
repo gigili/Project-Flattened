@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     "type": "createsifter:sifting",
     "ingredients": [
       {
-        "item": "createsifter:brass_mesh"
+        "item": "createsifter:advanced_brass_mesh"
       },
       {
         "item": "minecraft:dirt"
@@ -13,70 +13,66 @@ ServerEvents.recipes(event => {
     "results": [
       {
         "item": "minecraft:sugar_cane",
-        "chance": 0.5
-      },
-      {
-        "item": "minecraft:bamboo",
-        "chance": 0.5
+        "chance": 0.55
       },
       {
         "item": "minecraft:cactus",
-        "chance": 0.5
+        "chance": 0.55
       },
       {
         "item": "minecraft:pumpkin_seeds",
-        "chance": 0.15
+        "chance": 0.10
       },
       {
         "item": "minecraft:melon_seeds",
-        "chance": 0.15
+        "chance": 0.10
       },
       {
         "item": "minecraft:wheat_seeds",
-        "chance": 0.15
+        "chance": 0.10
       },
       {
         "item": "minecraft:oak_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:spruce_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:dark_oak_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:jungle_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:birch_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:acacia_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:cherry_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "integrateddynamics:menril_sapling",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:brown_mushroom",
-        "chance": 0.35
+        "chance": 0.55
       },
       {
         "item": "minecraft:red_mushroom",
-        "chance": 0.35
+        "chance": 0.55
       },
     ],
     "processingTime": 200,
     "waterlogged": false
-  }).id("gac:kjs/createsifter/brass_mesh/dirt");
+  }).id("gac:kjs/createsifter/advanced_brass_mesh/dirt");
 });

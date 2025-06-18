@@ -67,6 +67,14 @@ ServerEvents.recipes(event => {
         "item": "integrateddynamics:menril_sapling",
         "chance": 0.25
       },
+      {
+        "item": "minecraft:brown_mushroom",
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "chance": 0.25
+      },
     ],
     "processingTime": 200,
     "waterlogged": false

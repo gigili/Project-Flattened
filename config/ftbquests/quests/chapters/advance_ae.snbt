@@ -381,7 +381,10 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["1DDB1DEF3FFEB200"]
+			dependencies: [
+				"1DDB1DEF3FFEB200"
+				"50431745E0DF95E4"
+			]
 			id: "49C9F9197BC774D4"
 			rewards: [{
 				id: "4A99AA4D8F56C3E3"
@@ -541,7 +544,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["44C3AE6C01E48695"]
+			dependencies: [
+				"44C3AE6C01E48695"
+				"50431745E0DF95E4"
+			]
 			id: "1B6F67AEBA7125E2"
 			rewards: [{
 				id: "30CB4AB4EDAF62EE"
@@ -927,6 +933,29 @@
 			}]
 			x: -2.0d
 			y: -5.5d
+		}
+		{
+			id: "50431745E0DF95E4"
+			rewards: [
+				{
+					id: "5CF375417B73BD72"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CF52452E34B2D3E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60AB1662FA9232AD"
+				item: "minecraft:rabbit_spawn_egg"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
 		}
 	]
 	title: "Advance AE"

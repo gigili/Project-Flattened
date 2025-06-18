@@ -173,9 +173,9 @@
 				xp: 100
 			}]
 			tasks: [{
-				count: 32L
+				count: 16L
 				id: "5D6EC33BC3EE8B2F"
-				item: { Count: 32, id: "integrateddynamics:crystalized_menril_chunk" }
+				item: "integrateddynamics:crystalized_menril_chunk"
 				type: "item"
 			}]
 			x: -1.25d

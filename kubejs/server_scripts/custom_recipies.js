@@ -84,4 +84,24 @@ ServerEvents.recipes(event => {
             G: "minecraft:glass_bottle"
         }
     ).id("gac:kjs/tiab");
+
+    event.shaped('minecraft:warden_spawn_egg', [
+        'SES',
+        'PWP',
+        'SES'
+    ], {
+        S: 'hostilenetworks:end_prediction',
+        E: 'minecraft:echo_shard',
+        P: 'apotheosis:epic_material',
+        W: 'minecraft:soul_lantern'
+    }).id('gac:kjs/warden_spawn_egg');
+
+    event.shaped('minecraft:hopper', [
+        'ILI',
+        'ILI',
+        ' I '
+    ], {
+        I: '#forge:ingots/iron',
+        L: '#minecraft:logs'
+    }).id('gac:kjs/hopper');
 });

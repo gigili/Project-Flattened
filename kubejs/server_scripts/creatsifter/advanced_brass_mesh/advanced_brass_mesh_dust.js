@@ -45,12 +45,12 @@ ServerEvents.recipes(event => {
       },
       {
         "item": "ae2:certus_quartz_dust",
-        "chance": 0.25,
+        "chance": 0.30,
         "amount": 2
       },
       {
         "item": "ae2:certus_quartz_dust",
-        "chance": 0.05,
+        "chance": 0.45,
       },
       {
         "item": "ae2:fluix_dust",
