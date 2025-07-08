@@ -9,7 +9,7 @@
 	images: [
 		{
 			height: 4.0d
-			hover: ["Basic Mechanical Drill Automation"]
+			hover: ["pf.quest.chapter.getting_started.basics.basic_drill_automation"]
 			image: "prf:textures/quest/drill_automation.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -18,7 +18,7 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Basic Lava Automation"]
+			hover: ["pf.quest.chapter.getting_started.basics.basic_lava_automation"]
 			image: "prf:textures/quest/lava-gen.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -30,6 +30,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{pf.quest.chapter.getting_started.basics.oak_logs.desc}"]
 			id: "4863A8507F6A6144"
 			rewards: [
 				{
@@ -53,27 +54,20 @@
 			tasks: [{
 				count: 4L
 				id: "4E7E0732C2C36D31"
-				item: { Count: 4, id: "minecraft:oak_log" }
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.oak_logs}"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4863A8507F6A6144"]
-			description: [
-				"The most basic resources in this game are cobblestone, dirt, and wood. "
-				""
-				"But in a super flat world, resources are hard to come by since the world is made up of only 3 layers."
-				""
-				"The 1st and 2nd layers are dirt"
-				""
-				"The 3rd layer is grass."
-				""
-				"So, using some 'magic,' we've made it so the classic cobblestone generator produces more than just cobblestone."
-				""
-				"Hint: Check out the usages for a diamond block in JEI to see more."
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.cobblestone.desc}"]
 			id: "034320E904F4DB43"
 			rewards: [
 				{
@@ -95,6 +89,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.cobblestone}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -125,11 +120,13 @@
 				}
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.stone_pickaxe}"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7A337155C25CA855"]
+			description: ["{pf.quest.chapter.getting_started.basics.raw_iron.desc}"]
 			id: "5501764E5CA9A762"
 			rewards: [
 				{
@@ -156,6 +153,7 @@
 				item: { Count: 8, id: "minecraft:raw_iron" }
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.raw_iron}"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -186,6 +184,7 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.raw_zinc}"
 			x: 2.0d
 			y: -3.5d
 		}
@@ -217,6 +216,7 @@
 				title: "Create"
 				type: "checkmark"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.create}"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -242,12 +242,13 @@
 				item: { Count: 16, id: "minecraft:gravel" }
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.gravels}"
 			x: 2.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
-			description: ["Sand can be obtained by using a Create mill or Crushing Wheels to crush gravel into sand."]
+			description: ["{pf.quest.chapter.getting_started.basics.sand.desc}"]
 			id: "39504796BEBD1BB7"
 			rewards: [
 				{
@@ -273,12 +274,13 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.sand}"
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["39504796BEBD1BB7"]
-			description: ["Dust can be obtained by using a Create mill or Crushing Wheels to crush sand into dust."]
+			description: ["{pf.quest.chapter.getting_started.basics.dust.desc}"]
 			id: "7D4528CC5B000A1E"
 			rewards: [
 				{
@@ -424,11 +426,13 @@
 				item: "ae2:sky_dust"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.skystone_dust}"
 			x: -0.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["7D4528CC5B000A1E"]
+			description: [""]
 			id: "7EB7AAA0B0DE6B47"
 			rewards: [
 				{
@@ -454,6 +458,7 @@
 				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.certus_quartz_dust}"
 			x: 4.5d
 			y: 10.5d
 		}
@@ -484,6 +489,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.certus_quartz_crystal}"
 			x: 4.5d
 			y: 12.5d
 		}
@@ -514,6 +520,7 @@
 				item: "ae2:silicon"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.silicone}"
 			x: 6.5d
 			y: 10.5d
 		}
@@ -562,6 +569,7 @@
 				item: "ae2:sky_stone_block"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.skystone}"
 			x: -0.5d
 			y: 12.5d
 		}
@@ -711,22 +719,7 @@
 		}
 		{
 			dependencies: ["5501764E5CA9A762"]
-			description: [
-				"The way to obtain most resources in this pack is by using the sifter and a mesh."
-				""
-				"Each mesh has different outputs and requirements."
-				""
-				"It is recommended to check out each mesh by pressing U while hovering over it in JEI."
-				""
-				"Advanced meshes require a brass sifter to work."
-				""
-				"For some items, it is also required that the sifter be waterlogged."
-				"{@pagebreak}"
-				"To use a sifter you can either drop items on top of it so it can pick them up, or you can use a hopper to insert them into it (pipes and chutes work as well)."
-				""
-				"When pulling items out of the sifter, you can right click on it to get the items inside or use a hopper (can be slow at extracting) or "
-				"something like a chute or item pipe. "
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.sifting.desc}"]
 			icon: "createsifter:sifter"
 			id: "16859CEB4147AFDD"
 			rewards: [
@@ -753,11 +746,7 @@
 		}
 		{
 			dependencies: ["5AE8C8B8DD5633B9"]
-			description: [
-				"Nobody wants to mine cobble forever, so it's best to automate it. "
-				""
-				"You might want to consider duplicating your lava first before setting this up, as you won't get it back."
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.cobble_gen_1.desc}"]
 			id: "7CDAB385BDE7E3B2"
 			rewards: [
 				{
@@ -777,16 +766,13 @@
 				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.cobble_gen_1}"
 			x: 6.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7CDAB385BDE7E3B2"]
-			description: [
-				"As this modpack focuses on EMC, I can't make it too easy and let you keep upgrading this further."
-				""
-				"Tier 2 is as far as it goes, but it should help you get up and running quickly until you can automate EMC and get EMC links."
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.cobble_gen_2.desc}"]
 			id: "10B8CAD33C7D1658"
 			rewards: [
 				{
@@ -806,20 +792,13 @@
 				item: "cobblefordays:tier_2"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.cobble_gen_2}"
 			x: 6.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["16859CEB4147AFDD"]
-			description: [
-				"With mechanical drills, you can easily automate the breaking of ores from the custom cobblestone generator."
-				""
-				"This allows you to focus on other tasks while ores are mined in the background."
-				""
-				"With a bit of help from some fans and either water or lava, you can even automate the processing as well."
-				""
-				"Mechanical drills can also be enchanted to yield more resources as they mine."
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.start_of_automation.desc}"]
 			id: "655A152E207E2549"
 			rewards: [
 				{
@@ -840,23 +819,13 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			title: "Start of automation"
+			title: "{pf.quest.chapter.getting_started.basics.start_of_automation}"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7A5975BFBA56B5B3"]
-			description: [
-				"Lava is dangerous—but also renewable with the right setup!"
-				"Place a source block of lava on top of a solid block, then hang a pointed dripstone underneath it. Below that, place a cauldron."
-				""
-				"Over time, the lava will begin to drip through the dripstone, and the cauldron will slowly fill with lava. Once full, you can scoop it up with a bucket—effectively turning one lava source into many."
-				""
-				"It’s slow, but it’s infinite and fully automatable!"
-				""
-				"&lVisual tip:&r "
-				"Check the image on the right for how to set it up properly."
-			]
+			description: ["{pf.quest.chapter.getting_started.basics.pointed_dripstone.desc}"]
 			id: "408FD37DDB51F7EA"
 			rewards: [
 				{
@@ -876,6 +845,7 @@
 				item: "minecraft:pointed_dripstone"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.getting_started.basics.pointed_dripstone}"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -894,6 +864,11 @@
 					table_id: 6510593964462044032L
 					type: "random"
 				}
+				{
+					id: "67B8FEF76A4A9C32"
+					item: "rftoolsutility:tank"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 2L
@@ -905,5 +880,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Basics"
+	title: "{pf.quest.chapter.getting_started.basics}"
 }

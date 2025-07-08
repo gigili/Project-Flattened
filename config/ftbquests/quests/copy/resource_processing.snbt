@@ -1,0 +1,810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_processing"
+	group: "162F89E02DC7B00D"
+	icon: "create:crushed_raw_iron"
+	id: "660FDD7E1BBC5AC2"
+	images: [{
+		height: 7.0d
+		image: "prf:textures/quest/create_ore_processing.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -1.0d
+		y: -9.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Encased Fan is a versatile machine powered by rotational force. By placing it facing different directions and combining it with elements like lava, water, or fire, you can unlock unique processing effects:"
+				""
+				"&cLava&r in front = smelting items"
+				""
+				"&9Water&r in front = washing items"
+				""
+				"&6Fire&r in front = haunting items (with Soul Fire)"
+				""
+				"Empty space = pushing entities or items"
+				""
+				"It’s a key part of many Create automation setups and lets you build fully modular processing stations."
+			]
+			id: "6534C0A6B85761C9"
+			rewards: [
+				{
+					id: "316BB40B1E5A864E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "674C1469494D8164"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3441527BC3BB0170"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6534C0A6B85761C9"]
+			id: "28ECB856B70C6462"
+			rewards: [
+				{
+					id: "7D54F9B2B8371779"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5349C3DF4717CE00"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5637A62EF074E5DB"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6534C0A6B85761C9"]
+			id: "33DC36B15494FA2B"
+			rewards: [
+				{
+					id: "2D591979E735FD84"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679F9278D71516F1"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "375F7DEA94C14B3A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6534C0A6B85761C9"]
+			id: "02242BF6D834D0C2"
+			rewards: [
+				{
+					id: "7B367FD9B690BCA7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3807F7367078498E"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D65F10FD3FC13BA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6534C0A6B85761C9"]
+			id: "63F0513C080419BE"
+			rewards: [
+				{
+					id: "2A7536EBC6B3D9AB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13EBDF97094D4196"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1ADC1F887436EF2F"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "1E11E580A2B90A3F"
+			rewards: [
+				{
+					id: "2B20ABE228945C9E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "069CA403C240239F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "691243C3A8F2DE87"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"Tired of waiting for one item at a time to finish smelting before you can start the next? "
+				""
+				"This upgrade changes everything."
+				""
+				"With it installed, your furnace or smelter gains the ability to process multiple stacks simultaneously or split a stack into parallel operations, drastically improving throughput."
+				""
+				"Even better—no more coal or burnable fuels required. Instead, the upgrade converts your smelter into a power-driven machine, requiring a steady supply of FE (Forge Energy) or equivalent modded power."
+			]
+			id: "62E963819BBCA454"
+			rewards: [
+				{
+					id: "719C3F8EE66B4769"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64751CB940EAB28E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "43C1C29471C1A04D"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "4B920EBAAD898915"
+			rewards: [
+				{
+					id: "050685AE220C210A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59DAA8995398915B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53B7615EDC1B106D"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["02242BF6D834D0C2"]
+			description: [
+				"The Fan Smoking Catalyst is a versatile utility block designed for use with the Encased Fan. "
+				""
+				"It can safely contain and simulate the effects of various catalysts like lava, water, campfire, or soul fire, enabling clean and compact automation setups without needing the actual fluid or fire sources."
+			]
+			id: "5F0CA24281BE5120"
+			rewards: [
+				{
+					id: "5DF26247C400D694"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6132F00A5C320B74"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69A10BB301A63745"
+				item: "create_connected:fan_splashing_catalyst"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33DC36B15494FA2B"]
+			description: [
+				"The Fan Smoking Catalyst is a versatile utility block designed for use with the Encased Fan. "
+				""
+				"It can safely contain and simulate the effects of various catalysts like lava, water, campfire, or soul fire, enabling clean and compact automation setups without needing the actual fluid or fire sources."
+			]
+			id: "43FD764C19816F7D"
+			rewards: [
+				{
+					id: "42C535596200F787"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "556DE71136CF483A"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15235C760415D42B"
+				item: "create_connected:fan_blasting_catalyst"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28ECB856B70C6462"]
+			description: [
+				"The Fan Smoking Catalyst is a versatile utility block designed for use with the Encased Fan. "
+				""
+				"It can safely contain and simulate the effects of various catalysts like lava, water, campfire, or soul fire, enabling clean and compact automation setups without needing the actual fluid or fire sources."
+			]
+			id: "031849DBE37D13EC"
+			rewards: [
+				{
+					id: "087A864597A1EE93"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "139499FF24125AE5"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D3FB8066FBF2079"
+				item: "create_connected:fan_smoking_catalyst"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63F0513C080419BE"]
+			description: [
+				"The Fan Smoking Catalyst is a versatile utility block designed for use with the Encased Fan. "
+				""
+				"It can safely contain and simulate the effects of various catalysts like lava, water, campfire, or soul fire, enabling clean and compact automation setups without needing the actual fluid or fire sources."
+			]
+			id: "05C7CCD63ED895C2"
+			rewards: [
+				{
+					id: "3DF8EF967C60BBC9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3752EC0E12B123D3"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "354186C22E0A6F62"
+				item: "create_connected:fan_haunting_catalyst"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E11E580A2B90A3F"]
+			id: "66BF63621BE9168F"
+			rewards: [
+				{
+					id: "4286F0D4F9E0D3B2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AF8FDBEA0C239C9"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7379B9DE8A434568"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Ever feel like waiting for items to smelt is a drag? You’re not alone. "
+				""
+				"That’s where Speed Upgrades come in!"
+				""
+				"By installing this upgrade into your furnace or smelter, you’ll significantly reduce the time it takes to process items. "
+				""
+				"The higher the furnace tier, the more noticeable the effect—but be warned: faster smelting also means higher power consumption."
+				""
+				"It's all about balance—more speed, more power, more output!"
+			]
+			id: "038F5C2A39D6B159"
+			rewards: [
+				{
+					id: "26AE940313B400A7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708CC8D688839FEB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0064861D480B3FE0"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4B920EBAAD898915"]
+			id: "596ADAFD00CFB572"
+			rewards: [
+				{
+					id: "26C2727602564CB1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36DA45E0E19B3E57"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3981D346C0671DE5"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"What if your furnace could do more than just smelt? "
+				""
+				"With this upgrade installed, your furnace loses its ability to smelt items, but gains a new function: burning fuel to generate power."
+				""
+				"Feed it burnable items like coal, charcoal, or wood, and it will convert them into usable energy for your machines. "
+				""
+				"Perfect for early-game setups or as a backup power source when your main generator runs dry."
+			]
+			id: "5188D54DD7813A92"
+			rewards: [
+				{
+					id: "13C1292533DAD4CB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CE37D79FA138DA4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			subtitle: "Turn coal into power?"
+			tasks: [{
+				id: "218E9F9A2181ABF5"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66BF63621BE9168F"]
+			id: "31E73CCEFBECF774"
+			rewards: [
+				{
+					id: "7523895F379DC312"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A9003B16E6ED8A5"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5F49B19FE272AA14"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["596ADAFD00CFB572"]
+			id: "3D65DF3CE2992EE5"
+			rewards: [
+				{
+					id: "49324CB42F1E99EB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D2FA230283A2D5C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "761B2B2134CBDAD7"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31E73CCEFBECF774"]
+			id: "449BDEAF9CF57294"
+			rewards: [
+				{
+					id: "02E9C9D5B2249CC9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13251115D19F48D8"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47C4CB79CFF50107"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["449BDEAF9CF57294"]
+			id: "2D3E171C72A083E7"
+			rewards: [
+				{
+					id: "420B222D015A521D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FA78457D9496E43"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1538790752E9EA71"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D3E171C72A083E7"]
+			id: "5B4356A39501F436"
+			rewards: [
+				{
+					id: "21E67D5876054FAD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E6D1B5F75BCA371"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64DF96ADF292DD2F"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B4356A39501F436"]
+			id: "2AB1B067E208205A"
+			rewards: [
+				{
+					id: "6283D92BDD178EF5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "308F4271922E18B3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B6B5DF237DA512D"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Tired of constantly feeding fuel into your furnace? "
+				""
+				"The Fuel Efficiency Augment is here to help."
+				""
+				"When installed into any compatible Iron Furnace, this upgrade reduces the amount of fuel consumed per item smelted, making your resources go much further. "
+				""
+				"The higher the furnace tier, the greater the fuel savings—perfect for stretching your coal, charcoal, or other burnables over longer sessions."
+			]
+			id: "1602C06DD8B639AF"
+			rewards: [
+				{
+					id: "18E72C1CD9428EEF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51228D219649CDFC"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2919F900CB830E1F"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Provide transmitter block with power (energy) and than use the receiving item to connect them."
+				""
+				"Once connected you can put the receiver into the furnace instead of coal. "
+			]
+			id: "7A5ECABAC58298B9"
+			rewards: [
+				{
+					id: "32CA5B94F69473DD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E0095A28132796B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "38516C1444D2693F"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "60FBFB768927153B"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D65DF3CE2992EE5"]
+			id: "5CB6A4358D25DA03"
+			rewards: [
+				{
+					id: "05251A3751C91876"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03CEA50A48C6B269"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "75859E447B738879"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CB6A4358D25DA03"]
+			id: "74583E63F3237F0C"
+			rewards: [
+				{
+					id: "0ABB2CEC1883435F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36824061B4C70FB4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45B2A59FD001781C"
+				item: "ironfurnaces:upgrade_obsidian"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74583E63F3237F0C"]
+			id: "025392E5116A918A"
+			rewards: [
+				{
+					id: "512AB706609FED3D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2054D09BE0FE6FFA"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "591A30E1F731ED64"
+				item: "ironfurnaces:upgrade_netherite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The Squeezer is a powerful tool for ore processing. "
+				""
+				"By placing raw ores inside, it compresses and crushes them with a chance to double the output—giving you more resources from the same input."
+				""
+				"It doesn’t guarantee double every time, but with enough tries, you’ll see a significant increase in yield. "
+				""
+				"Perfect for early automation or getting the most out of rare ores!"
+			]
+			id: "4B48C43BE06F167C"
+			rewards: [
+				{
+					id: "3ABFAA67C202165F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FD6FE92FE49B63E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4949E9057B7B6169"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B48C43BE06F167C"]
+			description: [
+				"The Mechanical Squeezer takes the manual work out of ore processing. "
+				""
+				"Unlike its manual counterpart, this fully automated machine can be powered with energy and run continuously, squeezing ores, plants, and other materials with increased efficiency and automation support."
+				""
+				"It often provides better chances for double outputs, and can also handle more advanced recipes like producing fluids or organic materials—depending on the mods installed."
+				""
+				"Say goodbye to hand-cranking and hello to industrial power!"
+			]
+			id: "0E60D08A39496DD8"
+			rewards: [
+				{
+					id: "7791D0C7D33F1F11"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6240D224EE398754"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7223E10A7A6738FB"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "Ore Processing"
+}

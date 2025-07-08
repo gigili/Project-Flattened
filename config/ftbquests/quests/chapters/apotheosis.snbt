@@ -259,13 +259,7 @@
 		}
 		{
 			dependencies: ["7F042DED357DEF3C"]
-			description: [
-				"Infusion is a special version of Enchanting used for better enchantments. "
-				""
-				"When the right amount of &aEterna&r, &cQuanta&r, and &5Arcana&r is reached the enchantments will offer Infusion. "
-				""
-				"(To know the Levels needed you can check JEI)."
-			]
+			description: ["{pf.quest.chapter.enchanting.apotheosis.infusion.desc}"]
 			icon: "minecraft:enchanting_table"
 			id: "1D06097B6206BA60"
 			rewards: [{
@@ -338,7 +332,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["076DFB0B39A4259F"]
+			dependencies: [
+				"076DFB0B39A4259F"
+				"7514A927F5288D38"
+			]
 			description: [""]
 			icon: "apotheosis:crystal_seashelf"
 			id: "751189465F91B353"
@@ -447,7 +444,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0C596CB7C7C24615"]
+			dependencies: [
+				"0C596CB7C7C24615"
+				"3C2457A498CEC47A"
+			]
 			description: [""]
 			id: "10C527C66EE4E95A"
 			rewards: [
@@ -701,15 +701,7 @@
 		}
 		{
 			dependencies: ["314E41B84C8DD464"]
-			description: [
-				"A grand upgrade to the humble Enchanting Library, the Library of Alexandria offers vastly expanded storage for your enchanted books."
-				""
-				"No more overflowing chests or cluttered shelves — this arcane archive lets you store a massive collection of enchantments in one place and retrieve them as needed."
-				""
-				"The highest level of any enchantment you can withdraw depends on what you’ve already stored. The more powerful books you contribute, the more powerful your retrievals can be."
-				""
-				"Build it, fill it, and never worry about running out of your favorite enchantments again."
-			]
+			description: ["{pf.quest.chapter.enchanting.apotheosis.library_of_alexandria.desc}"]
 			id: "5FD4F40CEC37D9FD"
 			rewards: [{
 				id: "2651F1CE1044AC2B"
@@ -737,17 +729,7 @@
 		{
 			dependencies: ["1D06097B6206BA60"]
 			dependency_requirement: "one_completed"
-			description: [
-				"Tired of enchanted books cluttering your chests or storage systems?"
-				""
-				"Maybe it’s time to return them to the library."
-				""
-				"The Library block lets you store all your enchanted books and later retrieve any enchantment you need."
-				""
-				"The highest enchantment level you can retrieve is based on the books you’ve stored."
-				""
-				"For example, if you store 1 Looting Level 3 book and 3 Looting Level 1 books, you’ll be able to retrieve up to 2 Looting Level 3 books."
-			]
+			description: ["{pf.quest.chapter.enchanting.apotheosis.enchantment_library.desc}"]
 			id: "314E41B84C8DD464"
 			rewards: [{
 				id: "54020DF00D36132E"
@@ -792,6 +774,53 @@
 			x: 4.5d
 			y: 5.5d
 		}
+		{
+			id: "3C2457A498CEC47A"
+			rewards: [
+				{
+					id: "052B5381BB9B57A0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E83BD74153A8E9D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34C9A175D37F135D"
+				item: "minecraft:warden_spawn_egg"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			description: ["{pf.quest.chapter.enchanting.apotheosis.hearth_of_the_sea.desc}"]
+			id: "7514A927F5288D38"
+			rewards: [
+				{
+					id: "536E72516D66CFE9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4E99A8993BA5B9"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0ED401DB64C12A4B"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
 	]
-	title: "Apotheosis"
+	title: "{pf.quest.chapter.enchanting.apotheosis}"
 }

@@ -391,11 +391,7 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"For this modpack, I've decided not to include mods like Functional Storage or Storage Drawers, as Sophisticated Storage is already part of the pack."
-				""
-				"It can do almost everything the other mods can, and even more."
-			]
+			description: ["{pf.quest.chapter.storage.basic_storage.limited_i.desc}"]
 			id: "31FD801346AD0475"
 			rewards: [
 				{
@@ -414,7 +410,7 @@
 					xp: 500
 				}
 			]
-			subtitle: "Where ma drawers at?"
+			subtitle: "{pf.quest.chapter.storage.basic_storage.limited_i.subtitle}"
 			tasks: [{
 				id: "117608141016460C"
 				item: {
@@ -634,6 +630,7 @@
 				"5DA8EC1F2B34A23D"
 				"4F48F14A04AB20C5"
 			]
+			description: ["{pf.quest.chapter.storage.basic_storage.compression.desc}"]
 			id: "22DA4221DF45EB80"
 			rewards: [{
 				id: "359ECB9679653575"
@@ -691,5 +688,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Basic storage"
+	title: "{pf.quest.chapter.storage.basic_storage}"
 }

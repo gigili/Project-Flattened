@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["{pf.quest.chapter.qol.desc}"]
 			disable_toast: true
 			hide_text_until_complete: false
 			id: "1A03B2D117CB3E85"
@@ -25,6 +26,7 @@
 				title: "QoL"
 				type: "checkmark"
 			}]
+			title: "{pf.quest.chapter.qol}"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -38,7 +40,6 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "All the gadgets"
 			tasks: [
 				{
 					id: "5E1814E4AB6B592E"
@@ -76,11 +77,13 @@
 					type: "item"
 				}
 			]
+			title: "{pf.quest.chapter.qol.gadgets.building_gadgets}"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1A03B2D117CB3E85"]
+			description: ["{pf.quest.chapter.qol.gadgets.jetpack.desc}"]
 			disable_toast: true
 			id: "402C9FDF0B31F0BD"
 			optional: true
@@ -89,7 +92,6 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Free like a bird"
 			tasks: [{
 				id: "529197D439F0D138"
 				item: {
@@ -102,11 +104,13 @@
 				}
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.qol.gadgets.jetpack}"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1A03B2D117CB3E85"]
+			description: ["{pf.quest.chapter.qol.gadgets.builder.desc}"]
 			disable_toast: true
 			id: "53B38A7583E24EC5"
 			optional: true
@@ -120,11 +124,13 @@
 				item: "rftoolsbuilder:builder"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.qol.gadgets.builder}"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1A03B2D117CB3E85"]
+			description: ["{pf.quest.chapter.qol.gadgets.iron_furnaces.desc}"]
 			disable_toast: true
 			id: "52ABE13ABB5FC4D7"
 			optional: true
@@ -133,12 +139,12 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Faster smelting"
 			tasks: [{
 				id: "4B792E9008198822"
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.qol.gadgets.iron_furnaces}"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -152,7 +158,6 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Bookmarks but for the world"
 			tasks: [{
 				id: "0AE7D86DA04D70B8"
 				item: "waystones:waystone"
@@ -164,6 +169,7 @@
 		{
 			dependencies: ["1A03B2D117CB3E85"]
 			dependency_requirement: "one_completed"
+			description: ["{pf.quest.chapter.qol.gadgets.construction_wand.desc}"]
 			disable_toast: true
 			id: "24B432FA7DCDDCA8"
 			optional: true
@@ -189,7 +195,7 @@
 		}
 		{
 			dependencies: ["1A03B2D117CB3E85"]
-			description: ["No more DireWire"]
+			description: ["{pf.quest.chapter.qol.gadgets.laser_io.desc}"]
 			disable_toast: true
 			id: "1E563D0B9337228C"
 			optional: true
@@ -198,7 +204,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Everything is better with lasers"
+			subtitle: "{pf.quest.chapter.qol.gadgets.laser_io.sub}"
 			tasks: [
 				{
 					id: "5419E33A5F4690E6"
@@ -230,11 +236,13 @@
 					type: "item"
 				}
 			]
+			title: "{pf.quest.chapter.qol.gadgets.laser_io}"
 			x: 3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1A03B2D117CB3E85"]
+			description: ["{pf.quest.chapter.qol.gadgets.modular_router.desc}"]
 			disable_toast: true
 			id: "6A32729ED1E65AF3"
 			optional: true
@@ -248,9 +256,10 @@
 				item: "modularrouters:modular_router"
 				type: "item"
 			}]
+			title: "{pf.quest.chapter.qol.gadgets.modular_router}"
 			x: 3.5d
 			y: 1.5d
 		}
 	]
-	title: "Gadgets"
+	title: "{pf.quest.chapter.qol.gadgets}"
 }

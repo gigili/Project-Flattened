@@ -414,17 +414,7 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"Power Flowers are the ultimate passive EMC generators in ProjectE."
-				""
-				"Once placed, they require no input, no fuel, and no sunlight — they simply generate EMC over time based on their tier."
-				""
-				"Each Power Flower tier produces EMC faster than the last, with higher-tier versions generating millions of EMC per second."
-				""
-				"Place them down, and they’ll start passively filling your Transmutation Table or Energy Condenser with EMC automatically."
-				""
-				"Build more, upgrade often, and let the EMC flow."
-			]
+			description: ["{pf.quest.chapter.projecte.power_flowers.desc}"]
 			id: "48D1FDD896CC05C4"
 			rewards: [{
 				id: "38CA9CB0EFE58453"
@@ -442,5 +432,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Power Flowers"
+	title: "{pf.quest.chapter.projecte.power_flowers}"
 }

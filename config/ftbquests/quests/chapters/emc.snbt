@@ -6,9 +6,6 @@
 	group: "471350D4E8C923E3"
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			Parent: { }
-		}
 		id: "projecte:philosophers_stone"
 		tag: { }
 	}
@@ -124,7 +121,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 0.3d
@@ -132,7 +129,7 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -6.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			height: 0.3d
@@ -140,7 +137,7 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -5.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			height: 0.3d
@@ -148,7 +145,7 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -5.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			height: 0.3d
@@ -156,7 +153,7 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -5.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 0.3d
@@ -164,7 +161,7 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -6.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 1.0d
@@ -172,7 +169,7 @@
 			rotation: 180.0d
 			width: 1.0d
 			x: -3.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 3.0d
@@ -180,7 +177,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 0.3d
@@ -188,22 +185,19 @@
 			rotation: 0.0d
 			width: 0.3d
 			x: -1.0d
-			y: 0.5d
+			y: 1.5d
 		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "272B3AECEE28C2D6"
+		linked_quest: "725D23D85325CC85"
+		x: 0.5d
+		y: -1.5d
+	}]
 	quests: [
 		{
-			description: [
-				"A mysterious relic, brimming with power. "
-				""
-				"The Philosopher's Stone is your gateway to alchemical mastery."
-				""
-				"It can transmute basic materials, convert fuels, and is essential for crafting higher-tier alchemical devices."
-				""
-				"Experiment with it in your inventory, on a crafting table, or even in-world. You'll be surprised at how many recipes it can unlock."
-			]
+			description: ["{pf.quest.chapter.projecte.emc.philosopher_stone.desc}"]
 			id: "53F45CFF8F29FDD7"
 			rewards: [
 				{
@@ -230,21 +224,11 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -1.5d
 		}
 		{
-			description: [
-				"The Transmutation Table is the core of ProjectE’s alchemy system."
-				""
-				"It lets you store and convert items based on their EMC value — an energy-based currency of matter."
-				""
-				"Feed it items to learn their EMC, then exchange any learned item for another, as long as you have enough EMC."
-				""
-				"No more overflowing chests — your resources are now pure energy."
-				""
-				"Tip: Pair this with energy/fuel generation for unlimited item access."
-			]
+			description: ["{pf.quest.chapter.projecte.emc.transmutation_table.desc}"]
 			id: "47E069C0BF647FD1"
 			rewards: [
 				{
@@ -264,21 +248,12 @@
 				item: "projecte:transmutation_table"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
-			description: [
-				"The Portable Transmutation Tablet brings the power of the Transmutation Table to your hands — anytime, anywhere."
-				""
-				"No need to run back to your base; open your tablet and transmute on the go."
-				""
-				""
-				"Perfect for adventuring, building, or managing resources while off exploring."
-				""
-				""
-				"Unlocks: Total freedom in resource management."
-			]
+			dependencies: ["47E069C0BF647FD1"]
+			description: ["{pf.quest.chapter.projecte.emc.transmutation_tablet.desc}"]
 			id: "0C0108BF6047A6AD"
 			rewards: [
 				{
@@ -298,9 +273,33 @@
 				item: "projecte:transmutation_tablet"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["0C0108BF6047A6AD"]
+			description: ["{pf.quest.chapter.projecte.emc.infinite_stake.desc}"]
+			id: "52CB94E4B1FD27FB"
+			tasks: [{
+				id: "13A885BE8FCAF00A"
+				item: "projectexpansion:infinite_steak"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C0108BF6047A6AD"]
+			description: ["{pf.quest.chapter.projecte.emc.infinite_coal.desc}"]
+			id: "6F80C4801515B4EC"
+			tasks: [{
+				id: "12E62E7C6AC57350"
+				item: "projectexpansion:infinite_fuel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
 	]
-	title: "EMC"
+	title: "{pf.quest.chapter.projecte.emc}"
 }

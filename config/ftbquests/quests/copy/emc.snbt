@@ -1,0 +1,311 @@
+{
+	autofocus_id: "53F45CFF8F29FDD7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "emc"
+	group: "471350D4E8C923E3"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "7AAE526BD8DA2B8F"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "elevatorid:block/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 0.3d
+			image: "rftoolspower:block/endergenic/floatingpearl"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [{
+		id: "272B3AECEE28C2D6"
+		linked_quest: "725D23D85325CC85"
+		x: 0.5d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			description: [
+				"A mysterious relic, brimming with power. "
+				""
+				"The Philosopher's Stone is your gateway to alchemical mastery."
+				""
+				"It can transmute basic materials, convert fuels, and is essential for crafting higher-tier alchemical devices."
+				""
+				"Experiment with it in your inventory, on a crafting table, or even in-world. You'll be surprised at how many recipes it can unlock."
+			]
+			id: "53F45CFF8F29FDD7"
+			rewards: [
+				{
+					id: "5601AED065C7B918"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "146DF564CD0E2108"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "700618DB232D34A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The Transmutation Table is the core of ProjectE’s alchemy system."
+				""
+				"It lets you store and convert items based on their EMC value — an energy-based currency of matter."
+				""
+				"Feed it items to learn their EMC, then exchange any learned item for another, as long as you have enough EMC."
+				""
+				"No more overflowing chests — your resources are now pure energy."
+				""
+				"Tip: Pair this with energy/fuel generation for unlimited item access."
+			]
+			id: "47E069C0BF647FD1"
+			rewards: [
+				{
+					id: "56829CD54269EC54"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB3BD3278566067"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "45622A69BB022FE8"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The Portable Transmutation Tablet brings the power of the Transmutation Table to your hands — anytime, anywhere."
+				""
+				"No need to run back to your base; open your tablet and transmute on the go."
+				""
+				""
+				"Perfect for adventuring, building, or managing resources while off exploring."
+				""
+				""
+				"Unlocks: Total freedom in resource management."
+			]
+			id: "0C0108BF6047A6AD"
+			rewards: [
+				{
+					id: "51EB7B35E84EF13F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F7CB56954D93EDA"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "62E325B9BAAEF4B0"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	title: "EMC"
+}

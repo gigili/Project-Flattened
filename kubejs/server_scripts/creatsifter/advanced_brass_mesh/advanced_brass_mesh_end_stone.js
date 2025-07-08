@@ -13,12 +13,12 @@ ServerEvents.recipes(event => {
     "results": [
       {
         "item": "minecraft:ender_pearl",
-        "chance": 0.85,
+        "chance": 0.25,
         "amount": 2
       },
       {
         "item": "minecraft:chorus_fruit",
-        "chance": 0.25
+        "chance": 0.15
       },
       {
         "item": "minecraft:chorus_flower",
@@ -30,39 +30,39 @@ ServerEvents.recipes(event => {
       },
       {
         "item": "minecraft:ender_eye",
-        "chance": 0.25,
+        "chance": 0.15,
         "amount": 2
       },
       {
         "item": "ae2:ender_dust",
-        "chance": 0.1
+        "chance": 0.15
       },
       {
         "item": "minecraft:echo_shard",
-        "chance": 0.30
+        "chance": 0.25
       },
       {
         "item": "minecraft:sculk",
-        "chance": 0.30
+        "chance": 0.25
       },
       {
         "item": "minecraft:sculk_shrieker",
-        "chance": 0.30
+        "chance": 0.25
       },
       {
         "item": "minecraft:sculk_sensor",
-        "chance": 0.30
+        "chance": 0.25
       },
       {
         "item": "minecraft:sculk_catalyst",
-        "chance": 0.30
+        "chance": 0.25
       },
       {
         "item": "minecraft:ancient_debris",
-        "chance": 0.10,
+        "chance": 0.20,
         "count": 2
       },
     ],
-    "processingTime": 200,
+    "processingTime": 400,
   }).id("gac:kjs/createsifter/advanced_brass_mesh/crushed_end_stone");
 });

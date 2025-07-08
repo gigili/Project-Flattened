@@ -9,6 +9,44 @@
 		tag: { }
 	}
 	id: "62BC8A6DEA3131BF"
+	images: [
+		{
+			height: 3.0d
+			hover: ["Earth"]
+			image: "ad_astra:textures/environment/earth.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Vicinus"]
+			image: "ad_astra:textures/environment/vicinus.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Mercury"]
+			image: "ad_astra:textures/environment/mercury.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			hover: ["Lets steel the MOOON"]
+			image: "ad_astra:textures/environment/moon.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: -4.0d
+			y: -1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -103,7 +141,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0ADCC6B7F46610D8"]
+			dependencies: [
+				"0ADCC6B7F46610D8"
+				"02665AC4731E8BDE"
+			]
 			id: "59CA0C1CC461554A"
 			rewards: [
 				{
@@ -133,7 +174,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0ADCC6B7F46610D8"]
+			dependencies: [
+				"0ADCC6B7F46610D8"
+				"02665AC4731E8BDE"
+			]
 			id: "717AC091878735FC"
 			rewards: [
 				{
@@ -163,7 +207,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0ADCC6B7F46610D8"]
+			dependencies: [
+				"0ADCC6B7F46610D8"
+				"02665AC4731E8BDE"
+			]
 			id: "56ABD5F88B39AD41"
 			rewards: [
 				{
@@ -193,7 +240,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0ADCC6B7F46610D8"]
+			dependencies: [
+				"0ADCC6B7F46610D8"
+				"02665AC4731E8BDE"
+			]
 			id: "582CDF638D8482EB"
 			rewards: [
 				{
@@ -226,6 +276,7 @@
 			dependencies: [
 				"59CA0C1CC461554A"
 				"0AF509E6468C9DF8"
+				"02665AC4731E8BDE"
 			]
 			id: "265D5C5C80AFD782"
 			rewards: [
@@ -259,6 +310,7 @@
 			dependencies: [
 				"717AC091878735FC"
 				"0AF509E6468C9DF8"
+				"02665AC4731E8BDE"
 			]
 			id: "39793DBCED14377F"
 			rewards: [
@@ -292,6 +344,7 @@
 			dependencies: [
 				"56ABD5F88B39AD41"
 				"0AF509E6468C9DF8"
+				"02665AC4731E8BDE"
 			]
 			id: "0841B184592D6251"
 			rewards: [
@@ -325,6 +378,7 @@
 			dependencies: [
 				"582CDF638D8482EB"
 				"0AF509E6468C9DF8"
+				"02665AC4731E8BDE"
 			]
 			id: "2EE8E2A498A49540"
 			rewards: [
@@ -636,13 +690,7 @@
 			y: 2.0d
 		}
 		{
-			description: [
-				"By combining some coal and iron, I can create a new alloy."
-				""
-				"I always thought coal burned at a low temperature — turns out I was wrong."
-				""
-				"With this machine, I can now produce steel — one step closer to finding my way back home."
-			]
+			description: ["{pf.quest.chapter.back_to_reality.off_to_space.electric_blast_furnace.desc}"]
 			id: "0EB483660CD172C6"
 			tasks: [{
 				id: "077A4D1B175EA357"
@@ -679,7 +727,7 @@
 		}
 		{
 			dependencies: ["2E2FDD0AA90FBC5B"]
-			description: ["I can use this compressor to turn ingots into plates."]
+			description: ["{pf.quest.chapter.back_to_reality.off_to_space.compressor.desc}"]
 			id: "54EA5FFB6F99471B"
 			tasks: [{
 				id: "166FA2E7B139F8D0"
@@ -720,6 +768,22 @@
 			x: 1.5d
 			y: 10.0d
 		}
+		{
+			description: ["{pf.quest.chapter.back_to_reality.off_to_space.quantum_armor.desc}"]
+			id: "02665AC4731E8BDE"
+			rewards: [{
+				id: "0248026FB43E149B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2CC90F06B604AD4B"
+				title: "Quantum Armor"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
 	]
-	title: "Off to the space"
+	title: "{pf.quest.chapter.back_to_reality.off_to_space}"
 }

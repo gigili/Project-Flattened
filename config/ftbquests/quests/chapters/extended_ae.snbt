@@ -110,21 +110,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"No more endless cable runs—wirelessly link your ME Networks!"
-				""
-				"The ME Wireless Connector allows you to connect networks over short distances within the same dimension. "
-				""
-				"Use the ME Wireless Setup Kit to pair two connectors and establish a link."
-				""
-				"Keep in mind:"
-				""
-				"- Longer distances consume more energy, increasing exponentially."
-				""
-				"- Only same-colored connectors link together—use a Color Applicator to organize connections."
-				""
-				"- Energy Cards can help reduce power costs."
-			]
+			description: ["{pf.quest.chapter.ae2.wireless_kit}"]
 			id: "60762D8019DE9913"
 			rewards: [
 				{
@@ -156,13 +142,7 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"The Extended Molecular Assembler is a faster, more powerful alternative to the standard Molecular Assembler, running 8 crafting jobs at the same time and operating at twice the speed!"
-				""
-				"To take full advantage of its capabilities, make sure your ME Network has enough Crafting Accelerators. "
-				""
-				"However, unlike the regular assembler, this version only accepts crafting jobs from a Pattern Provider—you cannot place patterns directly inside it."
-			]
+			description: ["{pf.quest.chapter.ae2.extended_molecular_assembler}"]
 			id: "357ECB5927BEE1E7"
 			rewards: [
 				{
@@ -186,6 +166,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["{pf.quest.chapter.ae2.extended_ae.circuit_slicer.dec}"]
 			id: "70FA70A95C28D258"
 			rewards: [
 				{
@@ -209,17 +190,7 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"The Extended Inscriber takes automation to the next level, allowing up to four inscribing jobs to run simultaneously! "
-				""
-				"No more bottlenecks when crafting processors or pressing materials for your ME System."
-				""
-				"Just like the standard Inscriber, it features a button to adjust the max stack size in its inventory. "
-				""
-				"However, when using it with a Pattern Provider, it's recommended to set the stack size to 1 to prevent potential issues."
-				""
-				"Streamline your processor production and supercharge your Applied Energistics 2 automation with the Extended Inscriber!"
-			]
+			description: ["{pf.quest.chapter.ae2.extended_ae.extended_inscriber.desc}"]
 			id: "236FA70DF7D31A61"
 			rewards: [
 				{
@@ -234,7 +205,6 @@
 					type: "loot"
 				}
 			]
-			subtitle: "No more bottlenecks"
 			tasks: [{
 				id: "6D5DE0450493E819"
 				item: "expatternprovider:ex_inscriber"
@@ -244,19 +214,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"No more sprawling walls or messy chandeliers of Molecular Assemblers and Pattern Providers!"
-				""
-				"With the Assembler Matrix, all your autocrafting needs are handled within a single, powerful multiblock structure, capable of reaching a maximum size of 7×7×7. "
-				""
-				"The Assembler Matrix is fully modular, allowing you to configure it to suit your needs. "
-				""
-				"It requires a mix of Pattern Cores and Craft Cores to function, ensuring seamless automation of even the most complex recipes."
-				""
-				"To maximize its speed, you can install up to 5 Speed Cores. However, adding more than 5 Speed Cores provides no additional benefit."
-				""
-				"If you're tired of cluttered setups and inefficient crafting, the Assembler Matrix is the ultimate solution for a streamlined Applied Energistics 2 autocrafting system!"
-			]
+			description: ["{pf.quest.chapter.ae2.extended_ae.assembler_matrix}"]
 			id: "4CA8CEEF9A38B562"
 			rewards: [
 				{
@@ -271,7 +229,6 @@
 					type: "loot"
 				}
 			]
-			subtitle: "No more pattern towers "
 			tasks: [
 				{
 					id: "37BA48338488BB12"
@@ -352,5 +309,5 @@
 			y: -1.5d
 		}
 	]
-	title: "Extended AE"
+	title: "{pf.quest.chapter.ae2.extended_ae}"
 }

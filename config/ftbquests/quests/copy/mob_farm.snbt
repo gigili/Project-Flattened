@@ -1,0 +1,612 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_farm"
+	group: "162F89E02DC7B00D"
+	icon: "mob_grinding_utils:golden_egg"
+	id: "05A3AA0CE326DA27"
+	images: [
+		{
+			height: 5.0d
+			image: "hostilenetworks:block/simulation_chamber_north"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/deep_learner"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/blank_data_model"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "hostilenetworks:item/prediction_matrix"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "mob_grinding_utils:block/entity_spawner_side_on"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3D8748FF8B40F519"
+			tasks: [{
+				id: "376B0B6E38F115F6"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D8748FF8B40F519"]
+			id: "73DB403DDC0C7A4B"
+			tasks: [{
+				id: "68F9E9AFAF0C545B"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73DB403DDC0C7A4B"
+				"08E9A71BCACB3975"
+			]
+			id: "670C6CB131784772"
+			tasks: [{
+				count: 4L
+				id: "4865CEDDB109141A"
+				item: { Count: 4, id: "mob_grinding_utils:fluid_xp_bucket" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["670C6CB131784772"]
+			id: "7A977C1D5802A1A0"
+			tasks: [{
+				id: "1DC6EAB3B15B6E7E"
+				item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A977C1D5802A1A0"]
+			description: ["Feed a chicken with the GM chicken feed Cursed to get a Rotten Egg."]
+			id: "33D0AE9D8758A780"
+			tasks: [{
+				id: "351336C37EC273FE"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["670C6CB131784772"]
+			id: "32A92E7F21EF7D4F"
+			tasks: [{
+				id: "49377D0BF9C75FB6"
+				item: "mob_grinding_utils:nutritious_chicken_feed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32A92E7F21EF7D4F"]
+			description: ["Feed a chicken with a Nutritius Chicken Feed to get a Golden Egg."]
+			id: "31394DADCC71B3F4"
+			tasks: [{
+				id: "446C5B91356B786D"
+				item: "mob_grinding_utils:golden_egg"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23C1ECE5B2379889"
+				"3A0D9AF117CB4B37"
+			]
+			id: "5D4322000F909355"
+			tasks: [{
+				count: 3L
+				id: "42443F4544B1BD89"
+				item: { Count: 3, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "7081493F6C3F3C0E"
+			tasks: [{
+				id: "6D48F8C0A1F09373"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["33D0AE9D8758A780"]
+			description: [
+				"Spawns hostile mobs and requires darkness to work."
+				""
+				"If exposed to sunlight, it will burn and destroy the cursed earth."
+				""
+				"It can be picked up with silk touch."
+			]
+			id: "23C1ECE5B2379889"
+			tasks: [{
+				icon: "mob_grinding_utils:dreadful_dirt"
+				id: "3E8EDB509536F1DF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mob_grinding_utils:dreadful_dirt"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31394DADCC71B3F4"]
+			description: [
+				"Spawns passive mobs and needs constant light to work; otherwise, it gets covered in snow."
+				""
+				"It can be picked up with silk touch."
+				""
+				"It will periodically spawn grass over it, so you'll need to remove it before it resumes mob spawning."
+			]
+			id: "3A0D9AF117CB4B37"
+			tasks: [{
+				icon: "mob_grinding_utils:delightful_dirt"
+				id: "0B26C99542502F10"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mob_grinding_utils:delightful_dirt"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			id: "7635BA3C219FF755"
+			tasks: [{
+				id: "58CFF71A407C684A"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "32412C5015707898"
+			tasks: [{
+				id: "4B1EE6324D2542E9"
+				item: "mob_grinding_utils:fan_upgrade_height"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "4AC809B7BFDED5B5"
+			tasks: [{
+				id: "4F04D2EB6B725217"
+				item: "mob_grinding_utils:fan_upgrade_width"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D4322000F909355"]
+			id: "6DBF4C384CB463C7"
+			tasks: [{
+				id: "293E7A33F441650F"
+				item: "mob_grinding_utils:fan_upgrade_speed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "0BE2BD08D010670B"
+			tasks: [{
+				id: "17B2025DC5B9FADA"
+				item: "mob_grinding_utils:saw_upgrade_beheading"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "222C8C0C7E6C5573"
+			tasks: [{
+				id: "1970CB6B056CEAD8"
+				item: "mob_grinding_utils:saw_upgrade_fire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "28C76A43789F8C3F"
+			tasks: [{
+				id: "509A4FADC01648A9"
+				item: "mob_grinding_utils:saw_upgrade_smite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "35914A4FC633F196"
+			tasks: [{
+				id: "653B35AB2C81BF04"
+				item: "mob_grinding_utils:saw_upgrade_arthropod"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "01781E5C3856ACA3"
+			tasks: [{
+				id: "1C6298D7FBF393CA"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7635BA3C219FF755"]
+			id: "753F6A11E055BBAC"
+			tasks: [{
+				id: "06B0A157DFE96BE1"
+				item: "mob_grinding_utils:saw_upgrade_sharpness"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"If you want to create spawn eggs to customize the spawners, you can use a swab on a mob. "
+				""
+				"Then combine it with some liquid XP and a seed to get a Chick Feed."
+				""
+				"Feed it to a chicken, and it should generate a spawn egg of the swabbed mob."
+			]
+			id: "08E9A71BCACB3975"
+			subtitle: "Custom Spawn Eggs"
+			tasks: [{
+				id: "5B29D44D4B4BCD22"
+				item: "mob_grinding_utils:mob_swab"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			description: ["Good for storing large amounts of XP."]
+			id: "140D03BDD88156EC"
+			subtitle: "Large tank"
+			tasks: [{
+				id: "0157EEE6B728EADF"
+				item: "mob_grinding_utils:jumbo_tank"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7081493F6C3F3C0E"]
+			description: [
+				"This will allow you to store an almost limitless supply of experience from your mob farm."
+				""
+				"But it needs to be either piped in from the top or use an XP tap to pour your experience into it."
+			]
+			id: "728B421285D58CF9"
+			subtitle: "Limitless tank?"
+			tasks: [{
+				id: "4648A297664B7B7E"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"The Deep Mob Learner is the heart of Hostile Neural Networks. "
+				""
+				"It allows you to “teach” a neural network how to fight mobs by feeding it data from their defeats."
+				""
+				"To begin, you'll need to craft a Deep Mob Learner and a Data Model. "
+				""
+				"Right click with an empty Model Framework on a mob you would like to sample. "
+				""
+				"Insert the Model Framework into the learner and start collecting “mob data” by killing that specific mob while holding the learner."
+				""
+				"As you gain data, the model levels up, improving the loot you’ll receive from simulation and real combat. "
+				""
+				"Once you're ready, use the Simulation Chamber to farm resources virtually—no need to risk your life!"
+			]
+			id: "57BE45BA2CE9042C"
+			rewards: [
+				{
+					id: "6EFE44E2D34954B2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D33A6B02DDC9E79"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "606F335855135BE5"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57BE45BA2CE9042C"]
+			description: [
+				"Before your Deep Mob Learner can begin its training, it needs a Model Framework—the foundation for any learning process. "
+				""
+				"This item, is a blank slate ready to be imprinted with knowledge of a specific mob."
+				""
+				"Crafting a Model Framework is the first step toward automated mob drops and powerful resource generation. "
+				""
+				"Once crafted, right click the desired mob to tune your Model Framework to that specific mob. "
+				""
+				"Place the tuned Model Framework into the Deep Learner and start killing that mob."
+				""
+				"The more mobs of that type that you kill, the more advanced the Model Framework model become, having a higher chance to produce a prediction."
+			]
+			id: "734B62FFB0A76667"
+			rewards: [
+				{
+					id: "1F3E811E66776DB7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EC845E7483C836"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "135B6FCECC0A456B"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57BE45BA2CE9042C"]
+			description: [
+				"To simulate mobs and generate their valuable drops without ever swinging a sword, you'll need a Prediction Matrix. "
+				""
+				"This is the fuel that powers the Simulation Chamber, allowing it to run virtual encounters using your trained Model Frameworks."
+				""
+				"You’ll go through these quickly during large-scale automation, so set up a crafting or automation system to keep them flowing."
+			]
+			id: "03139B2BF7272162"
+			rewards: [
+				{
+					id: "74C07230B9A5B263"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0839B9A4E8E3DE41"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44FB54A4056900CB"
+				item: "hostilenetworks:prediction_matrix"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"734B62FFB0A76667"
+				"03139B2BF7272162"
+			]
+			description: [
+				"The Simulation Chamber is where the magic of Hostile Neural Networks truly begins. "
+				""
+				"By combining a trained Model Framework with Prediction Matrices, you can simulate mob encounters—no danger involved!"
+				""
+				"While working the machine can produce either a mob prediction or a generalized prediction."
+				""
+				"Mob prediction means that the simulation of a kill of that mob was a success and a generalized one means it failed.  "
+				""
+				"Higher tier of Model Frameworks have less chances to produce generilized predictions."
+			]
+			id: "1D66A713030CA6AD"
+			rewards: [
+				{
+					id: "51DCCD3B755DD963"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5782210685E5983D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EEF5CF6962F12BA"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D66A713030CA6AD"]
+			description: [
+				"The Loot Fabricator turns pristine matter into real, usable mob drops of your choosing. "
+				""
+				"No need for messy mob farms—this machine lets you pick what you want and get it instantly."
+				""
+				"As long as you provide the some power and mob predictions."
+				""
+				"It’s especially useful for rare drops or hostile mobs that are difficult to farm normally."
+			]
+			id: "7C0B1AC784BFC9F1"
+			rewards: [
+				{
+					id: "514FB4AFDAA391CF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08D447CC85E506B6"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "18827CB2EC3F0790"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "4C4EB3F1156A367B"
+			rewards: [
+				{
+					id: "542A138BFD4C087C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F8F669C78E781F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A5DFA4343D3EECE"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "30C4FFA989245DF7"
+			rewards: [
+				{
+					id: "3CC999A2E2BA511E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "218618A98DC05A7B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31D74F87DDF2788F"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C0B1AC784BFC9F1"]
+			id: "799078D5586855D8"
+			rewards: [
+				{
+					id: "0D66280EC91EBC01"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "698E0FC74FFEA8B4"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F2683B214A6FB88"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+	]
+	title: "Mob Farm"
+}

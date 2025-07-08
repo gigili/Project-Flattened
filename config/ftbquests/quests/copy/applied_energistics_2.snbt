@@ -1,0 +1,960 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "applied_energistics_2"
+	group: "782DA214CA056142"
+	icon: "ae2:controller"
+	id: "07210DDF872160BA"
+	images: [
+		{
+			height: 3.0d
+			image: "prf:textures/quest/annihilation_plane_automation.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 3.5d
+			image: "prf:textures/quest/annihilation_plane_automation_modifier.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 13.0d
+			y: 7.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To get started with AE2, you'll need to gather some basic resources from the mod itself."
+				""
+				"In normal worlds, you would typically search for meteors, but since this is a flat world, meteors don't spawn (I think?)."
+				""
+				"So, you'll need to start sifting a bit to obtain the necessary resources."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "2893F483C10293E6"
+			rewards: [
+				{
+					count: 8
+					id: "3B8F9C922DCD426E"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "04731B877AA067A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "722C80E46D3250F0"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "43FD619EF9A41E76"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "7B9519E1AF53A9A3"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "The other quartz"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2893F483C10293E6"]
+			description: [""]
+			id: "68B0B3DAF1145191"
+			rewards: [
+				{
+					id: "230CB9AC06A29B7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "591FADFC7C1FB863"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "463DCB630F000D33"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "1F40760C2108BA36"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			description: [""]
+			icon: "ae2:calculation_processor_press"
+			id: "51236544BFEF487B"
+			rewards: [
+				{
+					count: 4
+					id: "1745CCFAC5C46D28"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "53D03CFF7586058B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C8BB2D08B1FE95"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "ae2:main/presses"
+				criterion: ""
+				id: "4D25BF3C4F05025D"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51236544BFEF487B"]
+			description: [""]
+			id: "15564C11744D6AA0"
+			rewards: [
+				{
+					id: "6F428D141799FF83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6626B5513E049FF9"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69505CBBAE299769"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "54C120660252682A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15564C11744D6AA0"]
+			description: [""]
+			icon: "ae2:fluix_crystal"
+			id: "4BF0BB763BFFACF0"
+			rewards: [
+				{
+					count: 4
+					id: "724ADD8BA4137929"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "34AA471D42A56F02"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1632B77D5EA09F24"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0FC1380E32E02533"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "4498692EC5F9E09B"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F16B6A173525277"]
+			description: [""]
+			id: "4E8A05C3BFA80540"
+			rewards: [
+				{
+					id: "5D0CC7AC4BD78134"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC25F53930CEF33"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7124AF3653AA0B37"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			description: [""]
+			icon: "ae2:interface"
+			id: "74FC0DDDB91DB172"
+			rewards: [
+				{
+					id: "341F5229D281635E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB1D108AEFF38EB"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7241918F270CA402"
+				item: "ae2:interface"
+				title: "ME Interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			icon: "ae2:pattern_provider"
+			id: "51DE3157DE3E57B8"
+			rewards: [
+				{
+					id: "12405240582D9D1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7260396185DBB2"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "338A6DA0D711B7DC"
+					item: "ae2:pattern_provider"
+					title: "ME Pattern Provider"
+					type: "item"
+				}
+				{
+					id: "299121F0AFF40604"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4BF0BB763BFFACF0"]
+			description: [""]
+			id: "2F16B6A173525277"
+			rewards: [
+				{
+					id: "6593BF772EE96538"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "248C249CA8A3EFF8"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E5A0607F22128A"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E8A05C3BFA80540"]
+			description: [""]
+			id: "2FB231069D2E4E77"
+			rewards: [
+				{
+					id: "7878EA4ADE367154"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "418F6BED3A86F660"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CC692C0B06DF12A"
+					table_id: 3747742244681250862L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			description: [""]
+			id: "3B42CCC19D23EC6D"
+			rewards: [
+				{
+					id: "4D1AC818C4203ADC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "642B54EEBF9A9547"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			description: [""]
+			id: "219932CB19258C16"
+			rewards: [
+				{
+					id: "42CEB9C64CCDCFEC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ED3437D2B16F05C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			description: [""]
+			id: "523853C1C4E688BA"
+			rewards: [
+				{
+					id: "16FC3AB2ACBFF4B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04A1D7620F510BA9"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			description: [""]
+			id: "5F56892CD904C40F"
+			rewards: [
+				{
+					id: "4DE1354173902859"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D45D1F474DCC79"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2C4616CD2EBB58C6"
+				"5F56892CD904C40F"
+			]
+			description: ["With Mega Cells you can store even more data on your disks than what regular disks allow."]
+			id: "460A8F17F3ED6CAF"
+			rewards: [
+				{
+					id: "3C8B767128199FB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FDAA63042254C43"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "When regular storage is not enough"
+			tasks: [{
+				id: "19BF2D67291056DE"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FB231069D2E4E77"]
+			description: [""]
+			id: "361CCBD353D6FF34"
+			rewards: [
+				{
+					id: "318D3CF0DD1E3A58"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "06150B632CA535D8"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "52521FCD58B2FEF0"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				title: "ME Item Storage Cell"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "5E7E35CCAF1C88EE"
+			rewards: [
+				{
+					id: "462A0C71B591C11F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D93D19940638DE3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "060BD30C77262BDA"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "083D458032F0325C"
+			rewards: [
+				{
+					id: "311337C7850C46F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EC26816E2A96D76"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D6E070CB7998FA1"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [""]
+			id: "7EFBAF3E281D2EBE"
+			rewards: [
+				{
+					id: "74C059194CC4F45D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB733BE1911DF14"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "294FA6663BE38B7C"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51DE3157DE3E57B8"]
+			description: [""]
+			icon: "ae2:blank_pattern"
+			id: "2C04B3BA507D5673"
+			rewards: [
+				{
+					count: 8
+					id: "7E23E751506B04D0"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "20EB24D02799A27D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "58BF9A4EAD7C88E6"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "08D08A1400F7348F"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C04B3BA507D5673"]
+			description: [""]
+			id: "4597D3B3BDC2BED5"
+			rewards: [{
+				id: "59D9A5E482B1D2A6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FB231069D2E4E77"]
+			description: [
+				"If you wish to have a disk storage without type limits than AE2Things has you covered."
+				""
+				"With AE2Things, you can make regular disk just like you would for AE2, but these disks only care about bytes and not types. "
+			]
+			id: "4F3C6B526FA3EA7C"
+			rewards: [
+				{
+					id: "3BDE62BB31D40453"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5793DFE1A940A134"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			subtitle: "Storage for dummies"
+			tasks: [{
+				id: "76627AA17BDA5212"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74FC0DDDB91DB172"]
+			description: [
+				"With this block, you will be able to access all of your items from the transmutation table inside your AE2 system."
+				""
+				"It pairs perfectly with auto-crafting of items, as you don't have to pull them out of your transmutation table or tablet first."
+			]
+			id: "725D23D85325CC85"
+			rewards: [
+				{
+					id: "246CFD16FF2C3950"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A5EBB45ABC450CB"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73B07CE6F10D2BD4"
+				item: "projectexpansion:transmutation_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"You can also automate ore mining using an Annihilation Plane, offering a sleek and powerful alternative to mechanical drills."
+				""
+				"When placed next to a custom cobblestone generator, the Annihilation Plane will instantly break any generated blocks, automatically collecting the drops into your storage system — no moving parts required."
+				""
+				"Even better, the Annihilation Plane supports enchantments, allowing you to boost its efficiency. Add enchantments like Fortune to increase the number of resources gained per operation, or Silk Touch if you need specific block types."
+				""
+				"With the right setup, this method provides a fully automated, enchantment-enhanced mining solution that runs silently and efficiently in the background."
+			]
+			id: "2FEBD310E08EA9E8"
+			rewards: [
+				{
+					id: "5D93146D3FBAF5C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AF1FECC39F93A5E"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8BC0BD9C2B415B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79245338379AEDCB"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63C82056FF41259F"]
+			id: "7EB4507E23CE85E5"
+			rewards: [
+				{
+					id: "141E5F2B23AE8339"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17AB7637E7DC7909"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69C0395FC46EF147"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EB4507E23CE85E5"]
+			id: "64E8E3C5CA413B3A"
+			rewards: [
+				{
+					id: "7D41FFCDF6624701"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D020386EE48C2B"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38FABA6B94F722D7"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64E8E3C5CA413B3A"]
+			id: "244586E44D3F3F9E"
+			rewards: [
+				{
+					id: "1AA3845570921E2B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D40CFD00F75BF1"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A500A5AFA943295"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["244586E44D3F3F9E"]
+			id: "63694916C9777A0E"
+			rewards: [
+				{
+					id: "2EE84B54B7CC2F4C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0978F22E7DE1D6CF"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08C1E973F9963EA2"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["244586E44D3F3F9E"]
+			id: "6FB06A1D63E2A1EA"
+			rewards: [
+				{
+					id: "3B8C6DC7E79C97E5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626803366F6433C3"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0013C755FFB159A3"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63694916C9777A0E"]
+			id: "59B2CB98E0CA4EA3"
+			rewards: [
+				{
+					id: "758FEC87B5018C8B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E605D0345436DDF"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "544A8EAA142C0E38"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BF0BB763BFFACF0"]
+			description: [
+				"While in most packs when working with AE2 you need to worry about channels, in this one you don't."
+				""
+				"It was made so that you have infinite channels available at your disposal to focus on automation instead. "
+			]
+			id: "63C82056FF41259F"
+			rewards: [{
+				id: "133E3BA867270D06"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Channels ?"
+			tasks: [{
+				id: "497167D6072EC051"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

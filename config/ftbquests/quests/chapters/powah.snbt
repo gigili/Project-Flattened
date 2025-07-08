@@ -42,15 +42,15 @@
 					type: "item"
 				}
 				{
-					id: "5853693D2DFF2484"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "03FBB620DBEB4A5A"
 					table_id: 3406014672680411814L
 					type: "random"
+				}
+				{
+					id: "33804014C0BB6997"
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "gear"
@@ -817,7 +817,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["426044647F404298"]
+			dependencies: [
+				"426044647F404298"
+				"1932E8D53A7E1B01"
+			]
 			id: "36D438540737D046"
 			rewards: [
 				{
@@ -985,7 +988,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["66F46C04DD1055FB"]
+			dependencies: [
+				"66F46C04DD1055FB"
+				"1932E8D53A7E1B01"
+			]
 			id: "67491CB8B5B04A8C"
 			rewards: [
 				{
@@ -1585,7 +1591,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["78B664D121B4E3C3"]
+			dependencies: [
+				"78B664D121B4E3C3"
+				"1932E8D53A7E1B01"
+			]
 			id: "23FDF08D25207DF1"
 			rewards: [
 				{
@@ -1609,7 +1618,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["767E6F22E5EB52F4"]
+			dependencies: [
+				"767E6F22E5EB52F4"
+				"1932E8D53A7E1B01"
+			]
 			id: "5A1C9046FAEAACAF"
 			rewards: [
 				{
@@ -1633,7 +1645,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["2A00D29147E02345"]
+			dependencies: [
+				"2A00D29147E02345"
+				"1932E8D53A7E1B01"
+			]
 			id: "479A6964EEA88764"
 			rewards: [
 				{
@@ -1657,7 +1672,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3D30D7D3F03769E1"]
+			dependencies: [
+				"3D30D7D3F03769E1"
+				"1932E8D53A7E1B01"
+			]
 			id: "3E125459EAC4E239"
 			rewards: [
 				{
@@ -1680,6 +1698,100 @@
 			x: 15.5d
 			y: 11.0d
 		}
+		{
+			dependencies: ["1932E8D53A7E1B01"]
+			description: ["{pf.quest.chapter.power.powah.coal.desc}"]
+			id: "0C06269CDEB0C7B3"
+			optional: true
+			rewards: [{
+				id: "783D4B92D0A9E223"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "76C632AB7CF51D19"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "1D0FA13A80A6EC51"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1932E8D53A7E1B01"]
+			description: ["{pf.quest.chapter.power.powah.redstone.desc}"]
+			id: "100951C888769ADB"
+			optional: true
+			rewards: [{
+				id: "4F46B409A2F8B16A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "1AD9C6EE9AE05DBC"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "03D426E827E4DAF2"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1932E8D53A7E1B01"]
+			description: ["{pf.quest.chapter.power.powah.dry_ice.desc}"]
+			id: "796BA856284A904B"
+			optional: true
+			rewards: [
+				{
+					id: "41C0CABD11D894C9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D76FE7CAC70D653"
+					table_id: 3406014672680411814L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6E61AF657B6916F5"
+				item: "powah:dry_ice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			description: ["{pf.quest.chapter.power.powah.desc}"]
+			hide_dependent_lines: true
+			id: "1932E8D53A7E1B01"
+			optional: true
+			rewards: [{
+				id: "47C6E2A45FD1708B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "49638AFAC50ECF69"
+				title: "Reactors"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
 	]
-	title: "Powah"
+	title: "{pf.quest.chapter.power.powah}"
 }

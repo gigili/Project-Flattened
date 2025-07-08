@@ -104,4 +104,49 @@ ServerEvents.recipes(event => {
         I: '#forge:ingots/iron',
         L: '#minecraft:logs'
     }).id('gac:kjs/hopper');
+
+    event.shaped('projectflattenedutilities:teleporter_block', [
+        'NFN',
+        'CEC',
+        'NFN'
+    ], {
+        N: 'minecraft:nether_star',
+        F: 'projectexpansion:final_star_shard',
+        C: 'minecraft:end_crystal',
+        E: 'minecraft:ender_pearl',
+    }).id('gac:kjs/teleporter_block');    
+
+    event.shaped(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'), [
+        'QBQ',
+        'BSB',
+        'NNN'
+    ], {
+        Q: 'ae2:quartz_vibrant_glass',
+        B: 'minecraft:water_bucket',
+        S: 'ae2:cell_component_256k',
+        N: 'minecraft:netherite_ingot'
+    }).id('gac:kjs/infinity_cell_water');
+
+    event.shaped(Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:lava"}}'), [
+        'QBQ',
+        'BSB',
+        'NNN'
+    ], {
+        Q: 'ae2:quartz_vibrant_glass',
+        B: 'minecraft:lava_bucket',
+        S: 'ae2:cell_component_256k',
+        N: 'minecraft:netherite_ingot'
+    }).id('gac:kjs/infinity_cell_lava');
+    
+    
+    event.shaped('projecte:gem_leggings', [
+        'LR ',
+        'TS ',
+        '   '
+    ], {
+        L: 'projecte:rm_leggings',
+        R: 'projecte:black_hole_band',
+        T: 'projecte:red_matter_block',
+        S: 'projecte:klein_star_omega'
+    }).id('gac:kjs/gem_leggings');
 });

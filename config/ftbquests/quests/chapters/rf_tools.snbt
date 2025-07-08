@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["627919AB6E6C2EF6"]
-			description: ["Allows you to connect inventories in a certain range around the scanner."]
+			description: ["{pf.quest.chapter.storage.rftools.storage_scanner.desc}"]
 			id: "1349BC492703CAFF"
 			rewards: [
 				{
@@ -214,7 +214,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Acts like a shulker box, allowing you to store your items in it and move it around without spilling anything when broken."]
+			description: ["{pf.quest.chapter.storage.rftools.mnodular_storage.desc}"]
 			id: "739F93394806BC39"
 			rewards: [
 				{
@@ -238,5 +238,5 @@
 			y: 0.5d
 		}
 	]
-	title: "RF Tools"
+	title: "{pf.quest.chapter.storage.rftools}"
 }

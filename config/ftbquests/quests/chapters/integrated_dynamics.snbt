@@ -5,17 +5,31 @@
 	group: "44ABD0AE4A1EB8E0"
 	icon: "integratedterminals:terminal_storage_portable"
 	id: "538A5493502BACCB"
+	images: [
+		{
+			height: 5.0d
+			hover: ["pf.quest.chapter.storage.integrated_dynamics.basic_storage.desc"]
+			image: "prf:textures/quest/id_basic_storage.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			hover: ["pf.quest.chapter.storage.integrated_dynamics.basic_autocrafting.desc"]
+			image: "prf:textures/quest/id_basic_autocrafting.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.0d
+			y: -3.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Integrated Dynamics offers a lot to players and can sometimes be scary to play with."
-				""
-				"But don't worry, we'll guide you on how to use this mod to set up a good little storage system."
-				""
-				"It will have basic crafting, as well as auto-crafting functionality."
-			]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.menril_sapling.desc}"]
 			id: "3249B859BF471342"
 			rewards: [
 				{
@@ -35,9 +49,14 @@
 					type: "item"
 				}
 				{
-					id: "3A4B4543D79E6E63"
+					id: "495ECC3E2CF93996"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+				{
+					id: "50B6EC6F600457FA"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 			]
 			shape: "circle"
@@ -55,15 +74,21 @@
 			id: "42E40CB2B1B2D3C4"
 			rewards: [
 				{
-					id: "457D5CC956EDD2D2"
+					id: "7BF23270E818E476"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
-					count: 4
-					id: "19BA475BF922E227"
-					item: "integrateddynamics:crystalized_menril_chunk"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0169953B37E09081"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706A7487FCFB5F86"
+					table_id: 6217366158376574853L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -86,11 +111,25 @@
 		{
 			dependencies: ["074821848F7C33A2"]
 			id: "5B5BC7AD0F817C74"
-			rewards: [{
-				id: "5E7FA3CD610EEE74"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7EFDDC62977BADEE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F3EA8C527D0B06E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F68AB050798D5BD"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2FB14847A7E4E1CD"
 				item: "integrateddynamics:squeezer"
@@ -102,11 +141,25 @@
 		{
 			dependencies: ["5B5BC7AD0F817C74"]
 			id: "0899ACBCCAB33779"
-			rewards: [{
-				id: "5A6007EF7B0D8D1A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "590317B87AF2558F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51F841023697AD0A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34AF0DC2B424882D"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0EE881A03832DFA4"
 				item: "integrateddynamics:drying_basin"
@@ -118,11 +171,25 @@
 		{
 			dependencies: ["5B5BC7AD0F817C74"]
 			id: "5FBA4E88AAC7C651"
-			rewards: [{
-				id: "595BC67135331332"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0E24A4C002323620"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1012ABEBDDD8AAA1"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C24A0C761B83CC0"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "123F74C33F8D9805"
 				item: "integrateddynamics:mechanical_squeezer"
@@ -134,11 +201,25 @@
 		{
 			dependencies: ["0899ACBCCAB33779"]
 			id: "51E4824FC66A9EE8"
-			rewards: [{
-				id: "71F9A441B8CBA48D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0ACEACBE83F67B41"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570C530CDA7C552E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0273E18E7EC051B1"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "50EC574F9590832D"
 				item: "integrateddynamics:mechanical_drying_basin"
@@ -150,11 +231,25 @@
 		{
 			dependencies: ["0899ACBCCAB33779"]
 			id: "3A6320E8825149AF"
-			rewards: [{
-				id: "5D9EAED68ADC8527"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2EE42A44BD6F5DE4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F12357842830FD"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02B17B2823509C5A"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "7DAA8F9DD1ABADDE"
@@ -167,11 +262,25 @@
 		{
 			dependencies: ["42E40CB2B1B2D3C4"]
 			id: "074821848F7C33A2"
-			rewards: [{
-				id: "4D6B3444C88BF469"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "66F41FC71BDF942C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AD0BFCAE350B973"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20BB49ECD129ADD4"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "5D6EC33BC3EE8B2F"
@@ -183,12 +292,27 @@
 		}
 		{
 			dependencies: ["07556A113260E2AA"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.storage_terminal.desc}"]
 			id: "440B4D5A1D3A666E"
-			rewards: [{
-				id: "23F6B7C7F8C4E4B8"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "140330E7F5F91C32"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B3B374F713C8A33"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39457F007199ED41"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "44275C890D2E2C02"
 				item: "integratedterminals:part_terminal_storage"
@@ -199,12 +323,27 @@
 		}
 		{
 			dependencies: ["440B4D5A1D3A666E"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.crafting_job_terminal.desc}"]
 			id: "4F51813A8E27ED45"
-			rewards: [{
-				id: "5CC092CD5CFFCC7D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0F83034F76728A28"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20523A741E06A05E"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B237A7B89BB6AD4"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5691722EAFAC7244"
 				item: "integratedterminals:part_terminal_crafting_job"
@@ -215,12 +354,27 @@
 		}
 		{
 			dependencies: ["20F9675AFC028A5F"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.portable_storage_terminal.desc}"]
 			id: "436DA4F7B950412B"
-			rewards: [{
-				id: "6C92AD8A5657544F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7494D9F990A5C06E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15FBDF6FB5E6F869"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4155E4572F6E7C72"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7FA72BD6A2E9DCFD"
 				item: "integratedterminals:terminal_storage_portable"
@@ -231,12 +385,27 @@
 		}
 		{
 			dependencies: ["18CB0A25209D1EE6"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.omni_directional_interface.desc}"]
 			id: "20F9675AFC028A5F"
-			rewards: [{
-				id: "3EFD74241D5057F7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "458B5FACC0334E9F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28A5850A821337BF"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25C0A8E41F7F34CF"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "68A636AF255C8919"
 				item: "integrateddynamics:part_connector_omni_directional"
@@ -247,12 +416,27 @@
 		}
 		{
 			dependencies: ["3A6320E8825149AF"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.item_interface.desc}"]
 			id: "07556A113260E2AA"
-			rewards: [{
-				id: "645A8B2373484EC7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5AEAA1D4D5CFAD6B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CBB12387FAB82C3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "525365EF7B5823B9"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0007859D09F2F2F3"
 				item: "integratedtunnels:part_interface_item"
@@ -263,12 +447,27 @@
 		}
 		{
 			dependencies: ["440B4D5A1D3A666E"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.crafting_interface.desc}"]
 			id: "4658C607200657B7"
-			rewards: [{
-				id: "7C225FD4EEC26FFA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3AA310423E822004"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72D4077D4E1CCC32"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "285182E1FF19D350"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4E99593FBBA5C4A6"
 				item: "integratedcrafting:part_interface_crafting"
@@ -279,35 +478,58 @@
 		}
 		{
 			dependencies: ["4658C607200657B7"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.logic_programmer.desc}"]
 			id: "0801A0065B3D99E4"
-			rewards: [{
-				id: "20D4767DDD1B2CCE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "357FB454A13B42EC"
-					item: "integrateddynamics:logic_programmer"
-					type: "item"
+					id: "33C2AD6E8C47A971"
+					type: "xp"
+					xp: 25
 				}
 				{
-					id: "6AAE8C3843354DF4"
-					item: "integrateddynamics:variablestore"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "35C3966D805497BA"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4238A8145C1D85C4"
+					table_id: 6217366158376574853L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "357FB454A13B42EC"
+				item: "integrateddynamics:logic_programmer"
+				type: "item"
+			}]
 			x: 17.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0801A0065B3D99E4"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.portable_logic_programmer.desc}"]
 			id: "63D9D0CE6331E7B4"
-			rewards: [{
-				id: "359C501F37AAFD92"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "66765C9C514D66AE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "581B6F97C1C0DB81"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "200111409DDE5448"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5A0C24202520844D"
 				item: "integrateddynamics:portable_logic_programmer"
@@ -319,11 +541,25 @@
 		{
 			dependencies: ["0801A0065B3D99E4"]
 			id: "2DC2C961C5746830"
-			rewards: [{
-				id: "103F324A8FA89EA7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2A01F5B0EA7519C8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "018F1BA3425C3E5C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45D502EFFAB09591"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "61294AF23E1442E5"
 				item: "integrateddynamics:variable"
@@ -335,11 +571,25 @@
 		{
 			dependencies: ["440B4D5A1D3A666E"]
 			id: "77F2E0054D9C0E0E"
-			rewards: [{
-				id: "6A56934E2B3477A6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "65830F88C6031F54"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780564C0247F8782"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7595D83A90DC60E3"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "363720A583958B21"
 				item: "integrateddynamics:crystalized_chorus_chunk"
@@ -351,11 +601,25 @@
 		{
 			dependencies: ["77F2E0054D9C0E0E"]
 			id: "18CB0A25209D1EE6"
-			rewards: [{
-				id: "59B3DFCD0FF7CBA0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3F0C899D64ACFF7E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C86DC4E77C6484D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DBC700B248D1D50"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1E1E2BD9AEB19667"
 				item: "integrateddynamics:logic_director"
@@ -364,6 +628,37 @@
 			x: 10.8d
 			y: 3.5d
 		}
+		{
+			dependencies: ["2DC2C961C5746830"]
+			description: ["{pf.quest.chapter.storage.integrated_dynamics.variable_store.desc}"]
+			id: "05DE0651C01F5369"
+			rewards: [
+				{
+					id: "1D9D8BF9F9CF5CC4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "290B7351BF3B670F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DA2EB03CD46D9F0"
+					table_id: 6217366158376574853L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29C7C62D1C7AD838"
+				item: "integrateddynamics:variablestore"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
 	]
-	title: "Integrated Dynamics"
+	title: "{pf.quest.chapter.storage.integrated_dynamics}"
 }

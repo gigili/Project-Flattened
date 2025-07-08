@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "back_to_the_future"
+	group: "56376ED72E30BD44"
+	icon: "projectexpansion:final_star"
+	id: "3E7D3330D06BD00A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FC00D5830EC54DC"
+				"0502CA8C044C2199"
+				"1032329B6CEDBEC9"
+			]
+			id: "6A2E584FD2D9678E"
+			rewards: [
+				{
+					id: "6B62CEFA91E8EA83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A0B55715FBB5B7B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "367A8193C042DEC8"
+				item: "projectexpansion:final_star_shard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2FC00D5830EC54DC"
+			rewards: [
+				{
+					id: "60091A114011424E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FA54A4EDAD4B222"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "29B2461DC285BE41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projectexpansion:colossal_star_omega"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "1032329B6CEDBEC9"
+			rewards: [
+				{
+					id: "1A3206C082B79C26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CDA27C617B3E535"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					count: 9L
+					id: "3820D8664EABD2D8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0F693D00D78BA12E"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EE05BF12DC2CEBA"]
+			id: "0502CA8C044C2199"
+			rewards: [
+				{
+					id: "7FDE12817517121A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B16FD4856F0BF7D"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0AF8787497C8D102"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2E584FD2D9678E"]
+			description: ["Now with this item in hand I'm finally able to open a portal back home."]
+			id: "36E684D43184837B"
+			rewards: [
+				{
+					id: "28C997AE3D175B52"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00FD72C0937D3C9F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "10B7B921FD39264B"
+				item: "projectexpansion:final_star"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36E684D43184837B"]
+			description: [
+				"I've finally managed to craft a teleporter that should take me back home. "
+				""
+				"I've spent so much time on this planet and I'm worried what awaits me back home."
+				""
+				"Was everything fine after the accident or not?"
+				""
+				"I guess all my questions will be answered once I go through it."
+				""
+				"{@pagebreak}"
+				"&6&lNotes:&r&r "
+				""
+				"  - Right click the portal whit this item in your main or off hand."
+				""
+				"  - This will consume the final star so either bring more with you, or a waystone so you can go back."
+			]
+			id: "2508F33F561BDD26"
+			rewards: [
+				{
+					id: "1B368D2641105FB9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33C7A20DC66B3025"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "58C0959EA2031B47"
+				item: "projectflattenedutilities:teleporter_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2508F33F561BDD26"]
+			description: [
+				"When I first stepped through the teleporter, the sun was hitting my eyes and it took me a second to adjust my vision."
+				""
+				"It seemed like I was finally back in my old world, but then the vision started to clear up."
+				""
+				"After looking around, I knew that this isn't my world."
+				""
+				"For one, my world wasn't floating in the sky with nothing else around me but the island I stood on."
+				""
+				"Have I reached somewhere new?"
+				""
+				"Will I have to start all over again in these new lands?"
+				""
+				"I can only imagine what awaits me..."
+			]
+			id: "32BAA8A48D4A6A67"
+			rewards: [
+				{
+					id: "4247771931037278"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F67A209296C906B"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1683A4B2F8EFE2DD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "projectflattenedutilities:void"
+				id: "2E4E5C96677FB0A2"
+				title: "I'm home ?"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32BAA8A48D4A6A67"]
+			description: [
+				"A big thank you from me, for playing this pack and reaching this point. "
+				""
+				"It was a journey to develop it and I'm sure it was a journey for you to play it."
+				""
+				"Even tho this pack ends here, it doesn't mean the story is over."
+				""
+				"New stories and adventures await us all. "
+				""
+				"Whish you all the best and happy crafting,"
+				""
+				"GacBL :) "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7F7203C584F382FA"
+			rewards: [{
+				id: "28B94FE33FCD39DB"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			shape: "heart"
+			size: 3.0d
+			tasks: [{
+				id: "6571BD8368C5F596"
+				title: "Thank you"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+	]
+	title: "Back to the future"
+}

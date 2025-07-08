@@ -1,0 +1,223 @@
+{
+	autofocus_id: "11021FD1CC13186A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "69CAFF12F4782D6E"
+	images: [{
+		click: "https://discord.gg/7maXVvt2c4"
+		height: 2.0d
+		hover: ["Join The Discord"]
+		image: "supplementaries:textures/gui/book/icon/discord.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -2.0d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"While working on our new Quantum Technology Thingy (tm pending), we made a tiny mistake which led to you being teleported to this new world."
+				""
+				"Oops... anyways..."
+				""
+				"We're not sure what dangers or hardships await you on this journey, but at least you were teleported with our survival kit, which grants you basic shelter and some starting resources."
+				""
+				"We hope you'll find a way to use your knowledge and that weird alchemy hobby of yours to hopefully get back to us, while we try to repair the Quantum Technology Thingy (tm pending)."
+			]
+			id: "11021FD1CC13186A"
+			rewards: [
+				{
+					count: 5
+					id: "7B01707995CEFDE1"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "5DCDD103820238E9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "742B844E0179114D"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"The survival kit includes some of the basic resources you'll need to get started on this journey."
+				""
+				"Inside the base, there's a basic kitchen setup for you, so you can make yourself some food."
+				""
+				"It also includes your alchemy table, which we still don't quite understand how it'll help you, but you do you, I guess..."
+				""
+				"We've also included some useful tools and resources to help you out as well."
+				""
+				"Good luck \\& have fun!"
+			]
+			id: "7C400C411666896A"
+			rewards: [{
+				id: "58CF173B8C517C50"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "Survival Kit"
+			tasks: [{
+				id: "087361AAD45E0173"
+				title: "Starting Resources"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"Since we never know what kind of environment our exploration teams might encounter, we've included some basic protection for you."
+				""
+				"In one of the barrels, you will find some sentries that should help keep your base safe from possible intruders."
+				""
+				"There is also a small perimeter just outside your base that you can use to place your turrets and cameras on."
+				""
+				"&4&lNOTE:&r &4Sentries can sometimes disappear from your world if they are not inside a loaded chunk.&r"
+				""
+				"So keep your base loaded and safe."
+			]
+			id: "550FB915BACE7B61"
+			rewards: [{
+				id: "2ACB86F4ED1701BA"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "Stay safe"
+			tasks: [{
+				id: "051982B82B389529"
+				title: "Security"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"If you found a bug, something wrong with the modpack, or just have feedback than feel free to reach out to me:"
+				""
+				"https://github.com/gigili"
+				""
+				"https://x.com/Gac_BL"
+			]
+			id: "306AD2D212BA3A90"
+			rewards: [{
+				id: "1C0BA9FCDD2D78B3"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "64E65E67A1D74B5F"
+				title: "Found a bug?"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"I have to give my thanks to certain individuals and teams because without them, this pack would never have been made."
+				""
+				"I would like to thank &3Chosen Architect&r for his videos on how he made the Chosen Architect 2 pack, which inspired me and got me started on this journey."
+				""
+				"I would like to thank the &eATM team&r for all their hard work on the ATM packs, as they served as great inspiration and guidance as well."
+				""
+				"I would like to thank &cDanRobzProbz&r, as their pack (Project: Superflat Survival) was what gave me a starting point and inspiration to make this."
+				""
+				"Thank you to &9robotliar&r for the house/factory schematic."
+				""
+				"Thank you to &5Nunbear&r and their community for their amazing feedback on quest and mods. "
+				""
+				"And a big thank you to all the mod authors out there because, without them, none of this would be possible."
+				""
+				"I hope you all live long and prosper <3."
+				""
+				"Love ya,"
+				"Gac"
+			]
+			id: "5624E79E7E8AAD7B"
+			rewards: [
+				{
+					id: "1ABA4C6A0DA0835E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 8
+					id: "472F65B3A4E670C4"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "37CA987A3438A79A"
+				title: "Thanks"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11021FD1CC13186A"]
+			description: [
+				"- For multiplayer it is recommended to remove the schematics from the config/startstrucutes folder and only add a schematic to config/pf_schematics. "
+				""
+				"- There is a config file: config/projectflattenedutilities-common.toml "
+				"   Inside of  which you can whiteliste which players are allowed to use spawnHouse command"
+				""
+				"- /spawnHouse <fileName>"
+				"   Spawns a structure at the player's current location."
+				"   <fileName> is optional; defaults to default_base if not specified."
+				"   All .nbt files should be placed in: /config/pf_schematics"
+				"   This command can only be run once per player (unless reset with /clearHouse)."
+				""
+				"- /clearHouse [playerName]"
+				"  Resets a player’s ability to use /spawnHouse."
+				"  Requires permission level 2 or higher."
+				"  [playerName] is optional. If not provided, it applies to the executing player."
+				""
+				"- Checkout Project Flattened Utilities mod for more info"
+			]
+			id: "3E80EEB9AF3AB27B"
+			min_width: 470
+			rewards: [{
+				id: "1755CC8DC4B45694"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "Notes For Server Setup"
+			tasks: [{
+				id: "2A1B8F8A05FA852B"
+				title: "Security"
+				type: "checkmark"
+			}]
+			title: "Multiplayer"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Welcome"
+}

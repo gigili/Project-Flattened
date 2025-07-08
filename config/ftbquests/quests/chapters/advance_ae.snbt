@@ -764,12 +764,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"The Quantum core is the heart of the Quantum Computer. It has 256M of crafting storage and 8 co-processor threads by"
-				"itself. It's the only block that can create a formed quantum computer by itself and provide all the benefits of a"
-				"quantum computer. However, if used to create a multiblock, a much more powerful computer can be created. When used as a"
-				"standalone computer, power must be provided through the Up or Down sides, where the connectors are."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_computer_core.desc}"]
 			id: "1E47DDB3DFDAFCFE"
 			rewards: [{
 				id: "3E410E09F4318E74"
@@ -786,11 +781,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"Data Entanglers are a special block that affect all storage blocks present in the multi-block. They enable storage"
-				"blocks to store data in several dimensions, effectively multiplying their storage by 4. Only one of these can be placed"
-				"in each quantum computer multiblock."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_data_entagler.desc}"]
 			id: "1FE64A6C50B5CEE7"
 			rewards: [{
 				id: "15FBBF39BD1B5C46"
@@ -807,10 +798,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"These blocks expand the crafting storage of the quantum core. They effectively increase the amount of concurrent tasks"
-				"the quantum computer is able to run. There are two variations, with 128M and 256M of capacity."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_256_storage.desc}"]
 			id: "708A8EE4003527AA"
 			rewards: [{
 				id: "3BB9A87813CF705D"
@@ -827,10 +815,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"Similarly to the Data Entanglers, multi-threaders enable accelerators to run extra threads in separate dimensions,"
-				"multiplying their co-processing power by 4. Only one of these can be placed in each quantum computer multiblock."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_multi_threader.desc}"]
 			id: "7DE2FEBE02560702"
 			rewards: [{
 				id: "2900E6246AA6B764"
@@ -847,11 +832,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"Quantum accelerators add 8 co-processors to the Quantum Computer multiblock. It's important to note that all crafting"
-				"patterns being run by the quantum computer are able to share all co-processors, so it's probably a good idea to invest"
-				"in a great amount of these."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_computer_accelerator}"]
 			id: "4152E1E0FC91E6EE"
 			rewards: [{
 				id: "1847908CBE9D3CC7"
@@ -868,10 +849,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: [
-				"These blocks provide the framing of the quantum computer. They are used as a building block for the quantum computer and"
-				"connect everything together."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.qunatum_computer_structure.desc}"]
 			id: "41C732DD2D98EF11"
 			rewards: [{
 				id: "6F8DCA7547844458"
@@ -888,7 +866,7 @@
 		}
 		{
 			dependencies: ["206F3B740A6C472D"]
-			description: ["If you built a larger multiblock than you have resources to fill all the empty slots, these blocks can be used on the inside for no addition benefit."]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum_crafting_unit.desc}"]
 			id: "3B75D3A10FA32C5F"
 			rewards: [{
 				id: "48B5533178A7CE53"
@@ -904,21 +882,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"The quantum computer is a special kind of crafting computer. "
-				""
-				"It is capable of running an unlimited amount of crafting requests, as long as it has enough crafting storage."
-				""
-				"To create a multiblock quantum computer, some rules must be followed:"
-				"- The maximum size is 7x7x7 (external dimensions);"
-				"- No empty spaces can be present inside the multiblock. "
-				"     They can be filled with Quantum Unit for no additional benefits;"
-				"- Exactly one Quantum Core;"
-				"- At most one Quantum Data Entangler;"
-				"- At most one Quantum Multi-threader;"
-				"- All blocks on the outside layer must be Quantum Structure;"
-				"- No block on the inside can be Quantum Structure."
-			]
+			description: ["{pf.quest.chapter.ae2.advanced_ae.quantum.desc}"]
 			id: "206F3B740A6C472D"
 			min_width: 500
 			rewards: [{
@@ -958,5 +922,5 @@
 			y: -11.0d
 		}
 	]
-	title: "Advance AE"
+	title: "{pf.quest.chapter.ae2.advanced_ae}"
 }

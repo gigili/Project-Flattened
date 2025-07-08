@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["7A977C1D5802A1A0"]
-			description: ["Feed a chicken with the GM chicken feed Cursed to get a Rotten Egg."]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.rotten_egg.desc}"]
 			id: "33D0AE9D8758A780"
 			tasks: [{
 				id: "351336C37EC273FE"
@@ -122,7 +122,7 @@
 		}
 		{
 			dependencies: ["32A92E7F21EF7D4F"]
-			description: ["Feed a chicken with a Nutritius Chicken Feed to get a Golden Egg."]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.golden_egg.desc}"]
 			id: "31394DADCC71B3F4"
 			tasks: [{
 				id: "446C5B91356B786D"
@@ -160,13 +160,7 @@
 		}
 		{
 			dependencies: ["33D0AE9D8758A780"]
-			description: [
-				"Spawns hostile mobs and requires darkness to work."
-				""
-				"If exposed to sunlight, it will burn and destroy the cursed earth."
-				""
-				"It can be picked up with silk touch."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.dreadful_dirt.desc}"]
 			id: "23C1ECE5B2379889"
 			tasks: [{
 				icon: "mob_grinding_utils:dreadful_dirt"
@@ -181,13 +175,7 @@
 		}
 		{
 			dependencies: ["31394DADCC71B3F4"]
-			description: [
-				"Spawns passive mobs and needs constant light to work; otherwise, it gets covered in snow."
-				""
-				"It can be picked up with silk touch."
-				""
-				"It will periodically spawn grass over it, so you'll need to remove it before it resumes mob spawning."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.delightful_dirt.desc}"]
 			id: "3A0D9AF117CB4B37"
 			tasks: [{
 				icon: "mob_grinding_utils:delightful_dirt"
@@ -311,13 +299,7 @@
 			y: 13.0d
 		}
 		{
-			description: [
-				"If you want to create spawn eggs to customize the spawners, you can use a swab on a mob. "
-				""
-				"Then combine it with some liquid XP and a seed to get a Chick Feed."
-				""
-				"Feed it to a chicken, and it should generate a spawn egg of the swabbed mob."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.mob_swab.desc}"]
 			id: "08E9A71BCACB3975"
 			subtitle: "Custom Spawn Eggs"
 			tasks: [{
@@ -330,7 +312,7 @@
 		}
 		{
 			dependencies: ["7081493F6C3F3C0E"]
-			description: ["Good for storing large amounts of XP."]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.jumbo_tank.desc}"]
 			id: "140D03BDD88156EC"
 			subtitle: "Large tank"
 			tasks: [{
@@ -343,11 +325,7 @@
 		}
 		{
 			dependencies: ["7081493F6C3F3C0E"]
-			description: [
-				"This will allow you to store an almost limitless supply of experience from your mob farm."
-				""
-				"But it needs to be either piped in from the top or use an XP tap to pour your experience into it."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.expeirence_crystal.desc}"]
 			id: "728B421285D58CF9"
 			subtitle: "Limitless tank?"
 			tasks: [{
@@ -359,21 +337,7 @@
 			y: 8.5d
 		}
 		{
-			description: [
-				"The Deep Mob Learner is the heart of Hostile Neural Networks. "
-				""
-				"It allows you to “teach” a neural network how to fight mobs by feeding it data from their defeats."
-				""
-				"To begin, you'll need to craft a Deep Mob Learner and a Data Model. "
-				""
-				"Right click with an empty Model Framework on a mob you would like to sample. "
-				""
-				"Insert the Model Framework into the learner and start collecting “mob data” by killing that specific mob while holding the learner."
-				""
-				"As you gain data, the model levels up, improving the loot you’ll receive from simulation and real combat. "
-				""
-				"Once you're ready, use the Simulation Chamber to farm resources virtually—no need to risk your life!"
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.deep_learner.desc}"]
 			id: "57BE45BA2CE9042C"
 			rewards: [
 				{
@@ -398,19 +362,7 @@
 		}
 		{
 			dependencies: ["57BE45BA2CE9042C"]
-			description: [
-				"Before your Deep Mob Learner can begin its training, it needs a Model Framework—the foundation for any learning process. "
-				""
-				"This item, is a blank slate ready to be imprinted with knowledge of a specific mob."
-				""
-				"Crafting a Model Framework is the first step toward automated mob drops and powerful resource generation. "
-				""
-				"Once crafted, right click the desired mob to tune your Model Framework to that specific mob. "
-				""
-				"Place the tuned Model Framework into the Deep Learner and start killing that mob."
-				""
-				"The more mobs of that type that you kill, the more advanced the Model Framework model become, having a higher chance to produce a prediction."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.model_framework.desc}"]
 			id: "734B62FFB0A76667"
 			rewards: [
 				{
@@ -435,13 +387,7 @@
 		}
 		{
 			dependencies: ["57BE45BA2CE9042C"]
-			description: [
-				"To simulate mobs and generate their valuable drops without ever swinging a sword, you'll need a Prediction Matrix. "
-				""
-				"This is the fuel that powers the Simulation Chamber, allowing it to run virtual encounters using your trained Model Frameworks."
-				""
-				"You’ll go through these quickly during large-scale automation, so set up a crafting or automation system to keep them flowing."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.prediction_matrix.desc}"]
 			id: "03139B2BF7272162"
 			rewards: [
 				{
@@ -469,17 +415,7 @@
 				"734B62FFB0A76667"
 				"03139B2BF7272162"
 			]
-			description: [
-				"The Simulation Chamber is where the magic of Hostile Neural Networks truly begins. "
-				""
-				"By combining a trained Model Framework with Prediction Matrices, you can simulate mob encounters—no danger involved!"
-				""
-				"While working the machine can produce either a mob prediction or a generalized prediction."
-				""
-				"Mob prediction means that the simulation of a kill of that mob was a success and a generalized one means it failed.  "
-				""
-				"Higher tier of Model Frameworks have less chances to produce generilized predictions."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.simulation_chamber.desc}"]
 			id: "1D66A713030CA6AD"
 			rewards: [
 				{
@@ -504,15 +440,7 @@
 		}
 		{
 			dependencies: ["1D66A713030CA6AD"]
-			description: [
-				"The Loot Fabricator turns pristine matter into real, usable mob drops of your choosing. "
-				""
-				"No need for messy mob farms—this machine lets you pick what you want and get it instantly."
-				""
-				"As long as you provide the some power and mob predictions."
-				""
-				"It’s especially useful for rare drops or hostile mobs that are difficult to farm normally."
-			]
+			description: ["{pf.quest.chapter.getting_started.mob_farm.loot_fabricator.desc}"]
 			id: "7C0B1AC784BFC9F1"
 			rewards: [
 				{
@@ -608,5 +536,5 @@
 			y: 7.0d
 		}
 	]
-	title: "Mob Farm"
+	title: "{pf.quest.chapter.getting_started.mob_farm}"
 }

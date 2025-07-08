@@ -47,6 +47,11 @@ ServerEvents.recipes(event => {
         "item": "minecraft:emerald",
         "chance": 0.10
       },
+      {
+        "item": "minecraft:lapis",
+        "chance": 0.05,
+        "count": 2
+      },
     ],
     "processingTime": 200,
     "waterlogged": false

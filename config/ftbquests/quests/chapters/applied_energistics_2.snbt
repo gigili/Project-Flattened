@@ -28,13 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"To get started with AE2, you'll need to gather some basic resources from the mod itself."
-				""
-				"In normal worlds, you would typically search for meteors, but since this is a flat world, meteors don't spawn (I think?)."
-				""
-				"So, you'll need to start sifting a bit to obtain the necessary resources."
-			]
+			description: ["{pf.quest.chapter.ae2.certus_quartz.desc}"]
 			icon: "ae2:certus_quartz_crystal"
 			id: "2893F483C10293E6"
 			rewards: [
@@ -114,7 +108,7 @@
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
-			description: [""]
+			description: ["{pf.quest.chapter.ae2.inscriber_plate.desc}"]
 			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
 			rewards: [
@@ -506,7 +500,7 @@
 				"2C4616CD2EBB58C6"
 				"5F56892CD904C40F"
 			]
-			description: ["With Mega Cells you can store even more data on your disks than what regular disks allow."]
+			description: ["{pf.quest.chapter.ae2.mega_cell.desc}"]
 			id: "460A8F17F3ED6CAF"
 			rewards: [
 				{
@@ -523,7 +517,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "When regular storage is not enough"
+			subtitle: "{pf.quest.chapter.ae2.mega_cell.subtitle}"
 			tasks: [{
 				id: "19BF2D67291056DE"
 				item: "megacells:cell_component_1m"
@@ -694,11 +688,7 @@
 		}
 		{
 			dependencies: ["2FB231069D2E4E77"]
-			description: [
-				"If you wish to have a disk storage without type limits than AE2Things has you covered."
-				""
-				"With AE2Things, you can make regular disk just like you would for AE2, but these disks only care about bytes and not types. "
-			]
+			description: ["{pf.quest.chapter.ae2.me_disk_housing.desc}"]
 			id: "4F3C6B526FA3EA7C"
 			rewards: [
 				{
@@ -713,7 +703,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Storage for dummies"
+			subtitle: "{pf.quest.chapter.ae2.me_disk_housing.subtitle}"
 			tasks: [{
 				id: "76627AA17BDA5212"
 				item: "ae2things:disk_housing"
@@ -724,7 +714,7 @@
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["With this block you will be able to access all of your items from the transmutation table inside of your AE2 system. "]
+			description: ["{pf.quest.chapter.projecte.emc.transmutation_interface.desc}"]
 			id: "725D23D85325CC85"
 			rewards: [
 				{
@@ -748,15 +738,7 @@
 			y: 7.0d
 		}
 		{
-			description: [
-				"You can also automate ore mining using an Annihilation Plane, offering a sleek and powerful alternative to mechanical drills."
-				""
-				"When placed next to a custom cobblestone generator, the Annihilation Plane will instantly break any generated blocks, automatically collecting the drops into your storage system — no moving parts required."
-				""
-				"Even better, the Annihilation Plane supports enchantments, allowing you to boost its efficiency. Add enchantments like Fortune to increase the number of resources gained per operation, or Silk Touch if you need specific block types."
-				""
-				"With the right setup, this method provides a fully automated, enchantment-enhanced mining solution that runs silently and efficiently in the background."
-			]
+			description: ["{pf.quest.chapter.ae2.annihilation_plane.desc}"]
 			id: "2FEBD310E08EA9E8"
 			rewards: [
 				{
@@ -785,6 +767,168 @@
 			x: 10.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["63C82056FF41259F"]
+			id: "7EB4507E23CE85E5"
+			rewards: [
+				{
+					id: "141E5F2B23AE8339"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17AB7637E7DC7909"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69C0395FC46EF147"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EB4507E23CE85E5"]
+			id: "64E8E3C5CA413B3A"
+			rewards: [
+				{
+					id: "7D41FFCDF6624701"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D020386EE48C2B"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "38FABA6B94F722D7"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64E8E3C5CA413B3A"]
+			id: "244586E44D3F3F9E"
+			rewards: [
+				{
+					id: "1AA3845570921E2B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D40CFD00F75BF1"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A500A5AFA943295"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["244586E44D3F3F9E"]
+			id: "63694916C9777A0E"
+			rewards: [
+				{
+					id: "2EE84B54B7CC2F4C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0978F22E7DE1D6CF"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08C1E973F9963EA2"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["244586E44D3F3F9E"]
+			id: "6FB06A1D63E2A1EA"
+			rewards: [
+				{
+					id: "3B8C6DC7E79C97E5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626803366F6433C3"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0013C755FFB159A3"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63694916C9777A0E"]
+			id: "59B2CB98E0CA4EA3"
+			rewards: [
+				{
+					id: "758FEC87B5018C8B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E605D0345436DDF"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "544A8EAA142C0E38"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4BF0BB763BFFACF0"]
+			description: ["{pf.quest.chapter.ae2.channels.desc}"]
+			id: "63C82056FF41259F"
+			rewards: [{
+				id: "133E3BA867270D06"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Channels ?"
+			tasks: [{
+				id: "497167D6072EC051"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
 	]
-	title: "Applied Energistics 2"
+	title: "{pf.quest.chapter.ae2}"
 }

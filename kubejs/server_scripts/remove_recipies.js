@@ -9,6 +9,8 @@ ServerEvents.recipes(event => {
         'cobblefordays:tier_5',
         'tiab:time_in_a_bottle',
         'projectexpansion:matter_upgrader',
+        'projectflattenedutilities:teleporter_block',
+        'expatternprovider:infinity_cell',
     ];
 
     const recipiesToRemoveById = [
@@ -19,6 +21,8 @@ ServerEvents.recipes(event => {
         'ae2:transform/certus_quartz_crystals',
         'ae2:charger/meteorite_compass',
         'create:milling/gravel',
+        'projecte:watch_of_flowing_time',
+        'projecte:gem_leggings',
     ];
 
     recipiesToRemoveByMod.forEach(modId => {

@@ -1,0 +1,38 @@
+{
+	id: "564885947C921F85"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 6, item: "integrateddynamics:cable" }
+		{
+			item: {
+				Count: 1
+				id: "integrateddynamics:energy_battery"
+				tag: {
+					energy: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 16, item: "integrateddynamics:menril_log" }
+		{ count: 10, item: "integrateddynamics:variable" }
+		{ count: 2, item: "integratedtunnels:part_interface_item" }
+		{ item: "integratedtunnels:part_interface_filter_item" }
+		{ item: "integratedtunnels:part_importer_item" }
+		{ item: "integratedtunnels:part_exporter_item" }
+		{ count: 2, item: "integratedtunnels:part_interface_fluid" }
+		{ item: "integratedtunnels:part_interface_filter_fluid" }
+		{ item: "integratedtunnels:part_importer_fluid" }
+		{ item: "integratedtunnels:part_exporter_fluid" }
+		{ count: 2, item: "integratedtunnels:part_interface_energy" }
+		{ item: "integratedtunnels:part_interface_filter_energy" }
+		{ item: "integratedtunnels:part_importer_energy" }
+		{ item: "integratedtunnels:part_exporter_energy" }
+		{ count: 2, item: "integrateddynamics:crystalized_menril_block", weight: 0.65f }
+		{ count: 16, item: "integrateddynamics:menril_berries" }
+		{ count: 4, item: "integrateddynamics:proto_chorus", weight: 0.55f }
+		{ count: 6, item: "integrateddynamics:crystalized_chorus_chunk", weight: 0.45f }
+		{ count: 2, item: "integratedcrafting:part_interface_crafting", weight: 0.85f }
+	]
+	title: "Random ID Reward"
+}

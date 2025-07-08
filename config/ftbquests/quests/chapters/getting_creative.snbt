@@ -6,70 +6,64 @@
 	icon: "create:creative_blaze_cake"
 	id: "0987B847EBE47793"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "442B85497FF57D2A"
+		linked_quest: "36E684D43184837B"
+		size: 2.0d
+		x: 1.0d
+		y: -2.0d
+	}]
 	quests: [
 		{
+			dependencies: ["36E684D43184837B"]
 			id: "14C963E21291E016"
 			rewards: [
 				{
-					id: "73DBA182BBEA7F7D"
+					id: "6337F0C9F0DFDD54"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "04DA74F6BA858832"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "268C67300A95450A"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1298FA1907D3E3AF"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "11D6E101F2E3CDF0"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "3FB59BC70D71E1FC"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
 				id: "0155FFEF5BD1D5B1"
 				item: "powah:energy_cell_creative"
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["36E684D43184837B"]
 			id: "45B8B048BE6DFA3D"
 			rewards: [
 				{
-					id: "3A15EAF782BDEAF5"
+					id: "75A42E61A6F4A97B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "36AF2313D781EA17"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "316308974A6BC1FA"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "54AEAEBE65683758"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "754D234B7EF7CFEA"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "63656DB03B59325A"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [
 				{
 					id: "4267F202185F9148"
@@ -123,187 +117,183 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["36E684D43184837B"]
 			id: "530DBAEC5F3E0BE1"
 			rewards: [
 				{
-					id: "40526E030E2C6B59"
+					id: "6742AD08282F3671"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "535BEC7798160A54"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "7D11885ED186D885"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "176A86FA4C5AC288"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "10036AE32707F789"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "47AB7E54F98B8930"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
 				id: "4B94014852BC97FD"
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
-			id: "6C12CC0CFEBB4F00"
-			rewards: [
-				{
-					id: "4012599DF76CBD1A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3B6FDCE97C4DFD9A"
-					table_id: 6510593964462044032L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4FB8F9B65E616721"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2E01B8188EE72333"
-					table_id: 3747742244681250862L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "5FF382E206D0BC11"
-				item: "ae2:creative_item_cell"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
+			dependencies: ["36E684D43184837B"]
 			id: "1C3765064A82EBCF"
 			rewards: [
 				{
-					id: "136258CCA1EDC7CA"
+					id: "371A16896A92C7E9"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3190F12618B5A6B2"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "7D69C45C4FF08CF1"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6434F17348CAE57C"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D722B43E11D6230"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "5A6AEFFD62756730"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
 				id: "20DFD9C04236A28D"
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
-			id: "0C740C68CE6277C6"
+			dependencies: ["36E684D43184837B"]
+			id: "49C6C779220099B7"
 			rewards: [
 				{
-					id: "7EBC053D4A45E1C9"
+					id: "75DE0FACC31156B8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6F58C90F5BA7D2EC"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "29A19EB9D5D4DDDE"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "19D8F242312054F3"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "24EDC5A5B8FA2C0B"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "39A3978C2B7E759A"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
-			subtitle: "WIP"
+			size: 2.0d
 			tasks: [{
-				id: "424861E8E633D12E"
+				id: "5547893CB0DCE1E3"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36E684D43184837B"]
+			id: "21DFDDE14E2DFC64"
+			rewards: [
+				{
+					id: "00D22D038C210357"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1D673694E96CD228"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "5E3D12A20DCB7D15"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "74054512DD9E5583"
 				item: "ae2:creative_fluid_cell"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
-			description: ["Using this tool, you can bring back mountains and create more amazing scenery instead of just looking at a flat world."]
-			id: "7E9107E54A96F8F6"
+			dependencies: ["36E684D43184837B"]
+			id: "68B6570C12F7E959"
 			rewards: [
 				{
-					id: "4AFED31E6FAC2C7E"
+					id: "29E4346D406F670B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					exclude_from_claim_all: true
-					id: "60341F6A2822BD4E"
-					table_id: 6510593964462044032L
-					type: "random"
+					id: "676ED4420BE2B256"
+					item: "createaddition:chocolate_cake"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "01D75BDDBF0DE880"
-					table_id: 7941907946566505457L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0CD4A9D16B2CD289"
-					table_id: 3747742244681250862L
-					type: "random"
+					id: "3204BD2A0FDD52AF"
+					item: "create:builders_tea"
+					type: "item"
 				}
 			]
-			subtitle: "Shape The World"
+			size: 2.0d
 			tasks: [{
-				id: "5B0125212B16814C"
+				id: "247F4AE675C2D4E0"
 				item: "create:handheld_worldshaper"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36E684D43184837B"]
+			id: "564841A0339C6629"
+			rewards: [
+				{
+					id: "6C260ED26611F633"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "01741376E4A201CE"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "464C9DBFAE1313DC"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "5F3C05C81AD0485B"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
 		}
 	]
-	title: "Getting creative"
+	title: "{pf.quest.chapter.back_to_reality.getting_creative}"
 }

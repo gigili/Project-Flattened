@@ -1,0 +1,915 @@
+{
+	autofocus_id: "4863A8507F6A6144"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basisc"
+	group: "162F89E02DC7B00D"
+	icon: "minecraft:crafting_table"
+	id: "505739E542388F33"
+	images: [
+		{
+			height: 4.0d
+			hover: ["Basic Mechanical Drill Automation"]
+			image: "prf:textures/quest/drill_automation.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			hover: ["Basic Lava Automation"]
+			image: "prf:textures/quest/lava-gen.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4863A8507F6A6144"
+			rewards: [
+				{
+					id: "0745F494774D28D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0009F2B8C503C5FA"
+					table_id: 1884345259846501490L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "174CECD545D95CC6"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4E7E0732C2C36D31"
+				item: { Count: 4, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4863A8507F6A6144"]
+			description: [
+				"The most basic resources in this game are cobblestone, dirt, and wood. "
+				""
+				"But in a super flat world, resources are hard to come by since the world is made up of only 3 layers."
+				""
+				"The 1st and 2nd layers are dirt"
+				""
+				"The 3rd layer is grass."
+				""
+				"So, using some 'magic,' we've made it so the classic cobblestone generator produces more than just cobblestone."
+				""
+				"Hint: Check out the usages for a diamond block in JEI to see more."
+			]
+			id: "034320E904F4DB43"
+			rewards: [
+				{
+					count: 10
+					id: "0C6B184F53DEBA76"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71CEDD1C45223ECD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5685DE649AA12F6B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["034320E904F4DB43"]
+			id: "7A337155C25CA855"
+			rewards: [
+				{
+					id: "03EC6B76E603908E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DC3778031F99484"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "21607C800FC4504F"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A337155C25CA855"]
+			id: "5501764E5CA9A762"
+			rewards: [
+				{
+					count: 5
+					id: "217FBABA0AC89019"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "53D8B7BF47E1D971"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DB343378293FDB5"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6F77E6B83C0F4F0C"
+				item: { Count: 8, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5501764E5CA9A762"]
+			id: "6D1547E4902EB9EF"
+			rewards: [
+				{
+					count: 5
+					id: "43B170F0A148A19A"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "44AFB45E523D7D71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7802DE0E85B1CD4C"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1CB7A1E8F9EFB309"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D1547E4902EB9EF"]
+			id: "080C1054809D3E11"
+			rewards: [
+				{
+					id: "0ACDDF846A8DC85D"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "170C3BD042076A38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFF4FCB64E5D75F"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1DF7433913C21398"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16859CEB4147AFDD"]
+			id: "7A5975BFBA56B5B3"
+			rewards: [
+				{
+					id: "1AB2F51DC84C4C2B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28BC9A56A6847E49"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1344B9D5473B0710"
+				item: { Count: 16, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			description: ["Sand can be obtained by using a Create mill or Crushing Wheels to crush gravel into sand."]
+			id: "39504796BEBD1BB7"
+			rewards: [
+				{
+					id: "344339419FA5E0DF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45CBF756EA2D1F83"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "1D4847055C4332B8"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "600BA75BBB49B259"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			description: ["Dust can be obtained by using a Create mill or Crushing Wheels to crush sand into dust."]
+			id: "7D4528CC5B000A1E"
+			rewards: [
+				{
+					id: "589137AD1CB88AA8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72798BC8FD1994DE"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "36B6FE0A848075D1"
+					item: "createsifter:dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CDED6987E1D26E8"
+				item: "createsifter:dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "721F35E5FFFE6D6C"
+			rewards: [
+				{
+					id: "7FCEBE6257438212"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09EAC9B8B69483DF"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6219AB951B92D13C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "43EA31B5C2491786"
+			rewards: [
+				{
+					id: "7E16EB89A6286E26"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53A182E3935388E7"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2FD476EBF08F2EF1"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39504796BEBD1BB7"]
+			id: "19FCE5794F33123B"
+			rewards: [
+				{
+					id: "2BD0F80EF41CF720"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "715BDC34D0C1D334"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FD509129EA68460"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			id: "3CE18E9A48B24E61"
+			rewards: [
+				{
+					id: "10E0ED29768A63AF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60CADDCD58286307"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3BCB48DD324EE27B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			id: "09D73392A599BBD4"
+			rewards: [
+				{
+					id: "79F4092C39EB8189"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090F274960AC76E3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3777D4512ECB0936"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7D4528CC5B000A1E"]
+			description: [""]
+			id: "7EB7AAA0B0DE6B47"
+			rewards: [
+				{
+					id: "2AC1371F514F5D1C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B145C032B06935A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38853FF75CC705EF"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6889EC5B2F870847"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7EB7AAA0B0DE6B47"]
+			id: "296E9C739B7EA13E"
+			rewards: [
+				{
+					id: "653F3FB415E35E1D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F12B90A5E368756"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0127FC2C5C315110"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "499B5361D012B457"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7EB7AAA0B0DE6B47"]
+			id: "326FCF7ABA9E136A"
+			rewards: [
+				{
+					id: "4CA8CAF0EC4D8FB8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18EBDCAED1111B09"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38B28D0CF3F0FD07"
+					table_id: 3747742244681250862L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "540FE1BE0A45F3B6"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3CE18E9A48B24E61"]
+			id: "61702AA1C49AEB29"
+			rewards: [
+				{
+					id: "3E288F5F712F5B23"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74BE57A0EBBDB9F8"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32E121F2B5DBF7DA"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["09D73392A599BBD4"]
+			id: "5DB6E030CB6C4829"
+			rewards: [
+				{
+					id: "3F53F0E475BA976C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4FE931264C913F"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "52C0F7E27699F8C6"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "74525EA0BBBF668D"
+			rewards: [
+				{
+					id: "78F7DB0BDCD09DE3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16168FCE1B685571"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "27CEA1E3C055349B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "4101E02AC76D292D"
+			rewards: [
+				{
+					id: "13E09D5DB36A2D08"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68C22560A9DE426C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C794757DC4EC618"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "16C88D91582FBDD1"
+			rewards: [
+				{
+					id: "4A1E34B2E6D6150A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11BAC0F058BA5AC5"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EB71F61FC48AB00"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "32AC006460C6BED6"
+			rewards: [
+				{
+					id: "0B0ADFEB543161A0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55C6AB43E5410762"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01D11265F6A390B3"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "1C848D069E6AFC22"
+			rewards: [
+				{
+					id: "5FE2AB66B848AFDD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C476641F578779C"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CF6D09391C10676"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			id: "1B535214842DAE6C"
+			rewards: [
+				{
+					id: "75E4667D06C1FD83"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114444A43296F673"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "313408DD399CED79"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5501764E5CA9A762"]
+			description: [
+				"The way to obtain most resources in this pack is by using the sifter and a mesh."
+				""
+				"Each mesh has different outputs and requirements."
+				""
+				"It is recommended to check out each mesh by pressing U while hovering over it in JEI."
+				""
+				"Advanced meshes require a brass sifter to work."
+				""
+				"For some items, it is also required that the sifter be waterlogged."
+				"{@pagebreak}"
+				"To use a sifter you can either drop items on top of it so it can pick them up, or you can use a hopper to insert them into it (pipes and chutes work as well)."
+				""
+				"When pulling items out of the sifter, you can right click on it to get the items inside or use a hopper (can be slow at extracting) or "
+				"something like a chute or item pipe. "
+			]
+			icon: "createsifter:sifter"
+			id: "16859CEB4147AFDD"
+			rewards: [
+				{
+					count: 64
+					id: "26A3902A2210785A"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "009AAA8DE27A0639"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "35C7F2ED59D5E9B7"
+				title: "Sifting"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AE8C8B8DD5633B9"]
+			description: [
+				"Nobody wants to mine cobble forever, so it's best to automate it. "
+				""
+				"You might want to consider duplicating your lava first before setting this up, as you won't get it back."
+			]
+			id: "7CDAB385BDE7E3B2"
+			rewards: [
+				{
+					id: "3D6710639BAE5F49"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B5362F15EE1990A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3683BECBCCD930C4"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CDAB385BDE7E3B2"]
+			description: [
+				"As this modpack focuses on EMC, I can't make it too easy and let you keep upgrading this further."
+				""
+				"Tier 2 is as far as it goes, but it should help you get up and running quickly until you can automate EMC and get EMC links."
+			]
+			id: "10B8CAD33C7D1658"
+			rewards: [
+				{
+					id: "3B3F00DC6ED1FE28"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3660C7AAE3479C76"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C5FDBB665EA197C"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16859CEB4147AFDD"]
+			description: [
+				"With mechanical drills, you can easily automate the breaking of ores from the custom cobblestone generator."
+				""
+				"This allows you to focus on other tasks while ores are mined in the background."
+				""
+				"With a bit of help from some fans and either water or lava, you can even automate the processing as well."
+				""
+				"Mechanical drills can also be enchanted to yield more resources as they mine."
+			]
+			id: "655A152E207E2549"
+			rewards: [
+				{
+					id: "4C890886F27E15A7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DAABE71DD86F6CD"
+					table_id: 6510593964462044032L
+					type: "loot"
+				}
+			]
+			subtitle: "Automation Begins"
+			tasks: [{
+				id: "6C24847180C997E2"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Start of automation"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A5975BFBA56B5B3"]
+			description: [
+				"Lava is dangerous—but also renewable with the right setup!"
+				""
+				"Place a source block of lava on top of a solid block, then hang a pointed dripstone underneath it. "
+				""
+				"Below that, place a cauldron."
+				""
+				"Over time, the lava will begin to drip through the dripstone, and the cauldron will slowly fill with lava. "
+				""
+				"Once full, you can scoop it up with a bucket—effectively turning one lava source into many."
+				""
+				"It’s slow, but it’s infinite and fully automatable!"
+				""
+				"&lVisual tip:&r "
+				"Check the image on the right for how to set it up properly."
+			]
+			id: "408FD37DDB51F7EA"
+			rewards: [
+				{
+					id: "3D4EE160174635F0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A55B42B259563A3"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7606C1467D540290"
+				item: "minecraft:pointed_dripstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["408FD37DDB51F7EA"]
+			id: "5AE8C8B8DD5633B9"
+			rewards: [
+				{
+					id: "218443E15688C855"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BDF31A7632CCDAA"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "52A216AF6F3CC831"
+				item: { Count: 2, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+	]
+	title: "Basics"
+}

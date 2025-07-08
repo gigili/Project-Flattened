@@ -69,7 +69,7 @@
           "function": "tombstone:enchanted_equipment",
           "type": 0,
           "enchantedChance": 50,
-          "randomEnchantibility": 60
+          "randomEnchantability": 60
         }
       ],
       "name": "minecraft:book"
@@ -82,7 +82,7 @@
           "function": "tombstone:enchanted_equipment",
           "type": 2,
           "enchantedChance": 50,
-          "randomEnchantibility": 60
+          "randomEnchantability": 60
         }
       ],
       "name": "minecraft:book"
@@ -95,7 +95,7 @@
           "function": "tombstone:enchanted_equipment",
           "type": 1,
           "enchantedChance": 50,
-          "randomEnchantibility": 60
+          "randomEnchantability": 60
         }
       ],
       "name": "minecraft:book"

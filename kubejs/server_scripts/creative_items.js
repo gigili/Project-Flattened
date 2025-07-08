@@ -62,13 +62,26 @@ ServerEvents.recipes(event => {
         ingredients: [
             Ingredient.of('megacells:mega_energy_cell').toJson(),
             Ingredient.of('megacells:mega_energy_cell').toJson(),
-            Ingredient.of('projectexpansion:final_star').toJson(),
+            Item.of('projectexpansion:final_star').toJson(),
             Ingredient.of('megacells:mega_energy_cell').toJson(),
             Ingredient.of('megacells:mega_energy_cell').toJson(),
         ],
         energy: '2147483647',
         result: Item.of('ae2:creative_energy_cell').toJson()
     }).id(`gac:kjs/creative/ae2_creative_energy_cell`);
+
+    event.custom({
+        type: 'powah:energizing',
+        ingredients: [
+            Item.of('integrateddynamics:energy_battery', '{energy:1000000}'),
+            Item.of('integrateddynamics:energy_battery', '{energy:1000000}'),
+            Item.of('projectexpansion:final_star').toJson(),
+            Item.of('integrateddynamics:energy_battery', '{energy:1000000}'),
+            Item.of('integrateddynamics:energy_battery', '{energy:1000000}'),
+        ],
+        energy: '2147483647',
+        result: Item.of('integrateddynamics:energy_battery_creative').toJson()
+    }).id(`gac:kjs/creative/integrate_creative_energy_battery`);
 
     event.recipes.create.mechanical_crafting('create:creative_crate', [
         'ESSSE',
@@ -100,10 +113,48 @@ ServerEvents.recipes(event => {
         M: 'create:precision_mechanism'
     }).id("gac:kjs/creative/world_shaper");
 
+    event.recipes.create.mechanical_crafting('create:creative_motor', [
+        'MMMMM',
+        'MMMMM',
+        'MMXMM',
+        'MMMMM',
+        'MMMMM'
+    ], {
+        M: 'createaddition:electric_motor',
+        X: 'projectexpansion:final_star',
+    }).id("gac:kjs/creative/creative_motor");
+
     event.recipes.create.sequenced_assembly([
         Item.of('create:creative_blaze_cake').withChance(1), // this is the item that will appear in JEI as the result
     ], 'create:blaze_cake', [ // 'create:blaze_cake' is the input
         event.recipes.createFilling('create:blaze_cake', ['create:blaze_cake', Fluid.of('create_enchantment_industry:hyper_experience', 1000)]),
         event.recipes.createDeploying('create:blaze_cake', ['create:blaze_cake', 'projectexpansion:final_star']),
     ]).id("gac:kjs/creative/create/assembly/creative_blaze_cake").transitionalItem('create:blaze_cake').loops(1) // set the transitional item and the number of loops
+
+
+    event.shaped('ae2:creative_item_cell', [
+        'VAV',
+        'NEN',
+        'BCB'
+    ], {
+        V: 'ae2:quartz_vibrant_glass',
+        A: 'advanced_ae:quantum_storage_256',
+        N: 'ae2:cell_component_256k',
+        E: 'projectexpansion:final_star',
+        B: 'megacells:cell_component_256m',
+        C: 'ad_astra:calorite_block'
+    }).id('gac:kjs/creative/creative_item_cell');
+
+    event.shaped('ae2:creative_fluid_cell', [
+        'VAV',
+        'NEN',
+        'BCB'
+    ], {
+        V: 'ae2:quartz_vibrant_glass',
+        A: 'advanced_ae:quantum_storage_128',
+        N: 'ae2:cell_component_256k',
+        E: 'projectexpansion:final_star',
+        B: 'megacells:cell_component_256m',
+        C: 'minecraft:netherite_block'
+    }).id('gac:kjs/creative/creative_fluid_cell');
 });

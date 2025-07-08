@@ -26,7 +26,7 @@
     },
     {
       "item": "minecraft:warped_wart_block",
-      "emc": 16
+      "emc": 4
     },
     {
       "item": "supplementaries:ash",
@@ -34,7 +34,7 @@
     },
     {
       "item": "minecraft:nether_wart",
-      "emc": 8
+      "emc": 4
     },
     {
       "item": "projecte:medium_covalence_dust",
@@ -54,27 +54,27 @@
     },
     {
       "item": "minecraft:glass_pane",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "minecraft:brick",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "minecraft:bricks",
-      "emc": 64
+      "emc": 1
     },
     {
       "item": "minecraft:stone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
       "emc": 4
     },
     {
-      "item": "minecraft:ender_eye",
-      "emc": 1024
-    },
-    {
-      "item": "minecraft:paper",
-      "emc": 96
+      "item": "minecraft:sculk_sensor",
+      "emc": 128
     }
   ]
 }

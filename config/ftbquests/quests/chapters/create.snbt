@@ -64,19 +64,19 @@
 			id: "6C11888F2A0B1DB6"
 			rewards: [
 				{
-					id: "4FAB0E89F10D1C88"
+					id: "68797E33B8B152CC"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "11800FB0DABC6D5B"
+					id: "2B31697C05D16C52"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5B5AB919D1191F4C"
+					id: "101BF602E5B81CD8"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -95,19 +95,19 @@
 			id: "630C48C17E753AEF"
 			rewards: [
 				{
-					id: "401C6088FE0984CA"
+					id: "33AD23AE4E088994"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "755DD08D5F5D64A9"
+					id: "6AEB4A35A27AAF98"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7B1E90C5CBF7BDA1"
+					id: "69CDC1741F8667C2"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -126,19 +126,19 @@
 			id: "4C44D56C0191A03C"
 			rewards: [
 				{
-					id: "0A61C99B3CAE3940"
+					id: "70DC881295CF9A4E"
 					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "5E1CD5D184D539E7"
-					item: "create:shaft"
-					type: "item"
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "32111FB8349754DE"
+					id: "54CFA9BA0FB8E2BF"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33276125AC088778"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -157,19 +157,19 @@
 			id: "1BCC34BF17D0A81C"
 			rewards: [
 				{
-					id: "7AEEC1B37245DE01"
+					id: "57C8C47A01D9599F"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5967AF5A79E28903"
+					id: "3A2F82EB5E7A7A19"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "06DB004C6B92A49D"
+					id: "0CC1345AD1B1DC1E"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -187,19 +187,19 @@
 			id: "446A2FBA69A79904"
 			rewards: [
 				{
-					id: "124D62C287E93F99"
+					id: "76169EFFC02D5FBB"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "63B17B01AA2435C5"
+					id: "48606BBC869A9C73"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "56D3212F97DC3825"
+					id: "376E16D48E7A2F8C"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -217,19 +217,19 @@
 			id: "018B165DFEB43DBC"
 			rewards: [
 				{
-					id: "1FD953801DE2E112"
+					id: "47B0FFD375B0DD26"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5A9E14EC49A044DA"
+					id: "3BDCB4A3E83E0F47"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7350AA38B6C545AE"
+					id: "0B3BC8642B36A11C"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -247,19 +247,19 @@
 			id: "4C5DE97C56051860"
 			rewards: [
 				{
-					id: "471C14CBFE2478AC"
+					id: "231D704B8AD3D824"
 					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "22083DB6BD9D1E57"
-					item: "create:cogwheel"
-					type: "item"
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0F4F839C7B0D6215"
+					id: "11BE1E41C2B481C7"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D972142D428B75B"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -278,19 +278,19 @@
 			id: "42FA72991161A031"
 			rewards: [
 				{
-					id: "4DCCF16BB237ECF0"
+					id: "31A636691D06E5CF"
 					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "5C15713151CDD7AB"
-					item: "create:large_cogwheel"
-					type: "item"
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5068D2BCC45EDC72"
+					id: "1CA585EA91A1E71A"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29CE527A414D8A97"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -309,19 +309,19 @@
 			id: "73355A834BEA73A2"
 			rewards: [
 				{
-					id: "2B66067F77923778"
+					id: "6A05BE6B08DAF5E1"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "57DCB38626222EC0"
+					id: "3845DB817B796822"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "322D5D738C453ACE"
+					id: "0CCF4674B2662AE9"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -339,26 +339,26 @@
 			id: "0D24AA9FC53851FC"
 			rewards: [
 				{
-					id: "423DC77877FB4AA2"
+					id: "3913195086E2DFA8"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6601157B743E2480"
+					id: "05ECD46D6D6C86F9"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "130AF2D2472F3B6E"
+					id: "62CC972AED5487B5"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "3E62164C2CDB1230"
-				item: "create:water_wheel"
+				id: "6A997154E2FB1C89"
+				item: "create:large_water_wheel"
 				type: "item"
 			}]
 			x: 3.0d
@@ -366,22 +366,23 @@
 		}
 		{
 			dependencies: ["1BCC34BF17D0A81C"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.millstone.desc}"]
 			id: "37FB9846B1FCF46C"
 			rewards: [
 				{
-					id: "1CFF93B62EE67781"
+					id: "18CF924A4AD83AAE"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6F4B76927F2F75F9"
+					id: "042FDDD8F47D2105"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "76440D98CEA92FF7"
+					id: "5CA5A07CEB3786F2"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -399,19 +400,19 @@
 			id: "48E2D95494165523"
 			rewards: [
 				{
-					id: "49F6FE899C602419"
+					id: "653CEDC727238EA4"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "21641F61BF81A5AD"
+					id: "1F61DDFE952E908D"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "264FEC5355F7674F"
+					id: "5F6085BA1DD4E842"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -429,19 +430,19 @@
 			id: "3DEF1D525216AE7A"
 			rewards: [
 				{
-					id: "58D3B59FE2A25E04"
+					id: "293F3C0BB1CF9D99"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "70A34B43B2F9875A"
+					id: "72C0F941E4BB86F1"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "12587B47FAF4B95B"
+					id: "50A5CA4D910AC14F"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -456,22 +457,23 @@
 		}
 		{
 			dependencies: ["4F1883FA9251CB9E"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.starter_mesh.desc}"]
 			id: "0DE3D87939732F50"
 			rewards: [
 				{
-					id: "54E1FCF4650C701D"
+					id: "300B8EDB37605632"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "70803849A29B4743"
+					id: "6A2BD060F3077FA7"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3F741EAFCEC0E52F"
+					id: "23F45B2B14E33763"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -490,22 +492,23 @@
 		}
 		{
 			dependencies: ["4F1883FA9251CB9E"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.starter_mesh.desc}"]
 			id: "38DE30234A9622D7"
 			rewards: [
 				{
-					id: "79AC13ECF5F0F991"
+					id: "1840ABFC75E8DA5E"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "18EC00B71B9427C7"
+					id: "3DA77759C9EDD5FF"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3D4F8341A55C80FC"
+					id: "200D465053D62EB4"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -527,22 +530,23 @@
 				"4F1883FA9251CB9E"
 				"350308B2EDAF4C1A"
 			]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.brass_mesh.desc}"]
 			id: "3F8CF1A24C224555"
 			rewards: [
 				{
-					id: "0BB325EB9808844C"
+					id: "703C08B3CE59F0D1"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "04CFA27C40A88677"
+					id: "79A79D8AC1DC80F8"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "65F1B489CF620DE4"
+					id: "22A395A2AEAE8AB9"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -556,30 +560,32 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 2.0d
 			y: 11.0d
 		}
 		{
 			dependencies: [
 				"4F1883FA9251CB9E"
 				"350308B2EDAF4C1A"
+				"3F8CF1A24C224555"
 			]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.advanced_brass_mesh.desc}"]
 			id: "0A5A6C4FBD12C5FF"
 			rewards: [
 				{
-					id: "739C25C3DDCB6176"
+					id: "458657B3C0A5053C"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0F57467DD8482B1F"
+					id: "0B7BFB7BE7A94081"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "54947AD9B72DBE5D"
+					id: "031E89F43E6C6597"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -600,19 +606,19 @@
 			id: "0BCCEECDCABB3BE9"
 			rewards: [
 				{
-					id: "514C5F84FAB12943"
+					id: "4DEE667D995E7D70"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2DDACCE0F63CB010"
+					id: "05CA4B2060D56931"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "47584EDE9E1F0B5E"
+					id: "4598D8EAF6A1289E"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -644,22 +650,23 @@
 		}
 		{
 			dependencies: ["37FB9846B1FCF46C"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.sifter.desc}"]
 			id: "4F1883FA9251CB9E"
 			rewards: [
 				{
-					id: "4F2AB2F4EC412CC7"
+					id: "67EEDB7A9BA3F181"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0E46669B936B6C51"
+					id: "455BD08DB7217DA7"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "16ACCAB98FF5EF9A"
+					id: "1CD14D1794C72DAE"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -673,23 +680,27 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["4F1883FA9251CB9E"]
+			dependencies: [
+				"4F1883FA9251CB9E"
+				"1DD3C0A27387D2BC"
+			]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.basin.desc}"]
 			id: "7C7AE98D3F5B86C4"
 			rewards: [
 				{
-					id: "6EF0D7929FD13134"
+					id: "4805057C23C2C9C6"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1A370749D64DFA00"
+					id: "684CF2B1A1BBD899"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "39F11C5C49EE34D1"
+					id: "753D09C8A29E93F5"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -703,23 +714,23 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["7C7AE98D3F5B86C4"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.blaze_burner.desc}"]
 			id: "1DD3C0A27387D2BC"
 			rewards: [
 				{
-					id: "2AD843998D1BCACF"
+					id: "65C7D3DFBAF72DAD"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2938293663767C35"
+					id: "50D8586FE179D624"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "02459D4E924C346D"
+					id: "77D651391A5FA2B7"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -734,22 +745,23 @@
 		}
 		{
 			dependencies: ["7C7AE98D3F5B86C4"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.brass.desc}"]
 			id: "350308B2EDAF4C1A"
 			rewards: [
 				{
-					id: "0DEF67BA13885C31"
+					id: "06F8CE3CDB424B7D"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7B0ACBBDD4CA0CED"
+					id: "3EC4169B519A16D8"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "02D872C5DCEED93E"
+					id: "6D7E68007C40D31C"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -770,19 +782,19 @@
 			id: "0E004D0F1F5B6791"
 			rewards: [
 				{
-					id: "3E61D6DB81EC569D"
+					id: "0BC09803D22B957B"
 					type: "xp"
-					xp: 100
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "18D05CABFA514599"
+					id: "526A1F7C1DF67B90"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "59BE35D165806032"
+					id: "004AD7E8EC66E6A6"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -991,6 +1003,7 @@
 		}
 		{
 			dependencies: ["536E08BCC829FDD8"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.crushing_wheels.desc}"]
 			id: "5849125955D470E1"
 			rewards: [
 				{
@@ -1025,13 +1038,19 @@
 			id: "39A84EF8F0D6E72E"
 			rewards: [
 				{
-					id: "3BEC23B058B4B169"
+					id: "695D706C79D4E703"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "61028BEF176E06E4"
+					id: "53FA044CD7EA1D99"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34EDACD88E09E5DE"
 					table_id: 7941907946566505457L
 					type: "random"
 				}
@@ -1170,93 +1189,26 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3B4990C986F4583F"]
-			id: "38ECF5F4DE6DFDFD"
-			rewards: [{
-				id: "3E1EBBA72799736D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "373EE05153B0840C"
-				item: "jamd:portal_block"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3B4990C986F4583F"]
-			id: "210E80452E2622F0"
-			rewards: [{
-				id: "1FE2A61E46172882"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5F4A6C3B375A6F36"
-				item: "jamd:nether_portal"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3B4990C986F4583F"]
-			id: "508EEFBB3E3EC442"
-			rewards: [{
-				id: "12CC8AF97F946086"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "313BC42168476D5E"
-				item: "jamd:end_portal"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 7.0d
-		}
-		{
-			description: ["If you feel like the sifters aren't enough, or you just like to have a minnig contraption alongside the sifter, these dimension can help you out "]
-			id: "3B4990C986F4583F"
-			subtitle: "For those that like to mine"
-			tasks: [{
-				id: "4DA1A1C921C731FA"
-				title: "When sifters aren't enough"
-				type: "checkmark"
-			}]
-			x: 9.5d
-			y: 5.5d
-		}
-		{
-			description: [
-				"To fill your blaze burner you would need to go to the nether first and find a blaze there."
-				""
-				"Than you would right click on that blaze with your empty blaze burner to capture it."
-				""
-				"With this egg, you can spawn the blaze without having to go to the nether and look for one. "
-				""
-				"But sometimes exploration can be faster than automation or maybe more fun depending on your play style. "
-			]
+			dependencies: ["1DD3C0A27387D2BC"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.blaze_spawn_egg.desc}"]
 			id: "1EA04D7E91AA4778"
 			optional: true
 			rewards: [
 				{
-					id: "758455590E5D50D9"
+					id: "1445F4F7EB490AC2"
 					type: "xp"
-					xp: 50
+					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1D5A6845D406565B"
-					table_id: 7941907946566505457L
+					id: "1126505E5641FACB"
+					table_id: 6510593964462044032L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "38144A24CC8F08EB"
-					table_id: 6510593964462044032L
+					id: "4ACE239988EA94DF"
+					table_id: 7941907946566505457L
 					type: "random"
 				}
 			]
@@ -1270,16 +1222,17 @@
 		}
 		{
 			dependencies: ["0E004D0F1F5B6791"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.end_stone.desc}"]
 			id: "1A80E4A6328DD50B"
 			rewards: [
 				{
-					id: "764E36C7185FB995"
+					id: "308394241D6E0276"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "23BCFD43242E1912"
+					id: "4EBBBCEDAB8C1EAC"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1297,13 +1250,13 @@
 			id: "77B3B0460C1D9F62"
 			rewards: [
 				{
-					id: "30ABE9BCDDD60F7A"
+					id: "2307020943EC65FA"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3A66C83BC953074F"
+					id: "44F2584F5839E09A"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1321,13 +1274,13 @@
 			id: "7D1E5050E7C0788D"
 			rewards: [
 				{
-					id: "7AC07CB93D2E2E59"
+					id: "72FC9FDFC4D5F881"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4F7BCDE86B56D242"
+					id: "6DD04A16580AE527"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1345,13 +1298,13 @@
 			id: "12499C7777921B47"
 			rewards: [
 				{
-					id: "6322100BE4AA2DE1"
+					id: "11E5262D31284C5A"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E3A9DF3D056C830"
+					id: "625D05C9700BA404"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1369,13 +1322,13 @@
 			id: "17D117B5DAF5D1B4"
 			rewards: [
 				{
-					id: "355341908B877E48"
+					id: "70AA00DF21A13C24"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "70A8B7692130E1BC"
+					id: "271EA2A59A769E7F"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1393,13 +1346,13 @@
 			id: "6634DF1DD46B217C"
 			rewards: [
 				{
-					id: "2A202942A826224F"
+					id: "018B0BB7BE1C7200"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "46571A047CBAD6C7"
+					id: "293C4F359997F646"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1417,13 +1370,13 @@
 			id: "550D38AA7D3909BE"
 			rewards: [
 				{
-					id: "5FB7C864E32BE980"
+					id: "31D6DF233ED29B9B"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1C4B9C29425C843F"
+					id: "071F71517D904333"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1441,13 +1394,13 @@
 			id: "250632E879C3A774"
 			rewards: [
 				{
-					id: "4B247F24312F95B5"
+					id: "654286F6CC32E784"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0653D655E55470C0"
+					id: "3B7EBB3AA817FCD9"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1465,13 +1418,13 @@
 			id: "48979F0842FB152B"
 			rewards: [
 				{
-					id: "5664C87A7822EAA3"
+					id: "7320DFA0883BF56F"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "23BF52F85DB97C22"
+					id: "553787E1EE1D6020"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1489,13 +1442,13 @@
 			id: "7D1543880CAB5DDD"
 			rewards: [
 				{
-					id: "19707EF5CA061842"
+					id: "01FBC48AE5240B5B"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "469CFBA9995CFA7B"
+					id: "16AAB80E4545AE06"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1513,13 +1466,13 @@
 			id: "283C81D21037EC00"
 			rewards: [
 				{
-					id: "668313A8769042D7"
+					id: "0CB41894F4EFE13D"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "455982EE17D771CB"
+					id: "3161B66B645C4045"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1537,13 +1490,13 @@
 			id: "1FD488FAF1EB246A"
 			rewards: [
 				{
-					id: "4180609EF53BB2CA"
+					id: "7947B8D9B161B917"
 					type: "xp"
 					xp: 25
 				}
 				{
 					exclude_from_claim_all: true
-					id: "42B215EDE2BAD9E0"
+					id: "6C13A921C584A383"
 					table_id: 6510593964462044032L
 					type: "random"
 				}
@@ -1556,6 +1509,41 @@
 			x: 0.5d
 			y: 20.5d
 		}
+		{
+			dependencies: ["4F1883FA9251CB9E"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.starter_mesh.desc}"]
+			id: "577F2D69E90426DF"
+			rewards: [
+				{
+					id: "122AA3D96559D106"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7460B4771D2B63D6"
+					table_id: 6510593964462044032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79C4D3B6C3A7FBDB"
+					table_id: 7941907946566505457L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36916A1ECFADE840"
+				item: {
+					Count: 1
+					id: "createsifter:zinc_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
 	]
-	title: "Getting Resources"
+	title: "{pf.quest.chapter.getting_started.getting_resources}"
 }

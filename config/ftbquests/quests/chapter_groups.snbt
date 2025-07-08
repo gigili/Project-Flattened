@@ -1,12 +1,12 @@
 {
 	chapter_groups: [
-		{ id: "510C0169E524C1AB", title: "QoL" }
-		{ id: "162F89E02DC7B00D", title: "Geting started" }
-		{ id: "0A4DED039E5F38D7", title: "Enchanting" }
-		{ id: "471350D4E8C923E3", title: "ProjectE" }
-		{ id: "6EA4C3F24B74BE59", title: "Power" }
-		{ id: "44ABD0AE4A1EB8E0", title: "Storage" }
-		{ id: "782DA214CA056142", title: "Applied Energistics" }
-		{ id: "56376ED72E30BD44", title: "Back to reality" }
+		{ id: "510C0169E524C1AB", title: "{pf.quest.chapter.qol}" }
+		{ id: "162F89E02DC7B00D", title: "{pf.quest.chapter.getting_started}" }
+		{ id: "0A4DED039E5F38D7", title: "{pf.quest.chapter.enchanting}" }
+		{ id: "471350D4E8C923E3", title: "{pf.quest.chapter.projecte}" }
+		{ id: "6EA4C3F24B74BE59", title: "{pf.quest.chapter.power}" }
+		{ id: "44ABD0AE4A1EB8E0", title: "{pf.quest.chapter.storage}" }
+		{ id: "782DA214CA056142", title: "{pf.quest.chapter.ae2}" }
+		{ id: "56376ED72E30BD44", title: "{pf.quest.chapter.back_to_reality}" }
 	]
 }

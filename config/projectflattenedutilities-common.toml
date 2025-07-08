@@ -3,3 +3,11 @@
 	#List of player UUIDs allowed to use /spawnHouse. Leave empty to allow everyone.
 	spawnHouseWhitelist = []
 
+[Settings]
+	#If a player needs to hold an item in order to use the Teleporter
+	requireItemToTeleport = true
+	#If the required item gets consumed when teleporting
+	consumeItemToTeleport = true
+	#Item that needs to be held in order for the teleporter to work
+	requiredItemToTeleport = "projectexpansion:final_star"
+
