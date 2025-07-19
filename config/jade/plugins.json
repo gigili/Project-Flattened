@@ -65,7 +65,8 @@
     "placard": true
   },
   "tombstone": {
-    "graves": true
+    "decorative_graves": true,
+    "player_graves": true
   },
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
