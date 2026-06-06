@@ -879,6 +879,23 @@
 			x: 6.5d
 			y: 3.5d
 		}
+		{
+			dependencies: ["034320E904F4DB43"]
+			description: ["{pf.quest.chapter.getting_started.getting_resources.cobble.notice}"]
+			id: "1960528FEE6CA3A7"
+			rewards: [{
+				id: "15EFDA6F71703ADC"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "487964549CF84A8C"
+				type: "checkmark"
+			}]
+			title: "{pf.quest.chapter.getting_started.getting_resources.cobble.notice_title}"
+			x: -3.0d
+			y: -3.5d
+		}
 	]
 	title: "{pf.quest.chapter.getting_started.basics}"
 }

@@ -117,6 +117,9 @@
   
   "Backpack": {
   
+    // Only enable this if you already have backpacks that you want to empty before.
+    "enabled": false,
+    
     // The maximum size of a backpack when merging with other backpacks
     // Beyond this number, backpacks cannot be merged
     // Range: 1 - 154
